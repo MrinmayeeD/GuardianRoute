@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reminder System - Test Interface</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="datetime-local"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        input:focus,
+        textarea:focus,
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+            font-family: inherit;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: transform 0.2s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            margin-top: 10px;
+        }
+
+        .btn-info {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            margin-top: 10px;
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .result.success {
+            background: #d4edda;
+            border: 2px solid #28a745;
+            color: #155724;
+        }
+
+        .result.error {
+            background: #f8d7da;
+            border: 2px solid #dc3545;
+            color: #721c24;
+        }
+
+        .result.info {
+            background: #d1ecf1;
+            border: 2px solid #17a2b8;
+            color: #0c5460;
+        }
+
+        .reminder-list {
+            margin-top: 30px;
+        }
+
+        .reminder-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .reminder-item strong {
+            color: #667eea;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .stat-card h3 {
+            font-size: 2em;
+            margin-bottom: 5px;
+        }
+
+        .stat-card p {
+            opacity: 0.9;
+            font-size: 0.9em;
+        }
+
+        .help-text {
+            font-size: 12px;
+            color: #6c757d;
+            margin-top: 5px;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔔 Reminder System</h1>
+            <p>Schedule WhatsApp & Email Reminders</p>
+        </div>
+
+        <div class="content">
+            <!-- Create Reminder Form -->
+            <h2>📅 Create New Reminder</h2>
+            <form id="reminderForm">
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" placeholder="Enter your reminder message..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="recipient">Recipient *</label>
+                    <input type="text" id="recipient" placeholder="+919876543210 or email@example.com" required>
+                    <div class="help-text">For WhatsApp: +[country code][number]. For both:
+                        +919876543210|email@example.com</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="reminderType">Reminder Type *</label>
+                    <select id="reminderType" required>
+                        <option value="whatsapp">📱 WhatsApp</option>
+                        <option value="email">📧 Email</option>
+                        <option value="both">📱 📧 Both</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="scheduledTime">Scheduled Time *</label>
+                    <input type="datetime-local" id="scheduledTime" required>
+                    <div class="help-text">Select when you want to receive this reminder</div>
+                </div>
+
+                <button type="submit" class="btn">🚀 Schedule Reminder</button>
+            </form>
+
+            <div id="result" class="result"></div>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Processing...</p>
+            </div>
+
+            <!-- Action Buttons -->
+            <button class="btn btn-secondary" onclick="loadReminders()">📋 View All Reminders</button>
+            <button class="btn btn-info" onclick="loadStats()">📊 View Statistics</button>
+
+            <!-- Statistics Section -->
+            <div id="statsSection" style="display: none; margin-top: 30px;">
+                <h2>📊 Reminder Statistics</h2>
+                <div class="stats" id="stats"></div>
+            </div>
+
+            <!-- Reminders List -->
+            <div id="remindersSection" style="display: none;" class="reminder-list">
+                <h2>📋 Your Reminders</h2>
+                <div id="remindersList"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_URL = 'http://127.0.0.1:8000';
+
+        // Set default time to 5 minutes from now
+        window.onload = function () {
+            const now = new Date();
+            now.setMinutes(now.getMinutes() + 5);
+            document.getElementById('scheduledTime').value = now.toISOString().slice(0, 16);
+        };
+
+        // Handle form submission
+        document.getElementById('reminderForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const message = document.getElementById('message').value;
+            const recipient = document.getElementById('recipient').value;
+            const reminderType = document.getElementById('reminderType').value;
+            const scheduledTime = document.getElementById('scheduledTime').value;
+
+            showLoading();
+            hideResult();
+
+            try {
+                const response = await fetch(`${API_URL}/reminders`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message,
+                        recipient,
+                        reminder_type: reminderType,
+                        scheduled_time: scheduledTime
+                    })
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    showResult('success', `✅ Reminder scheduled successfully!<br>ID: ${data.reminder_id}<br>Will be sent at: ${new Date(data.scheduled_time).toLocaleString()}`);
+                    document.getElementById('reminderForm').reset();
+                    // Reset time to 5 minutes from now
+                    const now = new Date();
+                    now.setMinutes(now.getMinutes() + 5);
+                    document.getElementById('scheduledTime').value = now.toISOString().slice(0, 16);
+                } else {
+                    showResult('error', `❌ Error: ${data.detail || 'Failed to create reminder'}`);
+                }
+            } catch (error) {
+                showResult('error', `❌ Network error: ${error.message}. Make sure the server is running!`);
+            } finally {
+                hideLoading();
+            }
+        });
+
+        // Load all reminders
+        async function loadReminders() {
+            showLoading();
+
+            try {
+                const response = await fetch(`${API_URL}/reminders`);
+                const data = await response.json();
+
+                if (response.ok) {
+                    displayReminders(data.reminders);
+                    document.getElementById('remindersSection').style.display = 'block';
+                    document.getElementById('statsSection').style.display = 'none';
+                } else {
+                    showResult('error', '❌ Failed to load reminders');
+                }
+            } catch (error) {
+                showResult('error', `❌ Network error: ${error.message}`);
+            } finally {
+                hideLoading();
+            }
+        }
+
+        // Display reminders
+        function displayReminders(reminders) {
+            const list = document.getElementById('remindersList');
+
+            if (reminders.length === 0) {
+                list.innerHTML = '<p>No reminders found.</p>';
+                return;
+            }
+
+            list.innerHTML = reminders.map(r => `
+                <div class="reminder-item">
+                    <strong>${r.reminder_type.toUpperCase()}</strong> - 
+                    <span style="color: ${getStatusColor(r.status)};">●</span> ${r.status.toUpperCase()}<br>
+                    <strong>Message:</strong> ${r.message}<br>
+                    <strong>Recipient:</strong> ${r.recipient}<br>
+                    <strong>Scheduled:</strong> ${new Date(r.scheduled_time).toLocaleString()}<br>
+                    <strong>ID:</strong> <code>${r.reminder_id}</code>
+                    ${r.status === 'pending' ? `<br><button onclick="cancelReminder('${r.reminder_id}')" style="margin-top: 10px; padding: 5px 15px; background: #dc3545; color: white; border: none; border-radius: 5px; cursor: pointer;">🚫 Cancel</button>` : ''}
+                </div>
+            `).join('');
+        }
+
+        // Load statistics
+        async function loadStats() {
+            showLoading();
+
+            try {
+                const response = await fetch(`${API_URL}/reminders/stats`);
+                const data = await response.json();
+
+                if (response.ok) {
+                    displayStats(data);
+                    document.getElementById('statsSection').style.display = 'block';
+                    document.getElementById('remindersSection').style.display = 'none';
+                } else {
+                    showResult('error', '❌ Failed to load statistics');
+                }
+            } catch (error) {
+                showResult('error', `❌ Network error: ${error.message}`);
+            } finally {
+                hideLoading();
+            }
+        }
+
+        // Display statistics
+        function displayStats(stats) {
+            const statsDiv = document.getElementById('stats');
+            statsDiv.innerHTML = `
+                <div class="stat-card">
+                    <h3>${stats.total}</h3>
+                    <p>Total</p>
+                </div>
+                <div class="stat-card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                    <h3>${stats.pending}</h3>
+                    <p>Pending</p>
+                </div>
+                <div class="stat-card" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                    <h3>${stats.sent}</h3>
+                    <p>Sent</p>
+                </div>
+                <div class="stat-card" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                    <h3>${stats.failed}</h3>
+                    <p>Failed</p>
+                </div>
+            `;
+        }
+
+        // Cancel reminder
+        async function cancelReminder(id) {
+            if (!confirm('Are you sure you want to cancel this reminder?')) return;
+
+            showLoading();
+
+            try {
+                const response = await fetch(`${API_URL}/reminders/${id}`, {
+                    method: 'DELETE'
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    showResult('success', `✅ ${data.message}`);
+                    loadReminders(); // Refresh the list
+                } else {
+                    showResult('error', `❌ Failed to cancel reminder: ${data.detail}`);
+                }
+            } catch (error) {
+                showResult('error', `❌ Network error: ${error.message}`);
+            } finally {
+                hideLoading();
+            }
+        }
+
+        // Helper functions
+        function showResult(type, message) {
+            const resultDiv = document.getElementById('result');
+            resultDiv.className = `result ${type}`;
+            resultDiv.innerHTML = message;
+            resultDiv.style.display = 'block';
+        }
+
+        function hideResult() {
+            document.getElementById('result').style.display = 'none';
+        }
+
+        function showLoading() {
+            document.getElementById('loading').style.display = 'block';
+        }
+
+        function hideLoading() {
+            document.getElementById('loading').style.display = 'none';
+        }
+
+        function getStatusColor(status) {
+            const colors = {
+                pending: '#ffc107',
+                sent: '#28a745',
+                failed: '#dc3545',
+                cancelled: '#6c757d'
+            };
+            return colors[status] || '#6c757d';
+        }
+    </script>
+</body>
+
+</html>

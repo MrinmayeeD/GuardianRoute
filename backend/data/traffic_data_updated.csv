@@ -1,0 +1,1501 @@
+hour_label,location_name,latitude,longitude,severity,congestion_ratio,speed_reduction,current_speed,free_flow_speed,road_closure,current_travel_time,free_flow_travel_time,confidence,frc,travel_delay_pct,TSS
+6,"Mumbai Central, Mumbai, Maharashtra",18.9770366,72.826266,LOW,1.0,0.0,23,23,False,697,697,1.0,FRC4,0.0,0.15
+6,"CG Road, Ahmedabad, Gujarat",23.1083596,72.5869112,LOW,1.0,0.0,28,28,False,274,274,1.0,FRC4,0.0,0.15
+6,"MG Road, Kochi, Kerala",10.5160332,76.2538456,LOW,1.0,0.0,61,61,False,1066,1066,1.0,FRC1,0.0,10.15
+6,"Banjara Hills, Hyderabad, Telangana",17.4091038,78.4394666,LOW,1.0,0.0,33,33,False,898,898,1.0,FRC4,0.0,0.15
+6,"Vastrapur, Ahmedabad, Gujarat",23.0350831,72.5276438,LOW,1.0,0.0,23,23,False,115,115,1.0,FRC4,0.0,0.15
+6,"Koregaon Park, Pune, Maharashtra",18.5420451,73.8881809,LOW,1.0,0.0,30,30,False,817,817,1.0,FRC4,0.0,0.15
+6,"Indiranagar, Bangalore, Karnataka",12.9719015,77.6367928,LOW,1.0,0.0,28,28,False,1035,1035,1.0,FRC2,0.0,10.15
+6,"Jubilee Hills, Hyderabad, Telangana",17.4333041,78.4013942,LOW,1.0,0.0,45,45,False,229,229,1.0,FRC4,0.0,0.15
+6,"T Nagar, Chennai, Tamil Nadu",12.9605278,80.2083254,LOW,1.0,0.0,32,32,False,532,532,1.0,FRC2,0.0,10.15
+6,"Salt Lake, Kolkata, West Bengal",22.5580861,88.412438,LOW,1.0,0.0,38,38,False,1527,1527,1.0,FRC2,0.0,10.15
+6,"Civil Lines, Jaipur, Rajasthan",26.9069197,75.7830344,LOW,1.0,0.0,35,35,False,769,769,1.0,FRC2,0.0,10.15
+6,"Aliganj, Lucknow, Uttar Pradesh",26.890281,80.9495987,LOW,1.0,0.0,35,35,False,1840,1840,1.0,FRC7,0.0,-4.85
+6,"Gomti Nagar, Lucknow, Uttar Pradesh",26.8513093,81.0124214,LOW,1.0,0.0,57,57,False,528,528,1.0,FRC1,0.0,10.15
+6,"Vijay Nagar, Indore, Madhya Pradesh",22.7630269,75.8804978,LOW,1.0,0.0,32,32,False,225,225,1.0,FRC4,0.0,0.15
+6,"Sector 17, Chandigarh",30.7425426,76.7859351,LOW,1.0,0.0,37,37,False,868,868,1.0,FRC3,0.0,10.15
+6,"MI Road, Jaipur, Rajasthan",26.9171019,75.7992711,LOW,1.0,0.0,24,24,False,40,40,1.0,FRC2,0.0,10.15
+6,"Station Road, Surat, Gujarat",21.1984585,72.8351411,CLOSED,1.0,0.0,15,15,True,770,770,0.686669,FRC3,0.0,25.15
+6,"Frazer Town, Bangalore, Karnataka",13.0022108,77.621035,LOW,1.0,0.0,28,28,False,630,630,1.0,FRC6,0.0,-4.85
+6,"Begumpet, Hyderabad, Telangana",17.4449415,78.4571867,LOW,1.0,0.0,37,37,False,467,467,1.0,FRC1,0.0,10.15
+6,"Powai, Mumbai, Maharashtra",19.1238155,72.9126101,LOW,1.0,0.0,30,30,False,1455,1455,1.0,FRC3,0.0,10.15
+6,"Andheri West, Mumbai, Maharashtra",19.1340729,72.8303618,LOW,1.0,0.0,18,18,False,263,263,1.0,FRC4,0.0,0.15
+6,"Worli, Mumbai, Maharashtra",19.001465,72.8160656,LOW,1.0,0.0,31,31,False,203,203,1.0,FRC4,0.0,0.15
+6,"Bandra West, Mumbai, Maharashtra",19.0588335,72.8346685,LOW,1.0,0.0,17,17,False,83,83,1.0,FRC4,0.0,0.15
+6,"Lower Parel, Mumbai, Maharashtra",18.9962663,72.8268788,CLOSED,0.89,11.43,31,35,True,865,766,0.939128,FRC4,12.92,23.81
+6,"Vashi, Navi Mumbai, Maharashtra",19.0761766,73.0020679,LOW,1.0,0.0,21,21,False,581,581,1.0,FRC4,0.0,0.15
+6,"Thane West, Thane, Maharashtra",19.276338,72.9590781,LOW,0.82,17.65,28,34,False,1866,1536,0.995421,FRC1,21.48,24.2
+6,"Kothrud, Pune, Maharashtra",18.5010542,73.8116455,LOW,1.0,0.0,21,21,False,262,262,1.0,FRC4,0.0,0.15
+6,"Viman Nagar, Pune, Maharashtra",18.5411985,73.8024415,LOW,1.0,0.0,21,21,False,325,325,1.0,FRC4,0.0,0.15
+6,"Wakad, Pune, Maharashtra",18.5963419,73.7718897,LOW,1.0,0.0,24,24,False,323,323,1.0,FRC4,0.0,0.15
+6,"Hinjewadi, Pune, Maharashtra",18.5979574,73.700786,LOW,1.0,0.0,34,34,False,2140,2140,1.0,FRC3,0.0,10.15
+6,"Whitefield, Bangalore, Karnataka",12.9943542,77.7585209,LOW,1.0,0.0,33,33,False,1749,1749,1.0,FRC2,0.0,10.15
+6,"Electronic City, Bangalore, Karnataka",12.8478071,77.6631929,LOW,1.0,0.0,27,27,False,1466,1466,1.0,FRC6,0.0,-4.85
+6,"Marathahalli, Bangalore, Karnataka",12.9545264,77.7027027,LOW,1.0,0.0,25,25,False,868,868,1.0,FRC2,0.0,10.15
+6,"HSR Layout, Bangalore, Karnataka",12.9165423,77.6519551,HEAVY,0.46,54.35,21,46,False,135,61,1.0,FRC1,121.31,78.25
+6,"New Town, Kolkata, West Bengal",22.4761739,88.3478394,LOW,1.0,0.0,20,20,False,297,297,1.0,FRC4,0.0,0.15
+6,"Howrah, West Bengal",22.5944824,88.265686,LOW,1.0,0.0,34,34,False,1109,1109,1.0,FRC1,0.0,10.15
+6,"Rajarhat, Kolkata, West Bengal",22.5655734,88.3702152,LOW,1.0,0.0,23,23,False,680,680,1.0,FRC4,0.0,0.15
+6,"Ballygunge, Kolkata, West Bengal",22.5279746,88.3629966,LOW,1.0,0.0,29,29,False,133,133,1.0,FRC4,0.0,0.15
+6,"Vaishali Nagar, Jaipur, Rajasthan",26.9060132,75.7407346,LOW,1.0,0.0,26,26,False,338,338,1.0,FRC4,0.0,0.15
+6,"Malviya Nagar, Jaipur, Rajasthan",26.8554493,75.8203746,LOW,1.0,0.0,35,35,False,222,222,1.0,FRC2,0.0,10.15
+6,"C Scheme, Jaipur, Rajasthan",26.9842393,75.761852,LOW,1.0,0.0,67,67,False,688,688,1.0,FRC1,0.0,10.15
+6,"Satellite, Ahmedabad, Gujarat",23.0251898,72.5246919,LOW,1.0,0.0,32,32,False,786,786,1.0,FRC2,0.0,10.15
+6,"Bodakdev, Ahmedabad, Gujarat",23.0443645,72.517923,LOW,1.0,0.0,28,28,False,602,602,1.0,FRC3,0.0,10.15
+6,"Navrangpura, Ahmedabad, Gujarat",23.0374547,72.5639835,CLOSED,0.93,7.41,25,27,True,1481,1371,0.957448,FRC2,8.02,30.6
+6,"Maninagar, Ahmedabad, Gujarat",22.9832788,72.6140353,LOW,1.0,0.0,25,25,False,510,510,1.0,FRC4,0.0,0.15
+6,"Paldi, Ahmedabad, Gujarat",23.0129278,72.5557872,LOW,1.0,0.0,26,26,False,1762,1762,1.0,FRC6,0.0,-4.85
+6,"Ernakulam, Kochi, Kerala",9.7511807,76.318561,LOW,1.0,0.0,40,40,False,1883,1883,1.0,FRC1,0.0,10.15
+6,"Kakkanad, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+6,"Edappally, Kochi, Kerala",10.0566394,76.291473,LOW,1.0,0.0,31,31,False,536,536,1.0,FRC1,0.0,10.15
+6,"Palarivattom, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+6,"Kadavanthra, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+6,"Thiruvananthapuram City, Kerala",8.4946496,76.9449992,LOW,1.0,0.0,33,33,False,667,667,1.0,FRC1,0.0,10.15
+6,"Kozhikode City, Kerala",11.2341272,75.795501,LOW,1.0,0.0,41,41,False,1336,1336,1.0,FRC1,0.0,10.15
+6,"Thrissur City, Kerala",10.5239038,76.2122541,LOW,1.0,0.0,34,34,False,491,491,1.0,FRC3,0.0,10.15
+6,"Kottayam Town, Kerala",9.591754,76.5319074,LOW,1.0,0.0,32,32,False,133,133,1.0,FRC1,0.0,10.15
+6,"Vijayawada City, Andhra Pradesh",16.5003355,80.6447439,LOW,1.0,0.0,32,32,False,470,470,1.0,FRC1,0.0,10.15
+6,"Visakhapatnam City, Andhra Pradesh",17.710186,83.1769123,LOW,1.0,0.0,42,42,False,1593,1593,1.0,FRC2,0.0,10.15
+6,"Guntur City, Andhra Pradesh",16.498447,80.6439998,LOW,1.0,0.0,62,62,False,956,956,1.0,FRC1,0.0,10.15
+6,"Tirupati, Andhra Pradesh",13.6287278,79.4190701,LOW,1.0,0.0,33,33,False,2178,2178,1.0,FRC4,0.0,0.15
+6,"Mangalore City, Karnataka",12.9070024,74.8803527,LOW,1.0,0.0,42,42,False,2050,2050,1.0,FRC2,0.0,10.15
+6,"Hubli City, Karnataka",15.3862196,75.082741,LOW,1.0,0.0,40,40,False,1286,1286,1.0,FRC3,0.0,10.15
+6,"Mysore City, Karnataka",12.3136462,76.6171643,LOW,1.0,0.0,38,38,False,598,598,1.0,FRC3,0.0,10.15
+6,"Coimbatore City, Tamil Nadu",11.0804508,76.8366161,LOW,1.0,0.0,48,48,False,1520,1520,1.0,FRC3,0.0,10.15
+6,"Madurai City, Tamil Nadu",9.7427816,77.7953645,LOW,1.0,0.0,49,49,False,842,842,1.0,FRC2,0.0,10.15
+6,"Tiruchirappalli, Tamil Nadu",10.8008235,78.6899185,LOW,1.0,0.0,28,28,False,9,9,1.0,FRC2,0.0,10.15
+6,"Varanasi City, Uttar Pradesh",25.3096924,83.0056763,LOW,1.0,0.0,25,25,False,713,713,1.0,FRC4,0.0,0.15
+6,"Noida Sector 18, Uttar Pradesh",28.5705225,77.3261967,LOW,1.0,0.0,31,31,False,1144,1144,1.0,FRC2,0.0,10.15
+6,"Greater Noida, Uttar Pradesh",28.4477179,77.524566,LOW,1.0,0.0,38,38,False,2047,2047,1.0,FRC4,0.0,0.15
+6,"Gurgaon Cyber City, Haryana",28.4798011,77.0813162,LOW,1.0,0.0,37,37,False,1488,1488,1.0,FRC2,0.0,10.15
+6,"Faridabad City, Haryana",28.4841588,77.3257282,LOW,1.0,0.0,17,17,False,1917,1917,1.0,FRC4,0.0,0.15
+6,"Dehradun City, Uttarakhand",30.118491,78.294956,LOW,1.0,0.0,35,35,False,258,258,1.0,FRC1,0.0,10.15
+6,"Haridwar City, Uttarakhand",30.0604135,78.2894862,LOW,1.0,0.0,48,48,False,1643,1643,1.0,FRC4,0.0,0.15
+6,"Amritsar City, Punjab",31.6587342,74.841167,LOW,1.0,0.0,68,68,False,437,437,1.0,FRC1,0.0,10.15
+6,"South Extension, New Delhi",28.5694154,77.2209031,LOW,1.0,0.0,44,44,False,356,356,1.0,FRC1,0.0,10.15
+6,"Hauz Khas, New Delhi",28.5526463,77.2017518,LOW,1.0,0.0,31,31,False,779,779,1.0,FRC7,0.0,-4.85
+6,"Lajpat Nagar, New Delhi",28.5731147,77.2462327,LOW,1.0,0.0,43,43,False,1060,1060,1.0,FRC3,0.0,10.15
+6,"Saket, New Delhi",28.5257049,77.2143917,LOW,1.0,0.0,26,26,False,179,179,1.0,FRC4,0.0,0.15
+6,"Dwarka Sector 12, New Delhi",28.5969098,77.0419895,LOW,1.0,0.0,31,31,False,699,699,1.0,FRC4,0.0,0.15
+6,"Gurgaon MG Road, Haryana",28.4798011,77.0813162,LOW,1.0,0.0,37,37,False,1488,1488,1.0,FRC2,0.0,10.15
+6,"Golf Course Road, Gurgaon, Haryana",28.4626859,77.117071,LOW,1.0,0.0,54,54,False,1483,1483,1.0,FRC3,0.0,10.15
+6,"Udyog Vihar, Gurgaon, Haryana",28.5048124,77.0695199,LOW,1.0,0.0,27,27,False,1344,1344,1.0,FRC4,0.0,0.15
+6,"Sohna Road, Gurgaon, Haryana",28.4198873,77.1533811,LOW,1.0,0.0,54,54,False,1483,1483,1.0,FRC3,0.0,10.15
+6,"Noida Sector 62, Uttar Pradesh",28.626626,77.3654727,LOW,1.0,0.0,36,36,False,419,419,1.0,FRC4,0.0,0.15
+6,"Noida Sector 76, Uttar Pradesh",28.568967,77.3852713,LOW,1.0,0.0,33,33,False,434,434,1.0,FRC4,0.0,0.15
+6,"Colaba, Mumbai, Maharashtra",18.9249319,72.8300808,LOW,1.0,0.0,24,24,False,180,180,1.0,FRC1,0.0,10.15
+6,"Fort, Mumbai, Maharashtra",18.9459596,72.8337847,LOW,1.0,0.0,23,23,False,66,66,1.0,FRC3,0.0,10.15
+6,"Borivali West, Mumbai, Maharashtra",19.2297,72.852173,LOW,1.0,0.0,20,20,False,289,289,1.0,FRC3,0.0,10.15
+6,"Kandivali East, Mumbai, Maharashtra",19.1913449,72.8740971,LOW,1.0,0.0,17,17,False,203,203,1.0,FRC4,0.0,0.15
+6,"Chembur, Mumbai, Maharashtra",19.0487802,72.90587,LOW,1.0,0.0,33,33,False,735,735,1.0,FRC2,0.0,10.15
+6,"Dadar, Mumbai, Maharashtra",19.0177484,72.8358202,LOW,1.0,0.0,24,24,False,2012,2012,1.0,FRC2,0.0,10.15
+6,"Nerul, Navi Mumbai, Maharashtra",19.020485,73.0035976,LOW,1.0,0.0,41,41,False,1264,1264,1.0,FRC2,0.0,10.15
+6,"Kharghar, Navi Mumbai, Maharashtra",19.0334,73.018997,LOW,1.0,0.0,26,26,False,272,272,1.0,FRC4,0.0,0.15
+6,"Ulhasnagar, Thane, Maharashtra",19.2228117,73.1584637,LOW,1.0,0.0,14,14,False,396,396,1.0,FRC4,0.0,0.15
+6,"Dombivli East, Thane, Maharashtra",19.2157323,73.1031728,LOW,1.0,0.0,31,31,False,269,269,1.0,FRC4,0.0,0.15
+6,"Thoraipakkam, Chennai, Tamil Nadu",12.9192758,80.208965,LOW,1.0,0.0,25,25,False,714,714,1.0,FRC4,0.0,0.15
+6,"Sholinganallur, Chennai, Tamil Nadu",12.9001173,80.2239691,LOW,0.89,11.11,24,27,False,1000,889,0.978341,FRC4,12.49,8.53
+6,"Baner, Pune, Maharashtra",18.5642156,73.7871973,LOW,1.0,0.0,26,26,False,1884,1884,1.0,FRC4,0.0,0.15
+6,"Aundh, Pune, Maharashtra",18.558127,73.8072801,LOW,1.0,0.0,30,30,False,143,143,1.0,FRC4,0.0,0.15
+6,"Hadapsar, Pune, Maharashtra",18.499079,73.9341695,LOW,1.0,0.0,24,24,False,781,781,1.0,FRC4,0.0,0.15
+6,"Bibwewadi, Pune, Maharashtra",18.4662107,73.8627802,LOW,1.0,0.0,24,24,False,318,318,1.0,FRC2,0.0,10.15
+6,"Swargate, Pune, Maharashtra",18.4990216,73.8590652,LOW,1.0,0.0,29,29,False,738,738,1.0,FRC2,0.0,10.15
+6,"Meerut City, Uttar Pradesh",28.9498578,77.6419455,LOW,1.0,0.0,53,53,False,1349,1349,1.0,FRC2,0.0,10.15
+6,"Aligarh City, Uttar Pradesh",27.8898926,78.0745239,LOW,1.0,0.0,24,24,False,314,314,1.0,FRC4,0.0,0.15
+6,"Jhansi City, Uttar Pradesh",25.4487305,78.5701294,LOW,1.0,0.0,38,38,False,1452,1452,1.0,FRC3,0.0,10.15
+6,"Moradabad City, Uttar Pradesh",28.8331428,78.7652781,LOW,1.0,0.0,37,37,False,779,779,1.0,FRC3,0.0,10.15
+6,"Mathura City, Uttar Pradesh",27.4849744,77.685131,LOW,1.0,0.0,36,36,False,124,124,1.0,FRC1,0.0,10.15
+6,"Udaipur City, Rajasthan",24.5873872,73.6915427,LOW,1.0,0.0,24,24,False,260,260,1.0,FRC4,0.0,0.15
+6,"Kota City, Rajasthan",25.2109082,75.8213499,LOW,1.0,0.0,54,54,False,189,189,1.0,FRC3,0.0,10.15
+6,"Jodhpur City, Rajasthan",26.381001,73.5467,LOW,1.0,0.0,53,53,False,1550,1550,1.0,FRC4,0.0,0.15
+6,"Ajmer City, Rajasthan",26.5855952,74.8609106,LOW,1.0,0.0,30,30,False,669,669,1.0,FRC6,0.0,-4.85
+6,"Bikaner City, Rajasthan",28.0134638,73.2972264,LOW,1.0,0.0,61,61,False,772,772,1.0,FRC1,0.0,10.15
+6,"Bhopal City, Madhya Pradesh",23.177649,77.454497,LOW,1.0,0.0,43,43,False,1564,1564,1.0,FRC1,0.0,10.15
+6,"Rajkot City, Gujarat",22.3003793,70.8086015,CLOSED,1.0,0.0,37,37,True,1301,1301,0.705948,FRC2,0.0,25.15
+6,"Bhavnagar City, Gujarat",21.7727986,72.1548699,LOW,1.0,0.0,32,32,False,901,901,1.0,FRC4,0.0,0.15
+6,"Jamnagar City, Gujarat",22.432788,70.0559897,LOW,1.0,0.0,28,28,False,803,803,1.0,FRC2,0.0,10.15
+6,"Gandhinagar City, Gujarat",23.0704348,72.5243009,LOW,1.0,0.0,28,28,False,40,40,1.0,FRC4,0.0,0.15
+6,"Asansol City, West Bengal",23.6930343,86.9531088,LOW,1.0,0.0,32,32,False,2410,2410,1.0,FRC2,0.0,10.15
+6,"Siliguri City, West Bengal",26.7096309,88.4286167,LOW,1.0,0.0,23,23,False,168,168,1.0,FRC4,0.0,0.15
+6,"Durgapur City, West Bengal",23.5292384,87.351587,LOW,1.0,0.0,37,37,False,974,974,1.0,FRC4,0.0,0.15
+6,"Alappuzha Town, Kerala",9.2595192,76.5437808,LOW,1.0,0.0,45,45,False,1597,1597,1.0,FRC3,0.0,10.15
+6,"Kollam City, Kerala",8.8869046,76.5904652,LOW,1.0,0.0,39,39,False,1104,1104,1.0,FRC1,0.0,10.15
+6,"Kannur City, Kerala",11.8719881,75.379077,LOW,1.0,0.0,45,45,False,817,817,1.0,FRC1,0.0,10.15
+6,"Palakkad City, Kerala",10.8001,76.639099,LOW,1.0,0.0,41,41,False,504,504,1.0,FRC1,0.0,10.15
+6,"Warangal City, Telangana",17.9745069,79.6113623,LOW,1.0,0.0,49,49,False,872,872,1.0,FRC3,0.0,10.15
+6,"Karimnagar City, Telangana",18.458233,79.136705,LOW,1.0,0.0,43,43,False,1154,1154,1.0,FRC2,0.0,10.15
+6,"Nellore City, Andhra Pradesh",14.413352,79.962271,LOW,1.0,0.0,28,28,False,859,859,1.0,FRC5,0.0,0.15
+6,"Rajahmundry City, Andhra Pradesh",17.0376947,81.7778132,LOW,1.0,0.0,35,35,False,2107,2107,1.0,FRC4,0.0,0.15
+6,"Kakinada City, Andhra Pradesh",16.9673975,82.2333385,LOW,1.0,0.0,35,35,False,321,321,1.0,FRC1,0.0,10.15
+6,"Belgaum City, Karnataka",15.8771478,74.5171905,LOW,1.0,0.0,28,28,False,104,104,1.0,FRC4,0.0,0.15
+6,"Gulbarga City, Karnataka",17.33965,76.8371479,LOW,1.0,0.0,35,35,False,980,980,1.0,FRC2,0.0,10.15
+6,"Davangere City, Karnataka",14.3682977,75.9527929,LOW,1.0,0.0,37,37,False,2330,2330,1.0,FRC4,0.0,0.15
+6,"Bellary City, Karnataka",15.1388817,76.9768644,LOW,1.0,0.0,38,38,False,1836,1836,1.0,FRC2,0.0,10.15
+6,"Ludhiana City, Punjab",30.8519434,75.8598782,LOW,1.0,0.0,53,53,False,679,679,1.0,FRC2,0.0,10.15
+6,"Jalandhar City, Punjab",31.3478513,75.6032045,LOW,1.0,0.0,32,32,False,842,842,1.0,FRC2,0.0,10.15
+6,"Bathinda City, Punjab",30.2129218,74.9331732,LOW,1.0,0.0,38,38,False,301,301,1.0,FRC1,0.0,10.15
+6,"Hisar City, Haryana",28.8994857,76.5532936,LOW,1.0,0.0,42,42,False,174,174,1.0,FRC3,0.0,10.15
+6,"Karnal City, Haryana",29.6531038,77.0078492,LOW,1.0,0.0,63,63,False,1166,1166,1.0,FRC3,0.0,10.15
+6,"Panipat City, Haryana",29.4283503,76.9533079,LOW,1.0,0.0,30,30,False,621,621,1.0,FRC4,0.0,0.15
+6,"Berhampur City, Odisha",20.4032641,86.2026906,LOW,1.0,0.0,41,41,False,2182,2182,1.0,FRC4,0.0,0.15
+6,"Koraput City, Odisha",18.8131994,82.7126008,LOW,1.0,0.0,45,45,False,1931,1931,1.0,FRC1,0.0,10.15
+6,"Sambalpur City, Odisha",21.4594222,83.9743315,LOW,1.0,0.0,38,38,False,1263,1263,1.0,FRC2,0.0,10.15
+6,"Gaya City, Bihar",24.7924837,85.0077092,LOW,1.0,0.0,40,40,False,1660,1660,1.0,FRC2,0.0,10.15
+6,"Muzaffarpur City, Bihar",26.1227209,85.3786314,LOW,1.0,0.0,21,21,False,203,203,1.0,FRC2,0.0,10.15
+6,"Dhanbad City, Jharkhand",23.7940427,86.4261706,LOW,1.0,0.0,17,17,False,141,141,1.0,FRC2,0.0,10.15
+6,"Jamshedpur City, Jharkhand",22.843639,86.212528,LOW,1.0,0.0,58,58,False,1415,1415,1.0,FRC1,0.0,10.15
+6,"Shillong City, Meghalaya",25.5762291,91.8828636,LOW,1.0,0.0,11,11,False,325,325,1.0,FRC4,0.0,0.15
+6,"Imphal City, Manipur",24.8021535,93.938618,LOW,1.0,0.0,49,49,False,1711,1711,1.0,FRC2,0.0,10.15
+6,"Aizawl City, Mizoram",23.7243713,92.7186455,LOW,1.0,0.0,24,24,False,394,394,1.0,FRC2,0.0,10.15
+6,"Kohima City, Nagaland",25.6749234,94.1105241,LOW,1.0,0.0,21,21,False,604,604,1.0,FRC2,0.0,10.15
+6,"Agartala City, Tripura",23.8338203,91.2824216,LOW,1.0,0.0,20,20,False,216,216,1.0,FRC4,0.0,0.15
+7,"Mumbai Central, Mumbai, Maharashtra",18.9770366,72.826266,LOW,1.0,0.0,23,23,False,697,697,1.0,FRC4,0.0,0.15
+7,"CG Road, Ahmedabad, Gujarat",23.1083596,72.5869112,LOW,1.0,0.0,28,28,False,274,274,1.0,FRC4,0.0,0.15
+7,"MG Road, Kochi, Kerala",10.5160332,76.2538456,LOW,1.0,0.0,61,61,False,1066,1066,1.0,FRC1,0.0,10.15
+7,"Banjara Hills, Hyderabad, Telangana",17.4091038,78.4394666,LOW,1.0,0.0,33,33,False,898,898,1.0,FRC4,0.0,0.15
+7,"Vastrapur, Ahmedabad, Gujarat",23.0350831,72.5276438,LOW,1.0,0.0,23,23,False,115,115,1.0,FRC4,0.0,0.15
+7,"Koregaon Park, Pune, Maharashtra",18.5420451,73.8881809,LOW,1.0,0.0,30,30,False,817,817,1.0,FRC4,0.0,0.15
+7,"Indiranagar, Bangalore, Karnataka",12.9719015,77.6367928,LOW,1.0,0.0,28,28,False,1035,1035,1.0,FRC2,0.0,10.15
+7,"Jubilee Hills, Hyderabad, Telangana",17.4333041,78.4013942,LOW,1.0,0.0,45,45,False,229,229,1.0,FRC4,0.0,0.15
+7,"T Nagar, Chennai, Tamil Nadu",12.9605278,80.2083254,LOW,1.0,0.0,32,32,False,532,532,1.0,FRC2,0.0,10.15
+7,"Salt Lake, Kolkata, West Bengal",22.5580861,88.412438,LOW,1.0,0.0,38,38,False,1527,1527,1.0,FRC2,0.0,10.15
+7,"Civil Lines, Jaipur, Rajasthan",26.9069197,75.7830344,LOW,1.0,0.0,35,35,False,769,769,1.0,FRC2,0.0,10.15
+7,"Aliganj, Lucknow, Uttar Pradesh",26.890281,80.9495987,LOW,1.0,0.0,35,35,False,1840,1840,1.0,FRC7,0.0,-4.85
+7,"Gomti Nagar, Lucknow, Uttar Pradesh",26.8513093,81.0124214,LOW,1.0,0.0,57,57,False,528,528,1.0,FRC1,0.0,10.15
+7,"Vijay Nagar, Indore, Madhya Pradesh",22.7630269,75.8804978,LOW,1.0,0.0,32,32,False,225,225,1.0,FRC4,0.0,0.15
+7,"Sector 17, Chandigarh",30.7425426,76.7859351,LOW,1.0,0.0,37,37,False,868,868,1.0,FRC3,0.0,10.15
+7,"MI Road, Jaipur, Rajasthan",26.9171019,75.7992711,LOW,1.0,0.0,24,24,False,40,40,1.0,FRC2,0.0,10.15
+7,"Station Road, Surat, Gujarat",21.1984585,72.8351411,CLOSED,1.0,0.0,15,15,True,770,770,0.636305,FRC3,0.0,25.15
+7,"Frazer Town, Bangalore, Karnataka",13.0022108,77.621035,LOW,1.0,0.0,28,28,False,630,630,1.0,FRC6,0.0,-4.85
+7,"Begumpet, Hyderabad, Telangana",17.4449415,78.4571867,LOW,1.0,0.0,37,37,False,467,467,1.0,FRC1,0.0,10.15
+7,"Powai, Mumbai, Maharashtra",19.1238155,72.9126101,LOW,1.0,0.0,30,30,False,1455,1455,1.0,FRC3,0.0,10.15
+7,"Andheri West, Mumbai, Maharashtra",19.1340729,72.8303618,LOW,1.0,0.0,18,18,False,263,263,1.0,FRC4,0.0,0.15
+7,"Worli, Mumbai, Maharashtra",19.001465,72.8160656,LOW,1.0,0.0,31,31,False,203,203,1.0,FRC4,0.0,0.15
+7,"Bandra West, Mumbai, Maharashtra",19.0588335,72.8346685,LOW,1.0,0.0,17,17,False,83,83,1.0,FRC4,0.0,0.15
+7,"Lower Parel, Mumbai, Maharashtra",18.9962663,72.8268788,CLOSED,0.89,11.43,31,35,True,865,766,0.834735,FRC4,12.92,23.81
+7,"Vashi, Navi Mumbai, Maharashtra",19.0761766,73.0020679,LOW,1.0,0.0,21,21,False,581,581,1.0,FRC4,0.0,0.15
+7,"Thane West, Thane, Maharashtra",19.276338,72.9590781,LOW,0.85,14.71,29,34,False,1801,1536,1.0,FRC1,17.25,21.57
+7,"Kothrud, Pune, Maharashtra",18.5010542,73.8116455,LOW,1.0,0.0,21,21,False,262,262,1.0,FRC4,0.0,0.15
+7,"Viman Nagar, Pune, Maharashtra",18.5411985,73.8024415,LOW,1.0,0.0,21,21,False,325,325,1.0,FRC4,0.0,0.15
+7,"Wakad, Pune, Maharashtra",18.5963419,73.7718897,LOW,1.0,0.0,24,24,False,323,323,1.0,FRC4,0.0,0.15
+7,"Hinjewadi, Pune, Maharashtra",18.5979574,73.700786,LOW,1.0,0.0,34,34,False,2140,2140,1.0,FRC3,0.0,10.15
+7,"Whitefield, Bangalore, Karnataka",12.9943542,77.7585209,LOW,0.88,12.12,29,33,False,1991,1749,0.999788,FRC2,13.84,19.39
+7,"Electronic City, Bangalore, Karnataka",12.8478071,77.6631929,LOW,1.0,0.0,27,27,False,1466,1466,1.0,FRC6,0.0,-4.85
+7,"Marathahalli, Bangalore, Karnataka",12.9545264,77.7027027,LOW,1.0,0.0,25,25,False,868,868,1.0,FRC2,0.0,10.15
+7,"HSR Layout, Bangalore, Karnataka",12.9165423,77.6519551,LOW,1.0,0.0,48,48,False,59,59,1.0,FRC1,0.0,10.15
+7,"New Town, Kolkata, West Bengal",22.4761739,88.3478394,LOW,1.0,0.0,20,20,False,297,297,1.0,FRC4,0.0,0.15
+7,"Howrah, West Bengal",22.5944824,88.265686,LOW,1.0,0.0,34,34,False,1109,1109,1.0,FRC1,0.0,10.15
+7,"Rajarhat, Kolkata, West Bengal",22.5655734,88.3702152,LOW,1.0,0.0,23,23,False,680,680,1.0,FRC4,0.0,0.15
+7,"Ballygunge, Kolkata, West Bengal",22.5279746,88.3629966,LOW,1.0,0.0,29,29,False,133,133,1.0,FRC4,0.0,0.15
+7,"Vaishali Nagar, Jaipur, Rajasthan",26.9060132,75.7407346,LOW,1.0,0.0,26,26,False,338,338,1.0,FRC4,0.0,0.15
+7,"Malviya Nagar, Jaipur, Rajasthan",26.8554493,75.8203746,LOW,1.0,0.0,35,35,False,222,222,1.0,FRC2,0.0,10.15
+7,"C Scheme, Jaipur, Rajasthan",26.9842393,75.761852,LOW,1.0,0.0,67,67,False,688,688,1.0,FRC1,0.0,10.15
+7,"Satellite, Ahmedabad, Gujarat",23.0251898,72.5246919,LOW,1.0,0.0,32,32,False,786,786,1.0,FRC2,0.0,10.15
+7,"Bodakdev, Ahmedabad, Gujarat",23.0443645,72.517923,LOW,1.0,0.0,28,28,False,602,602,1.0,FRC3,0.0,10.15
+7,"Navrangpura, Ahmedabad, Gujarat",23.0374547,72.5639835,CLOSED,0.96,3.85,25,26,True,1481,1424,0.970115,FRC2,4.0,27.91
+7,"Maninagar, Ahmedabad, Gujarat",22.9832788,72.6140353,LOW,1.0,0.0,25,25,False,510,510,1.0,FRC4,0.0,0.15
+7,"Paldi, Ahmedabad, Gujarat",23.0129278,72.5557872,LOW,1.0,0.0,26,26,False,1762,1762,1.0,FRC6,0.0,-4.85
+7,"Ernakulam, Kochi, Kerala",9.7511807,76.318561,LOW,1.0,0.0,40,40,False,1883,1883,1.0,FRC1,0.0,10.15
+7,"Kakkanad, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+7,"Edappally, Kochi, Kerala",10.0566394,76.291473,LOW,1.0,0.0,31,31,False,536,536,1.0,FRC1,0.0,10.15
+7,"Palarivattom, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+7,"Kadavanthra, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+7,"Thiruvananthapuram City, Kerala",8.4946496,76.9449992,LOW,1.0,0.0,33,33,False,667,667,1.0,FRC1,0.0,10.15
+7,"Kozhikode City, Kerala",11.2341272,75.795501,LOW,1.0,0.0,41,41,False,1336,1336,1.0,FRC1,0.0,10.15
+7,"Thrissur City, Kerala",10.5239038,76.2122541,LOW,1.0,0.0,34,34,False,491,491,1.0,FRC3,0.0,10.15
+7,"Kottayam Town, Kerala",9.591754,76.5319074,LOW,1.0,0.0,32,32,False,133,133,1.0,FRC1,0.0,10.15
+7,"Vijayawada City, Andhra Pradesh",16.5003355,80.6447439,LOW,1.0,0.0,32,32,False,470,470,1.0,FRC1,0.0,10.15
+7,"Visakhapatnam City, Andhra Pradesh",17.710186,83.1769123,LOW,1.0,0.0,42,42,False,1593,1593,1.0,FRC2,0.0,10.15
+7,"Guntur City, Andhra Pradesh",16.498447,80.6439998,LOW,1.0,0.0,62,62,False,956,956,1.0,FRC1,0.0,10.15
+7,"Tirupati, Andhra Pradesh",13.6287278,79.4190701,LOW,1.0,0.0,33,33,False,2178,2178,1.0,FRC4,0.0,0.15
+7,"Mangalore City, Karnataka",12.9070024,74.8803527,LOW,1.0,0.0,42,42,False,2050,2050,1.0,FRC2,0.0,10.15
+7,"Hubli City, Karnataka",15.3862196,75.082741,LOW,1.0,0.0,40,40,False,1286,1286,1.0,FRC3,0.0,10.15
+7,"Mysore City, Karnataka",12.3136462,76.6171643,LOW,1.0,0.0,38,38,False,598,598,1.0,FRC3,0.0,10.15
+7,"Coimbatore City, Tamil Nadu",11.0804508,76.8366161,LOW,1.0,0.0,48,48,False,1520,1520,1.0,FRC3,0.0,10.15
+7,"Madurai City, Tamil Nadu",9.7427816,77.7953645,LOW,1.0,0.0,49,49,False,842,842,1.0,FRC2,0.0,10.15
+7,"Tiruchirappalli, Tamil Nadu",10.8008235,78.6899185,LOW,1.0,0.0,28,28,False,9,9,1.0,FRC2,0.0,10.15
+7,"Varanasi City, Uttar Pradesh",25.3096924,83.0056763,LOW,1.0,0.0,25,25,False,713,713,1.0,FRC4,0.0,0.15
+7,"Noida Sector 18, Uttar Pradesh",28.5705225,77.3261967,LOW,1.0,0.0,31,31,False,1144,1144,1.0,FRC2,0.0,10.15
+7,"Greater Noida, Uttar Pradesh",28.4477179,77.524566,LOW,1.0,0.0,38,38,False,2047,2047,1.0,FRC4,0.0,0.15
+7,"Gurgaon Cyber City, Haryana",28.4798011,77.0813162,LOW,1.0,0.0,37,37,False,1488,1488,1.0,FRC2,0.0,10.15
+7,"Faridabad City, Haryana",28.4841588,77.3257282,LOW,1.0,0.0,17,17,False,1917,1917,1.0,FRC4,0.0,0.15
+7,"Dehradun City, Uttarakhand",30.118491,78.294956,LOW,1.0,0.0,35,35,False,258,258,1.0,FRC1,0.0,10.15
+7,"Haridwar City, Uttarakhand",30.0604135,78.2894862,LOW,1.0,0.0,48,48,False,1643,1643,1.0,FRC4,0.0,0.15
+7,"Amritsar City, Punjab",31.6587342,74.841167,LOW,1.0,0.0,68,68,False,437,437,1.0,FRC1,0.0,10.15
+7,"South Extension, New Delhi",28.5694154,77.2209031,LOW,1.0,0.0,44,44,False,356,356,1.0,FRC1,0.0,10.15
+7,"Hauz Khas, New Delhi",28.5526463,77.2017518,LOW,1.0,0.0,31,31,False,779,779,1.0,FRC7,0.0,-4.85
+7,"Lajpat Nagar, New Delhi",28.5731147,77.2462327,LOW,1.0,0.0,43,43,False,1060,1060,1.0,FRC3,0.0,10.15
+7,"Saket, New Delhi",28.5257049,77.2143917,LOW,1.0,0.0,26,26,False,179,179,1.0,FRC4,0.0,0.15
+7,"Dwarka Sector 12, New Delhi",28.5969098,77.0419895,LOW,1.0,0.0,31,31,False,699,699,1.0,FRC4,0.0,0.15
+7,"Gurgaon MG Road, Haryana",28.4798011,77.0813162,LOW,1.0,0.0,37,37,False,1488,1488,1.0,FRC2,0.0,10.15
+7,"Golf Course Road, Gurgaon, Haryana",28.4626859,77.117071,LOW,1.0,0.0,54,54,False,1483,1483,1.0,FRC3,0.0,10.15
+7,"Udyog Vihar, Gurgaon, Haryana",28.5048124,77.0695199,LOW,1.0,0.0,27,27,False,1344,1344,1.0,FRC4,0.0,0.15
+7,"Sohna Road, Gurgaon, Haryana",28.4198873,77.1533811,LOW,1.0,0.0,54,54,False,1483,1483,1.0,FRC3,0.0,10.15
+7,"Noida Sector 62, Uttar Pradesh",28.626626,77.3654727,LOW,1.0,0.0,36,36,False,419,419,1.0,FRC4,0.0,0.15
+7,"Noida Sector 76, Uttar Pradesh",28.568967,77.3852713,LOW,1.0,0.0,33,33,False,434,434,1.0,FRC4,0.0,0.15
+7,"Colaba, Mumbai, Maharashtra",18.9249319,72.8300808,LOW,1.0,0.0,24,24,False,180,180,1.0,FRC1,0.0,10.15
+7,"Fort, Mumbai, Maharashtra",18.9459596,72.8337847,LOW,1.0,0.0,23,23,False,66,66,1.0,FRC3,0.0,10.15
+7,"Borivali West, Mumbai, Maharashtra",19.2297,72.852173,LOW,1.0,0.0,20,20,False,289,289,1.0,FRC3,0.0,10.15
+7,"Kandivali East, Mumbai, Maharashtra",19.1913449,72.8740971,LOW,1.0,0.0,17,17,False,203,203,1.0,FRC4,0.0,0.15
+7,"Chembur, Mumbai, Maharashtra",19.0487802,72.90587,LOW,1.0,0.0,33,33,False,735,735,1.0,FRC2,0.0,10.15
+7,"Dadar, Mumbai, Maharashtra",19.0177484,72.8358202,LOW,1.0,0.0,24,24,False,2012,2012,1.0,FRC2,0.0,10.15
+7,"Nerul, Navi Mumbai, Maharashtra",19.020485,73.0035976,LOW,1.0,0.0,41,41,False,1264,1264,1.0,FRC2,0.0,10.15
+7,"Kharghar, Navi Mumbai, Maharashtra",19.0334,73.018997,LOW,1.0,0.0,26,26,False,272,272,1.0,FRC4,0.0,0.15
+7,"Ulhasnagar, Thane, Maharashtra",19.2228117,73.1584637,LOW,1.0,0.0,14,14,False,396,396,1.0,FRC4,0.0,0.15
+7,"Dombivli East, Thane, Maharashtra",19.2157323,73.1031728,LOW,1.0,0.0,31,31,False,269,269,1.0,FRC4,0.0,0.15
+7,"Thoraipakkam, Chennai, Tamil Nadu",12.9192758,80.208965,LOW,1.0,0.0,25,25,False,714,714,1.0,FRC4,0.0,0.15
+7,"Sholinganallur, Chennai, Tamil Nadu",12.9001173,80.2239691,LOW,1.0,0.0,27,27,False,889,889,1.0,FRC4,0.0,0.15
+7,"Baner, Pune, Maharashtra",18.5642156,73.7871973,LOW,1.0,0.0,26,26,False,1884,1884,1.0,FRC4,0.0,0.15
+7,"Aundh, Pune, Maharashtra",18.558127,73.8072801,LOW,1.0,0.0,30,30,False,143,143,1.0,FRC4,0.0,0.15
+7,"Hadapsar, Pune, Maharashtra",18.499079,73.9341695,LOW,1.0,0.0,24,24,False,781,781,1.0,FRC4,0.0,0.15
+7,"Bibwewadi, Pune, Maharashtra",18.4662107,73.8627802,LOW,1.0,0.0,24,24,False,318,318,1.0,FRC2,0.0,10.15
+7,"Swargate, Pune, Maharashtra",18.4990216,73.8590652,LOW,1.0,0.0,29,29,False,738,738,1.0,FRC2,0.0,10.15
+7,"Meerut City, Uttar Pradesh",28.9498578,77.6419455,LOW,1.0,0.0,53,53,False,1349,1349,1.0,FRC2,0.0,10.15
+7,"Aligarh City, Uttar Pradesh",27.8898926,78.0745239,LOW,1.0,0.0,24,24,False,314,314,1.0,FRC4,0.0,0.15
+7,"Jhansi City, Uttar Pradesh",25.4487305,78.5701294,LOW,1.0,0.0,38,38,False,1452,1452,1.0,FRC3,0.0,10.15
+7,"Moradabad City, Uttar Pradesh",28.8331428,78.7652781,LOW,1.0,0.0,37,37,False,779,779,1.0,FRC3,0.0,10.15
+7,"Mathura City, Uttar Pradesh",27.4849744,77.685131,LOW,1.0,0.0,36,36,False,124,124,1.0,FRC1,0.0,10.15
+7,"Udaipur City, Rajasthan",24.5873872,73.6915427,LOW,1.0,0.0,24,24,False,260,260,1.0,FRC4,0.0,0.15
+7,"Kota City, Rajasthan",25.2109082,75.8213499,LOW,1.0,0.0,54,54,False,189,189,1.0,FRC3,0.0,10.15
+7,"Jodhpur City, Rajasthan",26.381001,73.5467,LOW,1.0,0.0,53,53,False,1550,1550,1.0,FRC4,0.0,0.15
+7,"Ajmer City, Rajasthan",26.5855952,74.8609106,LOW,1.0,0.0,30,30,False,669,669,1.0,FRC6,0.0,-4.85
+7,"Bikaner City, Rajasthan",28.0134638,73.2972264,LOW,1.0,0.0,61,61,False,772,772,1.0,FRC1,0.0,10.15
+7,"Bhopal City, Madhya Pradesh",23.177649,77.454497,LOW,1.0,0.0,43,43,False,1564,1564,1.0,FRC1,0.0,10.15
+7,"Rajkot City, Gujarat",22.3003793,70.8086015,CLOSED,1.0,0.0,37,37,True,1301,1301,0.650183,FRC2,0.0,25.15
+7,"Bhavnagar City, Gujarat",21.7727986,72.1548699,LOW,1.0,0.0,32,32,False,901,901,1.0,FRC4,0.0,0.15
+7,"Jamnagar City, Gujarat",22.432788,70.0559897,LOW,1.0,0.0,28,28,False,803,803,1.0,FRC2,0.0,10.15
+7,"Gandhinagar City, Gujarat",23.0704348,72.5243009,LOW,1.0,0.0,28,28,False,40,40,1.0,FRC4,0.0,0.15
+7,"Asansol City, West Bengal",23.6930343,86.9531088,LOW,1.0,0.0,32,32,False,2410,2410,1.0,FRC2,0.0,10.15
+7,"Siliguri City, West Bengal",26.7096309,88.4286167,LOW,1.0,0.0,23,23,False,168,168,1.0,FRC4,0.0,0.15
+7,"Durgapur City, West Bengal",23.5292384,87.351587,LOW,1.0,0.0,37,37,False,974,974,1.0,FRC4,0.0,0.15
+7,"Alappuzha Town, Kerala",9.2595192,76.5437808,LOW,1.0,0.0,45,45,False,1597,1597,1.0,FRC3,0.0,10.15
+7,"Kollam City, Kerala",8.8869046,76.5904652,LOW,1.0,0.0,39,39,False,1104,1104,1.0,FRC1,0.0,10.15
+7,"Kannur City, Kerala",11.8719881,75.379077,LOW,1.0,0.0,45,45,False,817,817,1.0,FRC1,0.0,10.15
+7,"Palakkad City, Kerala",10.8001,76.639099,LOW,1.0,0.0,41,41,False,504,504,1.0,FRC1,0.0,10.15
+7,"Warangal City, Telangana",17.9745069,79.6113623,LOW,1.0,0.0,49,49,False,872,872,1.0,FRC3,0.0,10.15
+7,"Karimnagar City, Telangana",18.458233,79.136705,LOW,1.0,0.0,43,43,False,1154,1154,1.0,FRC2,0.0,10.15
+7,"Nellore City, Andhra Pradesh",14.413352,79.962271,LOW,1.0,0.0,28,28,False,859,859,1.0,FRC5,0.0,0.15
+7,"Rajahmundry City, Andhra Pradesh",17.0376947,81.7778132,LOW,1.0,0.0,35,35,False,2107,2107,1.0,FRC4,0.0,0.15
+7,"Kakinada City, Andhra Pradesh",16.9673975,82.2333385,LOW,1.0,0.0,35,35,False,321,321,1.0,FRC1,0.0,10.15
+7,"Belgaum City, Karnataka",15.8771478,74.5171905,LOW,1.0,0.0,28,28,False,104,104,1.0,FRC4,0.0,0.15
+7,"Gulbarga City, Karnataka",17.33965,76.8371479,LOW,1.0,0.0,35,35,False,980,980,1.0,FRC2,0.0,10.15
+7,"Davangere City, Karnataka",14.3682977,75.9527929,LOW,1.0,0.0,37,37,False,2330,2330,1.0,FRC4,0.0,0.15
+7,"Bellary City, Karnataka",15.1388817,76.9768644,LOW,1.0,0.0,38,38,False,1836,1836,1.0,FRC2,0.0,10.15
+7,"Ludhiana City, Punjab",30.8519434,75.8598782,LOW,1.0,0.0,53,53,False,679,679,1.0,FRC2,0.0,10.15
+7,"Jalandhar City, Punjab",31.3478513,75.6032045,LOW,1.0,0.0,32,32,False,842,842,1.0,FRC2,0.0,10.15
+7,"Bathinda City, Punjab",30.2129218,74.9331732,LOW,1.0,0.0,38,38,False,301,301,1.0,FRC1,0.0,10.15
+7,"Hisar City, Haryana",28.8994857,76.5532936,LOW,1.0,0.0,42,42,False,174,174,1.0,FRC3,0.0,10.15
+7,"Karnal City, Haryana",29.6531038,77.0078492,LOW,1.0,0.0,63,63,False,1166,1166,1.0,FRC3,0.0,10.15
+7,"Panipat City, Haryana",29.4283503,76.9533079,LOW,1.0,0.0,30,30,False,621,621,1.0,FRC4,0.0,0.15
+7,"Berhampur City, Odisha",20.4032641,86.2026906,LOW,1.0,0.0,41,41,False,2182,2182,1.0,FRC4,0.0,0.15
+7,"Koraput City, Odisha",18.8131994,82.7126008,LOW,1.0,0.0,45,45,False,1931,1931,1.0,FRC1,0.0,10.15
+7,"Sambalpur City, Odisha",21.4594222,83.9743315,LOW,1.0,0.0,38,38,False,1263,1263,1.0,FRC2,0.0,10.15
+7,"Gaya City, Bihar",24.7924837,85.0077092,LOW,1.0,0.0,40,40,False,1660,1660,1.0,FRC2,0.0,10.15
+7,"Muzaffarpur City, Bihar",26.1227209,85.3786314,LOW,1.0,0.0,21,21,False,203,203,1.0,FRC2,0.0,10.15
+7,"Dhanbad City, Jharkhand",23.7940427,86.4261706,LOW,1.0,0.0,17,17,False,141,141,1.0,FRC2,0.0,10.15
+7,"Jamshedpur City, Jharkhand",22.843639,86.212528,LOW,1.0,0.0,58,58,False,1415,1415,1.0,FRC1,0.0,10.15
+7,"Shillong City, Meghalaya",25.5762291,91.8828636,LOW,1.0,0.0,11,11,False,325,325,1.0,FRC4,0.0,0.15
+7,"Imphal City, Manipur",24.8021535,93.938618,LOW,1.0,0.0,49,49,False,1711,1711,1.0,FRC2,0.0,10.15
+7,"Aizawl City, Mizoram",23.7243713,92.7186455,LOW,1.0,0.0,24,24,False,394,394,1.0,FRC2,0.0,10.15
+7,"Kohima City, Nagaland",25.6749234,94.1105241,LOW,1.0,0.0,21,21,False,604,604,1.0,FRC2,0.0,10.15
+7,"Agartala City, Tripura",23.8338203,91.2824216,LOW,1.0,0.0,20,20,False,216,216,1.0,FRC4,0.0,0.15
+8,"Mumbai Central, Mumbai, Maharashtra",18.9770366,72.826266,LOW,1.0,0.0,23,23,False,697,697,1.0,FRC4,0.0,0.15
+8,"CG Road, Ahmedabad, Gujarat",23.1083596,72.5869112,LOW,1.0,0.0,28,28,False,274,274,1.0,FRC4,0.0,0.15
+8,"MG Road, Kochi, Kerala",10.5160332,76.2538456,LOW,1.0,0.0,61,61,False,1066,1066,1.0,FRC1,0.0,10.15
+8,"Banjara Hills, Hyderabad, Telangana",17.4091038,78.4394666,LOW,1.0,0.0,33,33,False,898,898,1.0,FRC4,0.0,0.15
+8,"Vastrapur, Ahmedabad, Gujarat",23.0350831,72.5276438,LOW,1.0,0.0,23,23,False,115,115,1.0,FRC4,0.0,0.15
+8,"Koregaon Park, Pune, Maharashtra",18.5420451,73.8881809,LOW,1.0,0.0,30,30,False,817,817,1.0,FRC4,0.0,0.15
+8,"Indiranagar, Bangalore, Karnataka",12.9719015,77.6367928,LOW,1.0,0.0,28,28,False,1035,1035,1.0,FRC2,0.0,10.15
+8,"Jubilee Hills, Hyderabad, Telangana",17.4333041,78.4013942,LOW,1.0,0.0,45,45,False,229,229,1.0,FRC4,0.0,0.15
+8,"T Nagar, Chennai, Tamil Nadu",12.9605278,80.2083254,LOW,1.0,0.0,32,32,False,532,532,1.0,FRC2,0.0,10.15
+8,"Salt Lake, Kolkata, West Bengal",22.5580861,88.412438,LOW,1.0,0.0,38,38,False,1527,1527,1.0,FRC2,0.0,10.15
+8,"Civil Lines, Jaipur, Rajasthan",26.9069197,75.7830344,LOW,1.0,0.0,35,35,False,769,769,1.0,FRC2,0.0,10.15
+8,"Aliganj, Lucknow, Uttar Pradesh",26.890281,80.9495987,LOW,1.0,0.0,35,35,False,1840,1840,1.0,FRC7,0.0,-4.85
+8,"Gomti Nagar, Lucknow, Uttar Pradesh",26.8513093,81.0124214,LOW,1.0,0.0,57,57,False,528,528,1.0,FRC1,0.0,10.15
+8,"Vijay Nagar, Indore, Madhya Pradesh",22.7630269,75.8804978,LOW,1.0,0.0,32,32,False,225,225,1.0,FRC4,0.0,0.15
+8,"Sector 17, Chandigarh",30.7425426,76.7859351,LOW,1.0,0.0,37,37,False,868,868,1.0,FRC3,0.0,10.15
+8,"MI Road, Jaipur, Rajasthan",26.9171019,75.7992711,LOW,1.0,0.0,24,24,False,40,40,1.0,FRC2,0.0,10.15
+8,"Station Road, Surat, Gujarat",21.1984585,72.8351411,CLOSED,1.0,0.0,15,15,True,770,770,0.659976,FRC3,0.0,25.15
+8,"Frazer Town, Bangalore, Karnataka",13.0022108,77.621035,LOW,0.81,18.52,22,27,False,802,654,0.995727,FRC6,22.63,9.94
+8,"Begumpet, Hyderabad, Telangana",17.4449415,78.4571867,LOW,1.0,0.0,37,37,False,467,467,1.0,FRC1,0.0,10.15
+8,"Powai, Mumbai, Maharashtra",19.1238155,72.9126101,LOW,1.0,0.0,30,30,False,1455,1455,1.0,FRC3,0.0,10.15
+8,"Andheri West, Mumbai, Maharashtra",19.1340729,72.8303618,LOW,1.0,0.0,18,18,False,263,263,1.0,FRC4,0.0,0.15
+8,"Worli, Mumbai, Maharashtra",19.001465,72.8160656,LOW,1.0,0.0,31,31,False,203,203,1.0,FRC4,0.0,0.15
+8,"Bandra West, Mumbai, Maharashtra",19.0588335,72.8346685,LOW,1.0,0.0,17,17,False,83,83,1.0,FRC4,0.0,0.15
+8,"Lower Parel, Mumbai, Maharashtra",18.9962663,72.8268788,CLOSED,0.89,11.43,31,35,True,865,766,0.968308,FRC4,12.92,23.81
+8,"Vashi, Navi Mumbai, Maharashtra",19.0761766,73.0020679,LOW,1.0,0.0,21,21,False,581,581,1.0,FRC4,0.0,0.15
+8,"Thane West, Thane, Maharashtra",19.276338,72.9590781,MODERATE,0.76,23.53,26,34,False,2009,1536,0.995878,FRC1,30.79,29.85
+8,"Kothrud, Pune, Maharashtra",18.5010542,73.8116455,LOW,1.0,0.0,21,21,False,262,262,1.0,FRC4,0.0,0.15
+8,"Viman Nagar, Pune, Maharashtra",18.5411985,73.8024415,LOW,1.0,0.0,21,21,False,325,325,1.0,FRC4,0.0,0.15
+8,"Wakad, Pune, Maharashtra",18.5963419,73.7718897,LOW,1.0,0.0,24,24,False,323,323,1.0,FRC4,0.0,0.15
+8,"Hinjewadi, Pune, Maharashtra",18.5979574,73.700786,LOW,1.0,0.0,34,34,False,2140,2140,1.0,FRC3,0.0,10.15
+8,"Whitefield, Bangalore, Karnataka",12.9943542,77.7585209,MODERATE,0.7,30.3,23,33,False,2510,1749,0.999375,FRC2,43.51,37.26
+8,"Electronic City, Bangalore, Karnataka",12.8478071,77.6631929,LOW,1.0,0.0,27,27,False,1466,1466,1.0,FRC6,0.0,-4.85
+8,"Marathahalli, Bangalore, Karnataka",12.9545264,77.7027027,LOW,1.0,0.0,25,25,False,868,868,1.0,FRC2,0.0,10.15
+8,"HSR Layout, Bangalore, Karnataka",12.9165423,77.6519551,LOW,1.0,0.0,48,48,False,59,59,1.0,FRC1,0.0,10.15
+8,"New Town, Kolkata, West Bengal",22.4761739,88.3478394,LOW,1.0,0.0,20,20,False,297,297,1.0,FRC4,0.0,0.15
+8,"Howrah, West Bengal",22.5944824,88.265686,LOW,1.0,0.0,34,34,False,1109,1109,1.0,FRC1,0.0,10.15
+8,"Rajarhat, Kolkata, West Bengal",22.5655734,88.3702152,LOW,1.0,0.0,23,23,False,680,680,1.0,FRC4,0.0,0.15
+8,"Ballygunge, Kolkata, West Bengal",22.5279746,88.3629966,LOW,0.76,24.14,22,29,False,176,133,0.95,FRC4,32.33,20.7
+8,"Vaishali Nagar, Jaipur, Rajasthan",26.9060132,75.7407346,LOW,1.0,0.0,26,26,False,338,338,1.0,FRC4,0.0,0.15
+8,"Malviya Nagar, Jaipur, Rajasthan",26.8554493,75.8203746,LOW,1.0,0.0,35,35,False,222,222,1.0,FRC2,0.0,10.15
+8,"C Scheme, Jaipur, Rajasthan",26.9842393,75.761852,LOW,1.0,0.0,67,67,False,688,688,1.0,FRC1,0.0,10.15
+8,"Satellite, Ahmedabad, Gujarat",23.0251898,72.5246919,LOW,1.0,0.0,32,32,False,786,786,1.0,FRC2,0.0,10.15
+8,"Bodakdev, Ahmedabad, Gujarat",23.0443645,72.517923,LOW,1.0,0.0,28,28,False,602,602,1.0,FRC3,0.0,10.15
+8,"Navrangpura, Ahmedabad, Gujarat",23.0374547,72.5639835,CLOSED,0.96,3.7,26,27,True,1424,1371,0.977886,FRC2,3.87,27.81
+8,"Maninagar, Ahmedabad, Gujarat",22.9832788,72.6140353,LOW,1.0,0.0,25,25,False,510,510,1.0,FRC4,0.0,0.15
+8,"Paldi, Ahmedabad, Gujarat",23.0129278,72.5557872,LOW,1.0,0.0,26,26,False,1762,1762,1.0,FRC6,0.0,-4.85
+8,"Ernakulam, Kochi, Kerala",9.7511807,76.318561,LOW,1.0,0.0,40,40,False,1883,1883,1.0,FRC1,0.0,10.15
+8,"Kakkanad, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+8,"Edappally, Kochi, Kerala",10.0566394,76.291473,LOW,1.0,0.0,31,31,False,536,536,1.0,FRC1,0.0,10.15
+8,"Palarivattom, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+8,"Kadavanthra, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+8,"Thiruvananthapuram City, Kerala",8.4946496,76.9449992,MODERATE,0.75,25.0,24,32,False,918,688,0.999436,FRC1,33.43,31.41
+8,"Kozhikode City, Kerala",11.2341272,75.795501,LOW,1.0,0.0,41,41,False,1336,1336,1.0,FRC1,0.0,10.15
+8,"Thrissur City, Kerala",10.5239038,76.2122541,LOW,1.0,0.0,34,34,False,491,491,1.0,FRC3,0.0,10.15
+8,"Kottayam Town, Kerala",9.591754,76.5319074,LOW,1.0,0.0,32,32,False,133,133,1.0,FRC1,0.0,10.15
+8,"Vijayawada City, Andhra Pradesh",16.5003355,80.6447439,LOW,1.0,0.0,32,32,False,470,470,1.0,FRC1,0.0,10.15
+8,"Visakhapatnam City, Andhra Pradesh",17.710186,83.1769123,LOW,1.0,0.0,42,42,False,1593,1593,1.0,FRC2,0.0,10.15
+8,"Guntur City, Andhra Pradesh",16.498447,80.6439998,LOW,1.0,0.0,62,62,False,956,956,1.0,FRC1,0.0,10.15
+8,"Tirupati, Andhra Pradesh",13.6287278,79.4190701,LOW,1.0,0.0,33,33,False,2178,2178,1.0,FRC4,0.0,0.15
+8,"Mangalore City, Karnataka",12.9070024,74.8803527,LOW,1.0,0.0,42,42,False,2050,2050,1.0,FRC2,0.0,10.15
+8,"Hubli City, Karnataka",15.3862196,75.082741,LOW,1.0,0.0,40,40,False,1286,1286,1.0,FRC3,0.0,10.15
+8,"Mysore City, Karnataka",12.3136462,76.6171643,LOW,1.0,0.0,38,38,False,598,598,1.0,FRC3,0.0,10.15
+8,"Coimbatore City, Tamil Nadu",11.0804508,76.8366161,LOW,1.0,0.0,48,48,False,1520,1520,1.0,FRC3,0.0,10.15
+8,"Madurai City, Tamil Nadu",9.7427816,77.7953645,LOW,1.0,0.0,49,49,False,842,842,1.0,FRC2,0.0,10.15
+8,"Tiruchirappalli, Tamil Nadu",10.8008235,78.6899185,LOW,1.0,0.0,28,28,False,9,9,1.0,FRC2,0.0,10.15
+8,"Varanasi City, Uttar Pradesh",25.3096924,83.0056763,LOW,1.0,0.0,25,25,False,713,713,1.0,FRC4,0.0,0.15
+8,"Noida Sector 18, Uttar Pradesh",28.5705225,77.3261967,LOW,1.0,0.0,31,31,False,1144,1144,1.0,FRC2,0.0,10.15
+8,"Greater Noida, Uttar Pradesh",28.4477179,77.524566,LOW,1.0,0.0,38,38,False,2047,2047,1.0,FRC4,0.0,0.15
+8,"Gurgaon Cyber City, Haryana",28.4798011,77.0813162,LOW,1.0,0.0,37,37,False,1488,1488,1.0,FRC2,0.0,10.15
+8,"Faridabad City, Haryana",28.4841588,77.3257282,LOW,1.0,0.0,17,17,False,1917,1917,1.0,FRC4,0.0,0.15
+8,"Dehradun City, Uttarakhand",30.118491,78.294956,LOW,1.0,0.0,35,35,False,258,258,1.0,FRC1,0.0,10.15
+8,"Haridwar City, Uttarakhand",30.0604135,78.2894862,LOW,1.0,0.0,48,48,False,1643,1643,1.0,FRC4,0.0,0.15
+8,"Amritsar City, Punjab",31.6587342,74.841167,LOW,1.0,0.0,68,68,False,437,437,1.0,FRC1,0.0,10.15
+8,"South Extension, New Delhi",28.5694154,77.2209031,LOW,1.0,0.0,44,44,False,356,356,1.0,FRC1,0.0,10.15
+8,"Hauz Khas, New Delhi",28.5526463,77.2017518,LOW,0.91,9.38,29,32,False,833,755,0.993523,FRC7,10.33,2.13
+8,"Lajpat Nagar, New Delhi",28.5731147,77.2462327,LOW,1.0,0.0,43,43,False,1060,1060,1.0,FRC3,0.0,10.15
+8,"Saket, New Delhi",28.5257049,77.2143917,LOW,1.0,0.0,26,26,False,179,179,1.0,FRC4,0.0,0.15
+8,"Dwarka Sector 12, New Delhi",28.5969098,77.0419895,LOW,1.0,0.0,31,31,False,699,699,1.0,FRC4,0.0,0.15
+8,"Gurgaon MG Road, Haryana",28.4798011,77.0813162,LOW,1.0,0.0,37,37,False,1488,1488,1.0,FRC2,0.0,10.15
+8,"Golf Course Road, Gurgaon, Haryana",28.4626859,77.117071,LOW,1.0,0.0,54,54,False,1483,1483,1.0,FRC3,0.0,10.15
+8,"Udyog Vihar, Gurgaon, Haryana",28.5048124,77.0695199,LOW,1.0,0.0,27,27,False,1344,1344,1.0,FRC4,0.0,0.15
+8,"Sohna Road, Gurgaon, Haryana",28.4198873,77.1533811,LOW,1.0,0.0,54,54,False,1483,1483,1.0,FRC3,0.0,10.15
+8,"Noida Sector 62, Uttar Pradesh",28.626626,77.3654727,LOW,0.89,11.43,31,35,False,487,431,0.992884,FRC4,12.99,8.84
+8,"Noida Sector 76, Uttar Pradesh",28.568967,77.3852713,LOW,1.0,0.0,33,33,False,434,434,1.0,FRC4,0.0,0.15
+8,"Colaba, Mumbai, Maharashtra",18.9249319,72.8300808,LOW,0.83,17.39,19,23,False,228,188,1.0,FRC1,21.28,24.05
+8,"Fort, Mumbai, Maharashtra",18.9459596,72.8337847,LOW,1.0,0.0,23,23,False,66,66,1.0,FRC3,0.0,10.15
+8,"Borivali West, Mumbai, Maharashtra",19.2297,72.852173,LOW,1.0,0.0,20,20,False,289,289,1.0,FRC3,0.0,10.15
+8,"Kandivali East, Mumbai, Maharashtra",19.1913449,72.8740971,LOW,1.0,0.0,17,17,False,203,203,1.0,FRC4,0.0,0.15
+8,"Chembur, Mumbai, Maharashtra",19.0487802,72.90587,LOW,0.88,11.76,30,34,False,809,714,1.0,FRC2,13.31,19.06
+8,"Dadar, Mumbai, Maharashtra",19.0177484,72.8358202,LOW,1.0,0.0,24,24,False,2012,2012,1.0,FRC2,0.0,10.15
+8,"Nerul, Navi Mumbai, Maharashtra",19.020485,73.0035976,LOW,1.0,0.0,41,41,False,1264,1264,1.0,FRC2,0.0,10.15
+8,"Kharghar, Navi Mumbai, Maharashtra",19.0334,73.018997,LOW,1.0,0.0,26,26,False,272,272,1.0,FRC4,0.0,0.15
+8,"Ulhasnagar, Thane, Maharashtra",19.2228117,73.1584637,LOW,1.0,0.0,14,14,False,396,396,1.0,FRC4,0.0,0.15
+8,"Dombivli East, Thane, Maharashtra",19.2157323,73.1031728,LOW,1.0,0.0,31,31,False,269,269,1.0,FRC4,0.0,0.15
+8,"Thoraipakkam, Chennai, Tamil Nadu",12.9192758,80.208965,LOW,1.0,0.0,25,25,False,714,714,1.0,FRC4,0.0,0.15
+8,"Sholinganallur, Chennai, Tamil Nadu",12.9001173,80.2239691,LOW,1.0,0.0,27,27,False,889,889,1.0,FRC4,0.0,0.15
+8,"Baner, Pune, Maharashtra",18.5642156,73.7871973,LOW,1.0,0.0,26,26,False,1884,1884,1.0,FRC4,0.0,0.15
+8,"Aundh, Pune, Maharashtra",18.558127,73.8072801,LOW,1.0,0.0,30,30,False,143,143,1.0,FRC4,0.0,0.15
+8,"Hadapsar, Pune, Maharashtra",18.499079,73.9341695,LOW,1.0,0.0,24,24,False,781,781,1.0,FRC4,0.0,0.15
+8,"Bibwewadi, Pune, Maharashtra",18.4662107,73.8627802,LOW,1.0,0.0,24,24,False,318,318,1.0,FRC2,0.0,10.15
+8,"Swargate, Pune, Maharashtra",18.4990216,73.8590652,LOW,1.0,0.0,29,29,False,738,738,1.0,FRC2,0.0,10.15
+8,"Meerut City, Uttar Pradesh",28.9498578,77.6419455,LOW,1.0,0.0,53,53,False,1349,1349,1.0,FRC2,0.0,10.15
+8,"Aligarh City, Uttar Pradesh",27.8898926,78.0745239,LOW,1.0,0.0,24,24,False,314,314,1.0,FRC4,0.0,0.15
+8,"Jhansi City, Uttar Pradesh",25.4487305,78.5701294,LOW,1.0,0.0,38,38,False,1452,1452,1.0,FRC3,0.0,10.15
+8,"Moradabad City, Uttar Pradesh",28.8331428,78.7652781,LOW,1.0,0.0,37,37,False,779,779,1.0,FRC3,0.0,10.15
+8,"Mathura City, Uttar Pradesh",27.4849744,77.685131,LOW,0.83,16.67,30,36,False,149,124,0.894121,FRC1,20.16,23.36
+8,"Udaipur City, Rajasthan",24.5873872,73.6915427,LOW,1.0,0.0,24,24,False,260,260,1.0,FRC4,0.0,0.15
+8,"Kota City, Rajasthan",25.2109082,75.8213499,LOW,1.0,0.0,54,54,False,189,189,1.0,FRC3,0.0,10.15
+8,"Jodhpur City, Rajasthan",26.381001,73.5467,LOW,1.0,0.0,53,53,False,1550,1550,1.0,FRC4,0.0,0.15
+8,"Ajmer City, Rajasthan",26.5855952,74.8609106,LOW,1.0,0.0,30,30,False,669,669,1.0,FRC6,0.0,-4.85
+8,"Bikaner City, Rajasthan",28.0134638,73.2972264,LOW,1.0,0.0,61,61,False,772,772,1.0,FRC1,0.0,10.15
+8,"Bhopal City, Madhya Pradesh",23.177649,77.454497,LOW,1.0,0.0,43,43,False,1564,1564,1.0,FRC1,0.0,10.15
+8,"Rajkot City, Gujarat",22.3003793,70.8086015,CLOSED,0.95,5.41,35,37,True,1376,1301,0.851792,FRC2,5.76,29.09
+8,"Bhavnagar City, Gujarat",21.7727986,72.1548699,LOW,1.0,0.0,32,32,False,901,901,1.0,FRC4,0.0,0.15
+8,"Jamnagar City, Gujarat",22.432788,70.0559897,LOW,1.0,0.0,28,28,False,803,803,1.0,FRC2,0.0,10.15
+8,"Gandhinagar City, Gujarat",23.0704348,72.5243009,LOW,1.0,0.0,28,28,False,40,40,1.0,FRC4,0.0,0.15
+8,"Asansol City, West Bengal",23.6930343,86.9531088,LOW,1.0,0.0,32,32,False,2410,2410,1.0,FRC2,0.0,10.15
+8,"Siliguri City, West Bengal",26.7096309,88.4286167,LOW,1.0,0.0,23,23,False,168,168,1.0,FRC4,0.0,0.15
+8,"Durgapur City, West Bengal",23.5292384,87.351587,LOW,1.0,0.0,37,37,False,974,974,1.0,FRC4,0.0,0.15
+8,"Alappuzha Town, Kerala",9.2595192,76.5437808,LOW,1.0,0.0,45,45,False,1597,1597,1.0,FRC3,0.0,10.15
+8,"Kollam City, Kerala",8.8869046,76.5904652,LOW,0.82,17.95,32,39,False,1345,1104,0.865959,FRC1,21.83,24.43
+8,"Kannur City, Kerala",11.8719881,75.379077,LOW,1.0,0.0,45,45,False,817,817,1.0,FRC1,0.0,10.15
+8,"Palakkad City, Kerala",10.8001,76.639099,LOW,1.0,0.0,41,41,False,504,504,1.0,FRC1,0.0,10.15
+8,"Warangal City, Telangana",17.9745069,79.6113623,LOW,1.0,0.0,49,49,False,872,872,1.0,FRC3,0.0,10.15
+8,"Karimnagar City, Telangana",18.458233,79.136705,LOW,1.0,0.0,43,43,False,1154,1154,1.0,FRC2,0.0,10.15
+8,"Nellore City, Andhra Pradesh",14.413352,79.962271,LOW,0.89,10.71,25,28,False,962,859,0.917128,FRC5,11.99,8.21
+8,"Rajahmundry City, Andhra Pradesh",17.0376947,81.7778132,LOW,1.0,0.0,35,35,False,2107,2107,1.0,FRC4,0.0,0.15
+8,"Kakinada City, Andhra Pradesh",16.9673975,82.2333385,LOW,1.0,0.0,35,35,False,321,321,1.0,FRC1,0.0,10.15
+8,"Belgaum City, Karnataka",15.8771478,74.5171905,LOW,1.0,0.0,28,28,False,104,104,1.0,FRC4,0.0,0.15
+8,"Gulbarga City, Karnataka",17.33965,76.8371479,LOW,1.0,0.0,35,35,False,980,980,1.0,FRC2,0.0,10.15
+8,"Davangere City, Karnataka",14.3682977,75.9527929,LOW,1.0,0.0,37,37,False,2330,2330,1.0,FRC4,0.0,0.15
+8,"Bellary City, Karnataka",15.1388817,76.9768644,LOW,1.0,0.0,38,38,False,1836,1836,1.0,FRC2,0.0,10.15
+8,"Ludhiana City, Punjab",30.8519434,75.8598782,LOW,1.0,0.0,53,53,False,679,679,1.0,FRC2,0.0,10.15
+8,"Jalandhar City, Punjab",31.3478513,75.6032045,LOW,1.0,0.0,32,32,False,842,842,1.0,FRC2,0.0,10.15
+8,"Bathinda City, Punjab",30.2129218,74.9331732,LOW,1.0,0.0,38,38,False,301,301,1.0,FRC1,0.0,10.15
+8,"Hisar City, Haryana",28.8994857,76.5532936,MODERATE,0.8,19.51,33,41,False,221,178,0.8,FRC3,24.16,25.87
+8,"Karnal City, Haryana",29.6531038,77.0078492,LOW,1.0,0.0,63,63,False,1166,1166,1.0,FRC3,0.0,10.15
+8,"Panipat City, Haryana",29.4283503,76.9533079,LOW,1.0,0.0,30,30,False,621,621,1.0,FRC4,0.0,0.15
+8,"Berhampur City, Odisha",20.4032641,86.2026906,LOW,1.0,0.0,41,41,False,2182,2182,1.0,FRC4,0.0,0.15
+8,"Koraput City, Odisha",18.8131994,82.7126008,LOW,1.0,0.0,45,45,False,1931,1931,1.0,FRC1,0.0,10.15
+8,"Sambalpur City, Odisha",21.4594222,83.9743315,LOW,1.0,0.0,38,38,False,1263,1263,1.0,FRC2,0.0,10.15
+8,"Gaya City, Bihar",24.7924837,85.0077092,LOW,1.0,0.0,40,40,False,1660,1660,1.0,FRC2,0.0,10.15
+8,"Muzaffarpur City, Bihar",26.1227209,85.3786314,LOW,1.0,0.0,21,21,False,203,203,1.0,FRC2,0.0,10.15
+8,"Dhanbad City, Jharkhand",23.7940427,86.4261706,LOW,1.0,0.0,17,17,False,141,141,1.0,FRC2,0.0,10.15
+8,"Jamshedpur City, Jharkhand",22.843639,86.212528,LOW,1.0,0.0,58,58,False,1415,1415,1.0,FRC1,0.0,10.15
+8,"Shillong City, Meghalaya",25.5762291,91.8828636,LOW,1.0,0.0,11,11,False,325,325,1.0,FRC4,0.0,0.15
+8,"Imphal City, Manipur",24.8021535,93.938618,LOW,1.0,0.0,49,49,False,1711,1711,1.0,FRC2,0.0,10.15
+8,"Aizawl City, Mizoram",23.7243713,92.7186455,LOW,0.83,17.39,19,23,False,497,411,0.6,FRC2,20.92,23.89
+8,"Kohima City, Nagaland",25.6749234,94.1105241,LOW,1.0,0.0,21,21,False,604,604,1.0,FRC2,0.0,10.15
+8,"Agartala City, Tripura",23.8338203,91.2824216,LOW,1.0,0.0,20,20,False,216,216,1.0,FRC4,0.0,0.15
+9,"Mumbai Central, Mumbai, Maharashtra",18.9770366,72.826266,LOW,0.82,18.18,18,22,False,891,729,0.961068,FRC4,22.22,14.67
+9,"CG Road, Ahmedabad, Gujarat",23.1083596,72.5869112,LOW,1.0,0.0,28,28,False,274,274,1.0,FRC4,0.0,0.15
+9,"MG Road, Kochi, Kerala",10.5160332,76.2538456,LOW,1.0,0.0,61,61,False,1066,1066,1.0,FRC1,0.0,10.15
+9,"Banjara Hills, Hyderabad, Telangana",17.4091038,78.4394666,LOW,1.0,0.0,33,33,False,898,898,1.0,FRC4,0.0,0.15
+9,"Vastrapur, Ahmedabad, Gujarat",23.0350831,72.5276438,LOW,0.82,18.18,18,22,False,147,120,1.0,FRC4,22.5,14.79
+9,"Koregaon Park, Pune, Maharashtra",18.5420451,73.8881809,LOW,1.0,0.0,30,30,False,817,817,1.0,FRC4,0.0,0.15
+9,"Indiranagar, Bangalore, Karnataka",12.9719015,77.6367928,MODERATE,0.61,39.29,17,28,False,1705,1035,1.0,FRC2,64.73,49.04
+9,"Jubilee Hills, Hyderabad, Telangana",17.4333041,78.4013942,LOW,1.0,0.0,45,45,False,229,229,1.0,FRC4,0.0,0.15
+9,"T Nagar, Chennai, Tamil Nadu",12.9605278,80.2083254,LOW,0.87,12.9,27,31,False,631,549,1.0,FRC2,14.94,20.08
+9,"Salt Lake, Kolkata, West Bengal",22.5580861,88.412438,LOW,1.0,0.0,38,38,False,1527,1527,1.0,FRC2,0.0,10.15
+9,"Civil Lines, Jaipur, Rajasthan",26.9069197,75.7830344,LOW,1.0,0.0,35,35,False,769,769,1.0,FRC2,0.0,10.15
+9,"Aliganj, Lucknow, Uttar Pradesh",26.890281,80.9495987,LOW,1.0,0.0,35,35,False,1840,1840,1.0,FRC7,0.0,-4.85
+9,"Gomti Nagar, Lucknow, Uttar Pradesh",26.8513093,81.0124214,LOW,1.0,0.0,57,57,False,528,528,1.0,FRC1,0.0,10.15
+9,"Vijay Nagar, Indore, Madhya Pradesh",22.7630269,75.8804978,LOW,1.0,0.0,32,32,False,225,225,1.0,FRC4,0.0,0.15
+9,"Sector 17, Chandigarh",30.7425426,76.7859351,LOW,0.84,15.79,32,38,False,1004,846,1.0,FRC3,18.68,22.48
+9,"MI Road, Jaipur, Rajasthan",26.9171019,75.7992711,LOW,1.0,0.0,24,24,False,40,40,1.0,FRC2,0.0,10.15
+9,"Station Road, Surat, Gujarat",21.1984585,72.8351411,CLOSED,0.87,13.33,13,15,True,889,770,0.773648,FRC3,15.45,35.42
+9,"Frazer Town, Bangalore, Karnataka",13.0022108,77.621035,LOW,0.81,18.52,22,27,False,802,654,1.0,FRC6,22.63,9.94
+9,"Begumpet, Hyderabad, Telangana",17.4449415,78.4571867,MODERATE,0.67,33.33,24,36,False,720,480,1.0,FRC1,50.0,40.93
+9,"Powai, Mumbai, Maharashtra",19.1238155,72.9126101,MODERATE,0.8,20.0,24,30,False,1818,1455,1.0,FRC3,24.95,26.35
+9,"Andheri West, Mumbai, Maharashtra",19.1340729,72.8303618,LOW,1.0,0.0,18,18,False,263,263,1.0,FRC4,0.0,0.15
+9,"Worli, Mumbai, Maharashtra",19.001465,72.8160656,LOW,0.8,20.0,24,30,False,263,210,1.0,FRC4,25.24,16.48
+9,"Bandra West, Mumbai, Maharashtra",19.0588335,72.8346685,LOW,1.0,0.0,17,17,False,83,83,1.0,FRC4,0.0,0.15
+9,"Lower Parel, Mumbai, Maharashtra",18.9962663,72.8268788,CLOSED,0.86,14.29,30,35,True,894,766,0.971108,FRC4,16.71,26.22
+9,"Vashi, Navi Mumbai, Maharashtra",19.0761766,73.0020679,LOW,1.0,0.0,21,21,False,581,581,1.0,FRC4,0.0,0.15
+9,"Thane West, Thane, Maharashtra",19.276338,72.9590781,MODERATE,0.76,23.53,26,34,False,2009,1536,1.0,FRC1,30.79,29.85
+9,"Kothrud, Pune, Maharashtra",18.5010542,73.8116455,LOW,1.0,0.0,21,21,False,262,262,1.0,FRC4,0.0,0.15
+9,"Viman Nagar, Pune, Maharashtra",18.5411985,73.8024415,LOW,1.0,0.0,21,21,False,325,325,1.0,FRC4,0.0,0.15
+9,"Wakad, Pune, Maharashtra",18.5963419,73.7718897,LOW,0.79,20.83,19,24,False,408,323,0.995325,FRC4,26.32,17.17
+9,"Hinjewadi, Pune, Maharashtra",18.5979574,73.700786,LOW,1.0,0.0,34,34,False,2140,2140,1.0,FRC3,0.0,10.15
+9,"Whitefield, Bangalore, Karnataka",12.9943542,77.7585209,MODERATE,0.78,21.88,25,32,False,2309,1804,0.999614,FRC2,27.99,28.18
+9,"Electronic City, Bangalore, Karnataka",12.8478071,77.6631929,LOW,1.0,0.0,27,27,False,1466,1466,1.0,FRC6,0.0,-4.85
+9,"Marathahalli, Bangalore, Karnataka",12.9545264,77.7027027,MODERATE,0.68,32.0,17,25,False,1276,868,0.999416,FRC2,47.0,39.25
+9,"HSR Layout, Bangalore, Karnataka",12.9165423,77.6519551,LOW,1.0,0.0,48,48,False,59,59,1.0,FRC1,0.0,10.15
+9,"New Town, Kolkata, West Bengal",22.4761739,88.3478394,LOW,0.89,10.53,17,19,False,350,313,0.877036,FRC4,11.82,8.09
+9,"Howrah, West Bengal",22.5944824,88.265686,LOW,1.0,0.0,34,34,False,1109,1109,1.0,FRC1,0.0,10.15
+9,"Rajarhat, Kolkata, West Bengal",22.5655734,88.3702152,LOW,0.83,17.39,19,23,False,823,680,0.989328,FRC4,21.03,13.93
+9,"Ballygunge, Kolkata, West Bengal",22.5279746,88.3629966,LOW,0.8,20.0,24,30,False,161,129,0.99,FRC4,24.81,16.28
+9,"Vaishali Nagar, Jaipur, Rajasthan",26.9060132,75.7407346,LOW,1.0,0.0,26,26,False,338,338,1.0,FRC4,0.0,0.15
+9,"Malviya Nagar, Jaipur, Rajasthan",26.8554493,75.8203746,LOW,1.0,0.0,35,35,False,222,222,1.0,FRC2,0.0,10.15
+9,"C Scheme, Jaipur, Rajasthan",26.9842393,75.761852,LOW,1.0,0.0,67,67,False,688,688,1.0,FRC1,0.0,10.15
+9,"Satellite, Ahmedabad, Gujarat",23.0251898,72.5246919,LOW,1.0,0.0,32,32,False,786,786,1.0,FRC2,0.0,10.15
+9,"Bodakdev, Ahmedabad, Gujarat",23.0443645,72.517923,LOW,1.0,0.0,28,28,False,602,602,1.0,FRC3,0.0,10.15
+9,"Navrangpura, Ahmedabad, Gujarat",23.0374547,72.5639835,CLOSED,0.85,15.38,22,26,True,1683,1424,0.976685,FRC2,18.19,37.16
+9,"Maninagar, Ahmedabad, Gujarat",22.9832788,72.6140353,LOW,1.0,0.0,25,25,False,510,510,1.0,FRC4,0.0,0.15
+9,"Paldi, Ahmedabad, Gujarat",23.0129278,72.5557872,LOW,0.85,15.38,22,26,False,2083,1762,0.992096,FRC6,18.22,7.17
+9,"Ernakulam, Kochi, Kerala",9.7511807,76.318561,LOW,0.85,15.0,34,40,False,2216,1883,0.980269,FRC1,17.68,21.84
+9,"Kakkanad, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+9,"Edappally, Kochi, Kerala",10.0566394,76.291473,MODERATE,0.8,20.0,24,30,False,693,554,1.0,FRC1,25.09,26.41
+9,"Palarivattom, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+9,"Kadavanthra, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+9,"Thiruvananthapuram City, Kerala",8.4946496,76.9449992,MODERATE,0.62,37.5,20,32,False,1102,688,1.0,FRC1,60.17,46.55
+9,"Kozhikode City, Kerala",11.2341272,75.795501,MODERATE,0.78,21.95,32,41,False,1712,1336,0.96435,FRC1,28.14,28.27
+9,"Thrissur City, Kerala",10.5239038,76.2122541,MODERATE,0.79,21.21,26,33,False,642,506,0.988094,FRC3,26.88,27.52
+9,"Kottayam Town, Kerala",9.591754,76.5319074,LOW,1.0,0.0,32,32,False,133,133,1.0,FRC1,0.0,10.15
+9,"Vijayawada City, Andhra Pradesh",16.5003355,80.6447439,LOW,1.0,0.0,32,32,False,470,470,1.0,FRC1,0.0,10.15
+9,"Visakhapatnam City, Andhra Pradesh",17.710186,83.1769123,LOW,0.86,14.29,36,42,False,1858,1593,1.0,FRC2,16.64,21.19
+9,"Guntur City, Andhra Pradesh",16.498447,80.6439998,LOW,1.0,0.0,62,62,False,956,956,1.0,FRC1,0.0,10.15
+9,"Tirupati, Andhra Pradesh",13.6287278,79.4190701,LOW,1.0,0.0,33,33,False,2178,2178,1.0,FRC4,0.0,0.15
+9,"Mangalore City, Karnataka",12.9070024,74.8803527,LOW,0.83,17.07,34,41,False,2533,2100,0.923519,FRC2,20.62,23.67
+9,"Hubli City, Karnataka",15.3862196,75.082741,LOW,1.0,0.0,40,40,False,1286,1286,1.0,FRC3,0.0,10.15
+9,"Mysore City, Karnataka",12.3136462,76.6171643,MODERATE,0.76,23.68,29,38,False,783,598,0.989696,FRC3,30.94,29.96
+9,"Coimbatore City, Tamil Nadu",11.0804508,76.8366161,LOW,1.0,0.0,48,48,False,1520,1520,1.0,FRC3,0.0,10.15
+9,"Madurai City, Tamil Nadu",9.7427816,77.7953645,LOW,1.0,0.0,49,49,False,842,842,1.0,FRC2,0.0,10.15
+9,"Tiruchirappalli, Tamil Nadu",10.8008235,78.6899185,LOW,1.0,0.0,28,28,False,9,9,1.0,FRC2,0.0,10.15
+9,"Varanasi City, Uttar Pradesh",25.3096924,83.0056763,LOW,1.0,0.0,25,25,False,713,713,1.0,FRC4,0.0,0.15
+9,"Noida Sector 18, Uttar Pradesh",28.5705225,77.3261967,MODERATE,0.77,22.58,24,31,False,1478,1144,0.996623,FRC2,29.2,28.9
+9,"Greater Noida, Uttar Pradesh",28.4477179,77.524566,LOW,1.0,0.0,38,38,False,2047,2047,1.0,FRC4,0.0,0.15
+9,"Gurgaon Cyber City, Haryana",28.4798011,77.0813162,LOW,1.0,0.0,37,37,False,1488,1488,1.0,FRC2,0.0,10.15
+9,"Faridabad City, Haryana",28.4841588,77.3257282,LOW,1.0,0.0,17,17,False,1917,1917,1.0,FRC4,0.0,0.15
+9,"Dehradun City, Uttarakhand",30.118491,78.294956,LOW,0.85,14.71,29,34,False,311,265,0.906782,FRC1,17.36,21.62
+9,"Haridwar City, Uttarakhand",30.0604135,78.2894862,LOW,1.0,0.0,48,48,False,1643,1643,1.0,FRC4,0.0,0.15
+9,"Amritsar City, Punjab",31.6587342,74.841167,LOW,1.0,0.0,68,68,False,437,437,1.0,FRC1,0.0,10.15
+9,"South Extension, New Delhi",28.5694154,77.2209031,LOW,1.0,0.0,44,44,False,356,356,1.0,FRC1,0.0,10.15
+9,"Hauz Khas, New Delhi",28.5526463,77.2017518,LOW,1.0,0.0,31,31,False,779,779,1.0,FRC7,0.0,-4.85
+9,"Lajpat Nagar, New Delhi",28.5731147,77.2462327,LOW,0.83,16.67,35,42,False,1302,1085,1.0,FRC3,20.0,23.29
+9,"Saket, New Delhi",28.5257049,77.2143917,LOW,1.0,0.0,26,26,False,179,179,1.0,FRC4,0.0,0.15
+9,"Dwarka Sector 12, New Delhi",28.5969098,77.0419895,LOW,1.0,0.0,31,31,False,699,699,1.0,FRC4,0.0,0.15
+9,"Gurgaon MG Road, Haryana",28.4798011,77.0813162,LOW,1.0,0.0,37,37,False,1488,1488,1.0,FRC2,0.0,10.15
+9,"Golf Course Road, Gurgaon, Haryana",28.4626859,77.117071,LOW,0.87,12.73,48,55,False,1669,1456,1.0,FRC3,14.63,19.9
+9,"Udyog Vihar, Gurgaon, Haryana",28.5048124,77.0695199,LOW,0.78,22.22,21,27,False,1728,1344,1.0,FRC4,28.57,18.53
+9,"Sohna Road, Gurgaon, Haryana",28.4198873,77.1533811,LOW,0.87,12.73,48,55,False,1669,1456,1.0,FRC3,14.63,19.9
+9,"Noida Sector 62, Uttar Pradesh",28.626626,77.3654727,MODERATE,0.71,28.57,25,35,False,604,431,0.99556,FRC4,40.14,25.31
+9,"Noida Sector 76, Uttar Pradesh",28.568967,77.3852713,LOW,1.0,0.0,33,33,False,434,434,1.0,FRC4,0.0,0.15
+9,"Colaba, Mumbai, Maharashtra",18.9249319,72.8300808,LOW,0.83,17.39,19,23,False,228,188,1.0,FRC1,21.28,24.05
+9,"Fort, Mumbai, Maharashtra",18.9459596,72.8337847,SEVERE,0.43,56.52,10,23,False,151,66,0.95,FRC3,128.79,82.15
+9,"Borivali West, Mumbai, Maharashtra",19.2297,72.852173,LOW,1.0,0.0,20,20,False,289,289,1.0,FRC3,0.0,10.15
+9,"Kandivali East, Mumbai, Maharashtra",19.1913449,72.8740971,LOW,1.0,0.0,17,17,False,203,203,1.0,FRC4,0.0,0.15
+9,"Chembur, Mumbai, Maharashtra",19.0487802,72.90587,LOW,1.0,0.0,33,33,False,735,735,1.0,FRC2,0.0,10.15
+9,"Dadar, Mumbai, Maharashtra",19.0177484,72.8358202,MODERATE,0.75,25.0,18,24,False,2682,2012,0.996259,FRC2,33.3,31.35
+9,"Nerul, Navi Mumbai, Maharashtra",19.020485,73.0035976,LOW,1.0,0.0,41,41,False,1264,1264,1.0,FRC2,0.0,10.15
+9,"Kharghar, Navi Mumbai, Maharashtra",19.0334,73.018997,LOW,1.0,0.0,26,26,False,272,272,1.0,FRC4,0.0,0.15
+9,"Ulhasnagar, Thane, Maharashtra",19.2228117,73.1584637,LOW,1.0,0.0,14,14,False,396,396,1.0,FRC4,0.0,0.15
+9,"Dombivli East, Thane, Maharashtra",19.2157323,73.1031728,LOW,1.0,0.0,31,31,False,269,269,1.0,FRC4,0.0,0.15
+9,"Thoraipakkam, Chennai, Tamil Nadu",12.9192758,80.208965,LOW,1.0,0.0,25,25,False,714,714,1.0,FRC4,0.0,0.15
+9,"Sholinganallur, Chennai, Tamil Nadu",12.9001173,80.2239691,LOW,1.0,0.0,27,27,False,889,889,1.0,FRC4,0.0,0.15
+9,"Baner, Pune, Maharashtra",18.5642156,73.7871973,LOW,1.0,0.0,26,26,False,1884,1884,1.0,FRC4,0.0,0.15
+9,"Aundh, Pune, Maharashtra",18.558127,73.8072801,LOW,1.0,0.0,30,30,False,143,143,1.0,FRC4,0.0,0.15
+9,"Hadapsar, Pune, Maharashtra",18.499079,73.9341695,LOW,0.79,20.83,19,24,False,987,781,0.952999,FRC4,26.38,17.2
+9,"Bibwewadi, Pune, Maharashtra",18.4662107,73.8627802,LOW,1.0,0.0,24,24,False,318,318,1.0,FRC2,0.0,10.15
+9,"Swargate, Pune, Maharashtra",18.4990216,73.8590652,MODERATE,0.75,25.0,21,28,False,1020,765,1.0,FRC2,33.33,31.36
+9,"Meerut City, Uttar Pradesh",28.9498578,77.6419455,LOW,1.0,0.0,53,53,False,1349,1349,1.0,FRC2,0.0,10.15
+9,"Aligarh City, Uttar Pradesh",27.8898926,78.0745239,LOW,1.0,0.0,24,24,False,314,314,1.0,FRC4,0.0,0.15
+9,"Jhansi City, Uttar Pradesh",25.4487305,78.5701294,LOW,1.0,0.0,38,38,False,1452,1452,1.0,FRC3,0.0,10.15
+9,"Moradabad City, Uttar Pradesh",28.8331428,78.7652781,MODERATE,0.78,22.22,28,36,False,1030,801,0.944592,FRC3,28.59,28.54
+9,"Mathura City, Uttar Pradesh",27.4849744,77.685131,LOW,1.0,0.0,36,36,False,124,124,1.0,FRC1,0.0,10.15
+9,"Udaipur City, Rajasthan",24.5873872,73.6915427,LOW,1.0,0.0,24,24,False,260,260,1.0,FRC4,0.0,0.15
+9,"Kota City, Rajasthan",25.2109082,75.8213499,LOW,1.0,0.0,54,54,False,189,189,1.0,FRC3,0.0,10.15
+9,"Jodhpur City, Rajasthan",26.381001,73.5467,LOW,1.0,0.0,53,53,False,1550,1550,1.0,FRC4,0.0,0.15
+9,"Ajmer City, Rajasthan",26.5855952,74.8609106,LOW,1.0,0.0,30,30,False,669,669,1.0,FRC6,0.0,-4.85
+9,"Bikaner City, Rajasthan",28.0134638,73.2972264,LOW,1.0,0.0,61,61,False,772,772,1.0,FRC1,0.0,10.15
+9,"Bhopal City, Madhya Pradesh",23.177649,77.454497,LOW,1.0,0.0,43,43,False,1564,1564,1.0,FRC1,0.0,10.15
+9,"Rajkot City, Gujarat",22.3003793,70.8086015,CLOSED,0.89,10.81,33,37,True,1459,1301,0.922213,FRC2,12.14,33.3
+9,"Bhavnagar City, Gujarat",21.7727986,72.1548699,LOW,1.0,0.0,32,32,False,901,901,1.0,FRC4,0.0,0.15
+9,"Jamnagar City, Gujarat",22.432788,70.0559897,LOW,1.0,0.0,28,28,False,803,803,1.0,FRC2,0.0,10.15
+9,"Gandhinagar City, Gujarat",23.0704348,72.5243009,LOW,1.0,0.0,28,28,False,40,40,1.0,FRC4,0.0,0.15
+9,"Asansol City, West Bengal",23.6930343,86.9531088,LOW,1.0,0.0,32,32,False,2410,2410,1.0,FRC2,0.0,10.15
+9,"Siliguri City, West Bengal",26.7096309,88.4286167,LOW,1.0,0.0,23,23,False,168,168,1.0,FRC4,0.0,0.15
+9,"Durgapur City, West Bengal",23.5292384,87.351587,LOW,1.0,0.0,37,37,False,974,974,1.0,FRC4,0.0,0.15
+9,"Alappuzha Town, Kerala",9.2595192,76.5437808,MODERATE,0.78,22.22,35,45,False,2053,1597,0.883526,FRC3,28.55,28.52
+9,"Kollam City, Kerala",8.8869046,76.5904652,MODERATE,0.72,28.21,28,39,False,1538,1104,0.872252,FRC1,39.31,34.85
+9,"Kannur City, Kerala",11.8719881,75.379077,MODERATE,0.78,22.22,35,45,False,1051,817,0.938306,FRC1,28.64,28.56
+9,"Palakkad City, Kerala",10.8001,76.639099,MODERATE,0.63,36.59,26,41,False,795,504,0.98954,FRC1,57.74,45.22
+9,"Warangal City, Telangana",17.9745069,79.6113623,LOW,0.85,14.58,41,48,False,1042,890,0.936706,FRC3,17.08,21.46
+9,"Karimnagar City, Telangana",18.458233,79.136705,LOW,1.0,0.0,43,43,False,1154,1154,1.0,FRC2,0.0,10.15
+9,"Nellore City, Andhra Pradesh",14.413352,79.962271,LOW,0.75,25.0,21,28,False,1146,859,0.951501,FRC5,33.41,21.4
+9,"Rajahmundry City, Andhra Pradesh",17.0376947,81.7778132,LOW,1.0,0.0,35,35,False,2107,2107,1.0,FRC4,0.0,0.15
+9,"Kakinada City, Andhra Pradesh",16.9673975,82.2333385,LOW,1.0,0.0,35,35,False,321,321,1.0,FRC1,0.0,10.15
+9,"Belgaum City, Karnataka",15.8771478,74.5171905,LOW,1.0,0.0,28,28,False,104,104,1.0,FRC4,0.0,0.15
+9,"Gulbarga City, Karnataka",17.33965,76.8371479,LOW,1.0,0.0,35,35,False,980,980,1.0,FRC2,0.0,10.15
+9,"Davangere City, Karnataka",14.3682977,75.9527929,LOW,1.0,0.0,37,37,False,2330,2330,1.0,FRC4,0.0,0.15
+9,"Bellary City, Karnataka",15.1388817,76.9768644,LOW,1.0,0.0,38,38,False,1836,1836,1.0,FRC2,0.0,10.15
+9,"Ludhiana City, Punjab",30.8519434,75.8598782,MODERATE,0.72,28.3,38,53,False,947,679,0.997536,FRC2,39.47,34.94
+9,"Jalandhar City, Punjab",31.3478513,75.6032045,LOW,1.0,0.0,32,32,False,842,842,1.0,FRC2,0.0,10.15
+9,"Bathinda City, Punjab",30.2129218,74.9331732,MODERATE,0.79,21.05,30,38,False,381,301,0.990909,FRC1,26.58,27.34
+9,"Hisar City, Haryana",28.8994857,76.5532936,MODERATE,0.73,26.83,30,41,False,243,178,0.96,FRC3,36.52,33.25
+9,"Karnal City, Haryana",29.6531038,77.0078492,LOW,1.0,0.0,63,63,False,1166,1166,1.0,FRC3,0.0,10.15
+9,"Panipat City, Haryana",29.4283503,76.9533079,LOW,1.0,0.0,30,30,False,621,621,1.0,FRC4,0.0,0.15
+9,"Berhampur City, Odisha",20.4032641,86.2026906,LOW,1.0,0.0,41,41,False,2182,2182,1.0,FRC4,0.0,0.15
+9,"Koraput City, Odisha",18.8131994,82.7126008,LOW,0.89,11.11,40,45,False,2172,1931,0.585421,FRC1,12.48,18.53
+9,"Sambalpur City, Odisha",21.4594222,83.9743315,LOW,1.0,0.0,38,38,False,1263,1263,1.0,FRC2,0.0,10.15
+9,"Gaya City, Bihar",24.7924837,85.0077092,MODERATE,0.78,22.5,31,40,False,2142,1660,0.705545,FRC2,29.04,28.81
+9,"Muzaffarpur City, Bihar",26.1227209,85.3786314,LOW,1.0,0.0,21,21,False,203,203,1.0,FRC2,0.0,10.15
+9,"Dhanbad City, Jharkhand",23.7940427,86.4261706,LOW,1.0,0.0,17,17,False,141,141,1.0,FRC2,0.0,10.15
+9,"Jamshedpur City, Jharkhand",22.843639,86.212528,LOW,1.0,0.0,58,58,False,1415,1415,1.0,FRC1,0.0,10.15
+9,"Shillong City, Meghalaya",25.5762291,91.8828636,LOW,1.0,0.0,11,11,False,325,325,1.0,FRC4,0.0,0.15
+9,"Imphal City, Manipur",24.8021535,93.938618,LOW,0.86,14.29,42,49,False,1996,1711,0.910337,FRC2,16.66,21.2
+9,"Aizawl City, Mizoram",23.7243713,92.7186455,MODERATE,0.62,37.5,15,24,False,630,394,0.780792,FRC2,59.9,46.42
+9,"Kohima City, Nagaland",25.6749234,94.1105241,MODERATE,0.81,19.05,17,21,False,747,604,0.552912,FRC2,23.68,25.54
+9,"Agartala City, Tripura",23.8338203,91.2824216,LOW,1.0,0.0,20,20,False,216,216,1.0,FRC4,0.0,0.15
+10,"Mumbai Central, Mumbai, Maharashtra",18.9770366,72.826266,MODERATE,0.61,39.13,14,23,False,1146,697,0.988527,FRC4,64.42,38.86
+10,"CG Road, Ahmedabad, Gujarat",23.1083596,72.5869112,LOW,1.0,0.0,28,28,False,274,274,1.0,FRC4,0.0,0.15
+10,"MG Road, Kochi, Kerala",10.5160332,76.2538456,LOW,1.0,0.0,61,61,False,1066,1066,1.0,FRC1,0.0,10.15
+10,"Banjara Hills, Hyderabad, Telangana",17.4091038,78.4394666,LOW,1.0,0.0,33,33,False,898,898,1.0,FRC4,0.0,0.15
+10,"Vastrapur, Ahmedabad, Gujarat",23.0350831,72.5276438,LOW,1.0,0.0,23,23,False,115,115,1.0,FRC4,0.0,0.15
+10,"Koregaon Park, Pune, Maharashtra",18.5420451,73.8881809,LOW,0.83,16.67,25,30,False,981,817,1.0,FRC4,20.07,13.32
+10,"Indiranagar, Bangalore, Karnataka",12.9719015,77.6367928,MODERATE,0.75,25.0,21,28,False,1380,1035,1.0,FRC2,33.33,31.36
+10,"Jubilee Hills, Hyderabad, Telangana",17.4333041,78.4013942,LOW,1.0,0.0,45,45,False,229,229,1.0,FRC4,0.0,0.15
+10,"T Nagar, Chennai, Tamil Nadu",12.9605278,80.2083254,MODERATE,0.77,22.58,24,31,False,710,549,1.0,FRC2,29.33,28.96
+10,"Salt Lake, Kolkata, West Bengal",22.5580861,88.412438,LOW,0.89,10.53,34,38,False,1706,1527,1.0,FRC2,11.72,18.04
+10,"Civil Lines, Jaipur, Rajasthan",26.9069197,75.7830344,MODERATE,0.78,22.22,28,36,False,961,748,0.999067,FRC2,28.48,28.49
+10,"Aliganj, Lucknow, Uttar Pradesh",26.890281,80.9495987,LOW,0.77,22.86,27,35,False,2385,1840,0.990202,FRC7,29.62,14.16
+10,"Gomti Nagar, Lucknow, Uttar Pradesh",26.8513093,81.0124214,LOW,1.0,0.0,57,57,False,528,528,1.0,FRC1,0.0,10.15
+10,"Vijay Nagar, Indore, Madhya Pradesh",22.7630269,75.8804978,LOW,1.0,0.0,32,32,False,225,225,1.0,FRC4,0.0,0.15
+10,"Sector 17, Chandigarh",30.7425426,76.7859351,LOW,0.84,16.22,31,37,False,1037,868,1.0,FRC3,19.47,22.94
+10,"MI Road, Jaipur, Rajasthan",26.9171019,75.7992711,LOW,1.0,0.0,24,24,False,40,40,1.0,FRC2,0.0,10.15
+10,"Station Road, Surat, Gujarat",21.1984585,72.8351411,CLOSED,0.87,13.33,13,15,True,889,770,0.788309,FRC3,15.45,35.42
+10,"Frazer Town, Bangalore, Karnataka",13.0022108,77.621035,LOW,0.75,25.0,21,28,False,841,630,0.99669,FRC6,33.49,16.43
+10,"Begumpet, Hyderabad, Telangana",17.4449415,78.4571867,HEAVY,0.5,50.0,19,38,False,909,454,1.0,FRC1,100.22,67.67
+10,"Powai, Mumbai, Maharashtra",19.1238155,72.9126101,MODERATE,0.8,20.0,24,30,False,1818,1455,1.0,FRC3,24.95,26.35
+10,"Andheri West, Mumbai, Maharashtra",19.1340729,72.8303618,LOW,0.83,16.67,15,18,False,315,263,0.990715,FRC4,19.77,13.19
+10,"Worli, Mumbai, Maharashtra",19.001465,72.8160656,LOW,0.81,18.75,26,32,False,242,197,1.0,FRC4,22.84,15.09
+10,"Bandra West, Mumbai, Maharashtra",19.0588335,72.8346685,LOW,1.0,0.0,17,17,False,83,83,1.0,FRC4,0.0,0.15
+10,"Lower Parel, Mumbai, Maharashtra",18.9962663,72.8268788,CLOSED,0.8,20.0,28,35,True,958,766,0.971108,FRC4,25.07,31.4
+10,"Vashi, Navi Mumbai, Maharashtra",19.0761766,73.0020679,LOW,1.0,0.0,21,21,False,581,581,1.0,FRC4,0.0,0.15
+10,"Thane West, Thane, Maharashtra",19.276338,72.9590781,MODERATE,0.73,27.27,24,33,False,2177,1583,1.0,FRC1,37.52,33.81
+10,"Kothrud, Pune, Maharashtra",18.5010542,73.8116455,LOW,1.0,0.0,21,21,False,262,262,1.0,FRC4,0.0,0.15
+10,"Viman Nagar, Pune, Maharashtra",18.5411985,73.8024415,LOW,1.0,0.0,21,21,False,325,325,1.0,FRC4,0.0,0.15
+10,"Wakad, Pune, Maharashtra",18.5963419,73.7718897,LOW,1.0,0.0,24,24,False,323,323,1.0,FRC4,0.0,0.15
+10,"Hinjewadi, Pune, Maharashtra",18.5979574,73.700786,LOW,1.0,0.0,34,34,False,2140,2140,1.0,FRC3,0.0,10.15
+10,"Whitefield, Bangalore, Karnataka",12.9943542,77.7585209,MODERATE,0.76,24.24,25,33,False,2309,1749,1.0,FRC2,32.02,30.58
+10,"Electronic City, Bangalore, Karnataka",12.8478071,77.6631929,LOW,1.0,0.0,27,27,False,1466,1466,1.0,FRC6,0.0,-4.85
+10,"Marathahalli, Bangalore, Karnataka",12.9545264,77.7027027,MODERATE,0.65,34.62,17,26,False,1276,834,1.0,FRC2,53.0,42.6
+10,"HSR Layout, Bangalore, Karnataka",12.9165423,77.6519551,LOW,1.0,0.0,48,48,False,59,59,1.0,FRC1,0.0,10.15
+10,"New Town, Kolkata, West Bengal",22.4761739,88.3478394,LOW,1.0,0.0,20,20,False,297,297,1.0,FRC4,0.0,0.15
+10,"Howrah, West Bengal",22.5944824,88.265686,LOW,0.89,11.43,31,35,False,1216,1077,1.0,FRC1,12.91,18.8
+10,"Rajarhat, Kolkata, West Bengal",22.5655734,88.3702152,MODERATE,0.71,29.17,17,24,False,920,652,0.992367,FRC4,41.1,25.89
+10,"Ballygunge, Kolkata, West Bengal",22.5279746,88.3629966,MODERATE,0.67,33.33,20,30,False,194,129,0.996571,FRC4,50.39,31.11
+10,"Vaishali Nagar, Jaipur, Rajasthan",26.9060132,75.7407346,LOW,1.0,0.0,26,26,False,338,338,1.0,FRC4,0.0,0.15
+10,"Malviya Nagar, Jaipur, Rajasthan",26.8554493,75.8203746,LOW,0.88,11.76,30,34,False,259,229,1.0,FRC2,13.1,18.97
+10,"C Scheme, Jaipur, Rajasthan",26.9842393,75.761852,LOW,1.0,0.0,67,67,False,688,688,1.0,FRC1,0.0,10.15
+10,"Satellite, Ahmedabad, Gujarat",23.0251898,72.5246919,MODERATE,0.77,22.58,24,31,False,1048,811,1.0,FRC2,29.22,28.91
+10,"Bodakdev, Ahmedabad, Gujarat",23.0443645,72.517923,LOW,0.86,14.29,24,28,False,702,602,1.0,FRC3,16.61,21.18
+10,"Navrangpura, Ahmedabad, Gujarat",23.0374547,72.5639835,CLOSED,0.77,23.08,20,26,True,1851,1424,0.979076,FRC2,29.99,44.38
+10,"Maninagar, Ahmedabad, Gujarat",22.9832788,72.6140353,LOW,1.0,0.0,25,25,False,510,510,1.0,FRC4,0.0,0.15
+10,"Paldi, Ahmedabad, Gujarat",23.0129278,72.5557872,LOW,0.77,23.08,20,26,False,2291,1762,0.998806,FRC6,30.02,14.39
+10,"Ernakulam, Kochi, Kerala",9.7511807,76.318561,LOW,0.85,15.0,34,40,False,2216,1883,0.978759,FRC1,17.68,21.84
+10,"Kakkanad, Kochi, Kerala",9.9576168,76.2511512,LOW,0.82,18.18,18,22,False,286,234,0.930147,FRC4,22.22,14.67
+10,"Edappally, Kochi, Kerala",10.0566394,76.291473,LOW,1.0,0.0,31,31,False,536,536,1.0,FRC1,0.0,10.15
+10,"Palarivattom, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+10,"Kadavanthra, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+10,"Thiruvananthapuram City, Kerala",8.4946496,76.9449992,HEAVY,0.56,43.75,18,32,False,1224,688,1.0,FRC1,77.91,56.08
+10,"Kozhikode City, Kerala",11.2341272,75.795501,MODERATE,0.71,29.27,29,41,False,1889,1336,0.985458,FRC1,41.39,36.05
+10,"Thrissur City, Kerala",10.5239038,76.2122541,MODERATE,0.7,30.3,23,33,False,726,506,0.991186,FRC3,43.48,37.25
+10,"Kottayam Town, Kerala",9.591754,76.5319074,MODERATE,0.66,34.38,21,32,False,203,133,0.8771,FRC1,52.63,42.38
+10,"Vijayawada City, Andhra Pradesh",16.5003355,80.6447439,LOW,1.0,0.0,32,32,False,470,470,1.0,FRC1,0.0,10.15
+10,"Visakhapatnam City, Andhra Pradesh",17.710186,83.1769123,MODERATE,0.79,21.43,33,42,False,2027,1593,1.0,FRC2,27.24,27.73
+10,"Guntur City, Andhra Pradesh",16.498447,80.6439998,LOW,1.0,0.0,62,62,False,956,956,1.0,FRC1,0.0,10.15
+10,"Tirupati, Andhra Pradesh",13.6287278,79.4190701,LOW,0.91,9.09,30,33,False,2396,2178,0.836532,FRC4,10.01,6.91
+10,"Mangalore City, Karnataka",12.9070024,74.8803527,LOW,1.0,0.0,42,42,False,2050,2050,1.0,FRC2,0.0,10.15
+10,"Hubli City, Karnataka",15.3862196,75.082741,LOW,1.0,0.0,40,40,False,1286,1286,1.0,FRC3,0.0,10.15
+10,"Mysore City, Karnataka",12.3136462,76.6171643,MODERATE,0.7,29.73,26,37,False,874,614,0.993778,FRC3,42.35,36.59
+10,"Coimbatore City, Tamil Nadu",11.0804508,76.8366161,LOW,1.0,0.0,48,48,False,1520,1520,1.0,FRC3,0.0,10.15
+10,"Madurai City, Tamil Nadu",9.7427816,77.7953645,LOW,1.0,0.0,49,49,False,842,842,1.0,FRC2,0.0,10.15
+10,"Tiruchirappalli, Tamil Nadu",10.8008235,78.6899185,MODERATE,0.79,21.43,22,28,False,12,9,0.97,FRC2,33.33,30.47
+10,"Varanasi City, Uttar Pradesh",25.3096924,83.0056763,LOW,0.73,26.92,19,26,False,939,686,0.941982,FRC4,36.88,23.44
+10,"Noida Sector 18, Uttar Pradesh",28.5705225,77.3261967,MODERATE,0.77,22.58,24,31,False,1478,1144,1.0,FRC2,29.2,28.9
+10,"Greater Noida, Uttar Pradesh",28.4477179,77.524566,LOW,1.0,0.0,38,38,False,2047,2047,1.0,FRC4,0.0,0.15
+10,"Gurgaon Cyber City, Haryana",28.4798011,77.0813162,LOW,0.84,16.22,31,37,False,1776,1488,1.0,FRC2,19.35,22.89
+10,"Faridabad City, Haryana",28.4841588,77.3257282,LOW,1.0,0.0,17,17,False,1917,1917,1.0,FRC4,0.0,0.15
+10,"Dehradun City, Uttarakhand",30.118491,78.294956,LOW,1.0,0.0,35,35,False,258,258,1.0,FRC1,0.0,10.15
+10,"Haridwar City, Uttarakhand",30.0604135,78.2894862,LOW,1.0,0.0,48,48,False,1643,1643,1.0,FRC4,0.0,0.15
+10,"Amritsar City, Punjab",31.6587342,74.841167,LOW,1.0,0.0,68,68,False,437,437,1.0,FRC1,0.0,10.15
+10,"South Extension, New Delhi",28.5694154,77.2209031,LOW,1.0,0.0,44,44,False,356,356,1.0,FRC1,0.0,10.15
+10,"Hauz Khas, New Delhi",28.5526463,77.2017518,LOW,0.73,27.27,24,33,False,1007,732,0.998647,FRC7,37.57,18.83
+10,"Lajpat Nagar, New Delhi",28.5731147,77.2462327,MODERATE,0.65,34.88,28,43,False,1628,1060,1.0,FRC3,53.58,42.93
+10,"Saket, New Delhi",28.5257049,77.2143917,MODERATE,0.62,38.46,16,26,False,292,179,1.0,FRC4,63.13,38.12
+10,"Dwarka Sector 12, New Delhi",28.5969098,77.0419895,LOW,1.0,0.0,31,31,False,699,699,1.0,FRC4,0.0,0.15
+10,"Gurgaon MG Road, Haryana",28.4798011,77.0813162,LOW,0.84,16.22,31,37,False,1776,1488,1.0,FRC2,19.35,22.89
+10,"Golf Course Road, Gurgaon, Haryana",28.4626859,77.117071,LOW,1.0,0.0,54,54,False,1483,1483,1.0,FRC3,0.0,10.15
+10,"Udyog Vihar, Gurgaon, Haryana",28.5048124,77.0695199,LOW,0.78,22.22,21,27,False,1728,1344,1.0,FRC4,28.57,18.53
+10,"Sohna Road, Gurgaon, Haryana",28.4198873,77.1533811,LOW,1.0,0.0,54,54,False,1483,1483,1.0,FRC3,0.0,10.15
+10,"Noida Sector 62, Uttar Pradesh",28.626626,77.3654727,LOW,0.75,25.0,27,36,False,559,419,1.0,FRC4,33.41,21.4
+10,"Noida Sector 76, Uttar Pradesh",28.568967,77.3852713,LOW,1.0,0.0,33,33,False,434,434,1.0,FRC4,0.0,0.15
+10,"Colaba, Mumbai, Maharashtra",18.9249319,72.8300808,LOW,1.0,0.0,24,24,False,180,180,1.0,FRC1,0.0,10.15
+10,"Fort, Mumbai, Maharashtra",18.9459596,72.8337847,LOW,1.0,0.0,23,23,False,66,66,1.0,FRC3,0.0,10.15
+10,"Borivali West, Mumbai, Maharashtra",19.2297,72.852173,LOW,1.0,0.0,20,20,False,289,289,1.0,FRC3,0.0,10.15
+10,"Kandivali East, Mumbai, Maharashtra",19.1913449,72.8740971,LOW,1.0,0.0,17,17,False,203,203,1.0,FRC4,0.0,0.15
+10,"Chembur, Mumbai, Maharashtra",19.0487802,72.90587,LOW,0.91,8.82,31,34,False,783,714,1.0,FRC2,9.66,16.69
+10,"Dadar, Mumbai, Maharashtra",19.0177484,72.8358202,MODERATE,0.74,26.09,17,23,False,2840,2099,0.998517,FRC2,35.3,32.52
+10,"Nerul, Navi Mumbai, Maharashtra",19.020485,73.0035976,LOW,1.0,0.0,41,41,False,1264,1264,1.0,FRC2,0.0,10.15
+10,"Kharghar, Navi Mumbai, Maharashtra",19.0334,73.018997,LOW,1.0,0.0,26,26,False,272,272,1.0,FRC4,0.0,0.15
+10,"Ulhasnagar, Thane, Maharashtra",19.2228117,73.1584637,LOW,1.0,0.0,14,14,False,396,396,1.0,FRC4,0.0,0.15
+10,"Dombivli East, Thane, Maharashtra",19.2157323,73.1031728,LOW,1.0,0.0,31,31,False,269,269,1.0,FRC4,0.0,0.15
+10,"Thoraipakkam, Chennai, Tamil Nadu",12.9192758,80.208965,LOW,1.0,0.0,25,25,False,714,714,1.0,FRC4,0.0,0.15
+10,"Sholinganallur, Chennai, Tamil Nadu",12.9001173,80.2239691,LOW,1.0,0.0,27,27,False,889,889,1.0,FRC4,0.0,0.15
+10,"Baner, Pune, Maharashtra",18.5642156,73.7871973,LOW,1.0,0.0,26,26,False,1884,1884,1.0,FRC4,0.0,0.15
+10,"Aundh, Pune, Maharashtra",18.558127,73.8072801,LOW,0.76,24.14,22,29,False,195,148,1.0,FRC4,31.76,20.44
+10,"Hadapsar, Pune, Maharashtra",18.499079,73.9341695,LOW,1.0,0.0,24,24,False,781,781,1.0,FRC4,0.0,0.15
+10,"Bibwewadi, Pune, Maharashtra",18.4662107,73.8627802,LOW,1.0,0.0,24,24,False,318,318,1.0,FRC2,0.0,10.15
+10,"Swargate, Pune, Maharashtra",18.4990216,73.8590652,LOW,0.86,13.79,25,29,False,856,738,1.0,FRC2,15.99,20.77
+10,"Meerut City, Uttar Pradesh",28.9498578,77.6419455,LOW,1.0,0.0,53,53,False,1349,1349,1.0,FRC2,0.0,10.15
+10,"Aligarh City, Uttar Pradesh",27.8898926,78.0745239,LOW,0.75,25.0,18,24,False,419,314,0.678589,FRC4,33.44,21.41
+10,"Jhansi City, Uttar Pradesh",25.4487305,78.5701294,MODERATE,0.74,26.32,28,38,False,1971,1452,0.907608,FRC3,35.74,32.77
+10,"Moradabad City, Uttar Pradesh",28.8331428,78.7652781,MODERATE,0.78,21.62,29,37,False,994,779,0.964366,FRC3,27.6,27.94
+10,"Mathura City, Uttar Pradesh",27.4849744,77.685131,LOW,1.0,0.0,36,36,False,124,124,1.0,FRC1,0.0,10.15
+10,"Udaipur City, Rajasthan",24.5873872,73.6915427,LOW,0.75,25.0,18,24,False,347,260,0.96088,FRC4,33.46,21.42
+10,"Kota City, Rajasthan",25.2109082,75.8213499,LOW,1.0,0.0,54,54,False,189,189,1.0,FRC3,0.0,10.15
+10,"Jodhpur City, Rajasthan",26.381001,73.5467,LOW,1.0,0.0,53,53,False,1550,1550,1.0,FRC4,0.0,0.15
+10,"Ajmer City, Rajasthan",26.5855952,74.8609106,LOW,0.83,17.24,24,29,False,836,692,0.793205,FRC6,20.81,8.8
+10,"Bikaner City, Rajasthan",28.0134638,73.2972264,LOW,0.85,14.52,53,62,False,888,759,0.792914,FRC1,17.0,21.41
+10,"Bhopal City, Madhya Pradesh",23.177649,77.454497,LOW,1.0,0.0,43,43,False,1564,1564,1.0,FRC1,0.0,10.15
+10,"Rajkot City, Gujarat",22.3003793,70.8086015,CLOSED,0.83,16.67,30,36,True,1605,1337,0.936779,FRC2,20.04,38.31
+10,"Bhavnagar City, Gujarat",21.7727986,72.1548699,LOW,1.0,0.0,32,32,False,901,901,1.0,FRC4,0.0,0.15
+10,"Jamnagar City, Gujarat",22.432788,70.0559897,LOW,1.0,0.0,28,28,False,803,803,1.0,FRC2,0.0,10.15
+10,"Gandhinagar City, Gujarat",23.0704348,72.5243009,LOW,1.0,0.0,28,28,False,40,40,1.0,FRC4,0.0,0.15
+10,"Asansol City, West Bengal",23.6930343,86.9531088,LOW,0.84,15.62,27,32,False,2857,2410,0.736627,FRC2,18.55,22.38
+10,"Siliguri City, West Bengal",26.7096309,88.4286167,MODERATE,0.61,39.13,14,23,False,277,168,0.6,FRC4,64.88,39.07
+10,"Durgapur City, West Bengal",23.5292384,87.351587,LOW,1.0,0.0,37,37,False,974,974,1.0,FRC4,0.0,0.15
+10,"Alappuzha Town, Kerala",9.2595192,76.5437808,MODERATE,0.76,24.44,34,45,False,2113,1597,0.837799,FRC3,32.31,30.76
+10,"Kollam City, Kerala",8.8869046,76.5904652,MODERATE,0.68,32.5,27,40,False,1595,1076,0.902175,FRC1,48.23,39.93
+10,"Kannur City, Kerala",11.8719881,75.379077,LOW,0.82,18.18,36,44,False,1022,836,0.978268,FRC1,22.25,24.68
+10,"Palakkad City, Kerala",10.8001,76.639099,MODERATE,0.62,38.1,26,42,False,795,492,0.98968,FRC1,61.59,47.33
+10,"Warangal City, Telangana",17.9745069,79.6113623,LOW,0.88,12.5,42,48,False,1017,890,0.945697,FRC3,14.27,19.68
+10,"Karimnagar City, Telangana",18.458233,79.136705,LOW,1.0,0.0,43,43,False,1154,1154,1.0,FRC2,0.0,10.15
+10,"Nellore City, Andhra Pradesh",14.413352,79.962271,LOW,1.0,0.0,28,28,False,859,859,1.0,FRC5,0.0,0.15
+10,"Rajahmundry City, Andhra Pradesh",17.0376947,81.7778132,LOW,1.0,0.0,35,35,False,2107,2107,1.0,FRC4,0.0,0.15
+10,"Kakinada City, Andhra Pradesh",16.9673975,82.2333385,MODERATE,0.59,41.18,20,34,False,562,331,0.73261,FRC1,69.79,51.79
+10,"Belgaum City, Karnataka",15.8771478,74.5171905,LOW,1.0,0.0,28,28,False,104,104,1.0,FRC4,0.0,0.15
+10,"Gulbarga City, Karnataka",17.33965,76.8371479,MODERATE,0.76,23.53,26,34,False,1319,1008,0.817998,FRC2,30.85,29.88
+10,"Davangere City, Karnataka",14.3682977,75.9527929,LOW,1.0,0.0,37,37,False,2330,2330,1.0,FRC4,0.0,0.15
+10,"Bellary City, Karnataka",15.1388817,76.9768644,LOW,1.0,0.0,38,38,False,1836,1836,1.0,FRC2,0.0,10.15
+10,"Ludhiana City, Punjab",30.8519434,75.8598782,MODERATE,0.72,28.3,38,53,False,947,679,1.0,FRC2,39.47,34.94
+10,"Jalandhar City, Punjab",31.3478513,75.6032045,LOW,0.85,15.15,28,33,False,962,816,0.85297,FRC2,17.89,21.97
+10,"Bathinda City, Punjab",30.2129218,74.9331732,MODERATE,0.74,26.32,28,38,False,408,301,0.988833,FRC1,35.55,32.69
+10,"Hisar City, Haryana",28.8994857,76.5532936,MODERATE,0.69,30.95,29,42,False,252,174,0.83,FRC3,44.83,38.01
+10,"Karnal City, Haryana",29.6531038,77.0078492,LOW,1.0,0.0,63,63,False,1166,1166,1.0,FRC3,0.0,10.15
+10,"Panipat City, Haryana",29.4283503,76.9533079,LOW,1.0,0.0,30,30,False,621,621,1.0,FRC4,0.0,0.15
+10,"Berhampur City, Odisha",20.4032641,86.2026906,LOW,1.0,0.0,41,41,False,2182,2182,1.0,FRC4,0.0,0.15
+10,"Koraput City, Odisha",18.8131994,82.7126008,LOW,1.0,0.0,45,45,False,1931,1931,1.0,FRC1,0.0,10.15
+10,"Sambalpur City, Odisha",21.4594222,83.9743315,LOW,1.0,0.0,38,38,False,1263,1263,1.0,FRC2,0.0,10.15
+10,"Gaya City, Bihar",24.7924837,85.0077092,MODERATE,0.78,21.95,32,41,False,2075,1620,0.755406,FRC2,28.09,28.24
+10,"Muzaffarpur City, Bihar",26.1227209,85.3786314,MODERATE,0.8,20.0,16,20,False,266,213,0.685054,FRC2,24.88,26.32
+10,"Dhanbad City, Jharkhand",23.7940427,86.4261706,LOW,1.0,0.0,17,17,False,141,141,1.0,FRC2,0.0,10.15
+10,"Jamshedpur City, Jharkhand",22.843639,86.212528,LOW,1.0,0.0,58,58,False,1415,1415,1.0,FRC1,0.0,10.15
+10,"Shillong City, Meghalaya",25.5762291,91.8828636,LOW,1.0,0.0,11,11,False,325,325,1.0,FRC4,0.0,0.15
+10,"Imphal City, Manipur",24.8021535,93.938618,LOW,0.82,18.37,40,49,False,2096,1711,0.913661,FRC2,22.5,24.84
+10,"Aizawl City, Mizoram",23.7243713,92.7186455,MODERATE,0.65,34.78,15,23,False,630,411,0.866869,FRC2,53.28,42.77
+10,"Kohima City, Nagaland",25.6749234,94.1105241,MODERATE,0.76,23.81,16,21,False,793,604,0.63598,FRC2,31.29,30.15
+10,"Agartala City, Tripura",23.8338203,91.2824216,LOW,1.0,0.0,20,20,False,216,216,1.0,FRC4,0.0,0.15
+11,"Mumbai Central, Mumbai, Maharashtra",18.9770366,72.826266,LOW,1.0,0.0,23,23,False,697,697,1.0,FRC4,0.0,0.15
+11,"CG Road, Ahmedabad, Gujarat",23.1083596,72.5869112,LOW,1.0,0.0,28,28,False,274,274,1.0,FRC4,0.0,0.15
+11,"MG Road, Kochi, Kerala",10.5160332,76.2538456,LOW,1.0,0.0,61,61,False,1066,1066,1.0,FRC1,0.0,10.15
+11,"Banjara Hills, Hyderabad, Telangana",17.4091038,78.4394666,LOW,0.82,18.18,27,33,False,1098,898,1.0,FRC4,22.27,14.69
+11,"Vastrapur, Ahmedabad, Gujarat",23.0350831,72.5276438,LOW,0.82,18.18,18,22,False,147,120,1.0,FRC4,22.5,14.79
+11,"Koregaon Park, Pune, Maharashtra",18.5420451,73.8881809,LOW,0.83,16.67,25,30,False,981,817,1.0,FRC4,20.07,13.32
+11,"Indiranagar, Bangalore, Karnataka",12.9719015,77.6367928,MODERATE,0.61,39.29,17,28,False,1705,1035,1.0,FRC2,64.73,49.04
+11,"Jubilee Hills, Hyderabad, Telangana",17.4333041,78.4013942,LOW,1.0,0.0,45,45,False,229,229,1.0,FRC4,0.0,0.15
+11,"T Nagar, Chennai, Tamil Nadu",12.9605278,80.2083254,LOW,1.0,0.0,32,32,False,532,532,1.0,FRC2,0.0,10.15
+11,"Salt Lake, Kolkata, West Bengal",22.5580861,88.412438,LOW,1.0,0.0,38,38,False,1527,1527,1.0,FRC2,0.0,10.15
+11,"Civil Lines, Jaipur, Rajasthan",26.9069197,75.7830344,MODERATE,0.75,25.0,27,36,False,997,748,0.998861,FRC2,33.29,31.34
+11,"Aliganj, Lucknow, Uttar Pradesh",26.890281,80.9495987,LOW,0.8,20.0,28,35,False,2300,1840,0.97734,FRC7,25.0,11.37
+11,"Gomti Nagar, Lucknow, Uttar Pradesh",26.8513093,81.0124214,LOW,1.0,0.0,57,57,False,528,528,1.0,FRC1,0.0,10.15
+11,"Vijay Nagar, Indore, Madhya Pradesh",22.7630269,75.8804978,LOW,1.0,0.0,32,32,False,225,225,1.0,FRC4,0.0,0.15
+11,"Sector 17, Chandigarh",30.7425426,76.7859351,LOW,0.87,13.16,33,38,False,974,846,1.0,FRC3,15.13,20.23
+11,"MI Road, Jaipur, Rajasthan",26.9171019,75.7992711,MODERATE,0.75,25.0,18,24,False,53,40,1.0,FRC2,32.5,30.99
+11,"Station Road, Surat, Gujarat",21.1984585,72.8351411,CLOSED,0.8,20.0,12,15,True,963,770,0.801618,FRC3,25.06,41.4
+11,"Frazer Town, Bangalore, Karnataka",13.0022108,77.621035,LOW,0.81,18.52,22,27,False,802,654,0.996602,FRC6,22.63,9.94
+11,"Begumpet, Hyderabad, Telangana",17.4449415,78.4571867,MODERATE,0.63,36.84,24,38,False,720,454,1.0,FRC1,58.59,45.67
+11,"Powai, Mumbai, Maharashtra",19.1238155,72.9126101,LOW,0.84,16.13,26,31,False,1679,1408,1.0,FRC3,19.25,22.82
+11,"Andheri West, Mumbai, Maharashtra",19.1340729,72.8303618,LOW,0.89,11.11,16,18,False,295,263,0.994898,FRC4,12.17,8.39
+11,"Worli, Mumbai, Maharashtra",19.001465,72.8160656,LOW,0.77,23.33,23,30,False,274,210,1.0,FRC4,30.48,19.66
+11,"Bandra West, Mumbai, Maharashtra",19.0588335,72.8346685,LOW,1.0,0.0,17,17,False,83,83,1.0,FRC4,0.0,0.15
+11,"Lower Parel, Mumbai, Maharashtra",18.9962663,72.8268788,CLOSED,0.8,20.0,28,35,True,958,766,0.970974,FRC4,25.07,31.4
+11,"Vashi, Navi Mumbai, Maharashtra",19.0761766,73.0020679,LOW,1.0,0.0,21,21,False,581,581,1.0,FRC4,0.0,0.15
+11,"Thane West, Thane, Maharashtra",19.276338,72.9590781,MODERATE,0.68,32.35,23,34,False,2271,1536,1.0,FRC1,47.85,39.72
+11,"Kothrud, Pune, Maharashtra",18.5010542,73.8116455,LOW,1.0,0.0,21,21,False,262,262,1.0,FRC4,0.0,0.15
+11,"Viman Nagar, Pune, Maharashtra",18.5411985,73.8024415,LOW,1.0,0.0,21,21,False,325,325,1.0,FRC4,0.0,0.15
+11,"Wakad, Pune, Maharashtra",18.5963419,73.7718897,LOW,1.0,0.0,24,24,False,323,323,1.0,FRC4,0.0,0.15
+11,"Hinjewadi, Pune, Maharashtra",18.5979574,73.700786,LOW,1.0,0.0,34,34,False,2140,2140,1.0,FRC3,0.0,10.15
+11,"Whitefield, Bangalore, Karnataka",12.9943542,77.7585209,MODERATE,0.73,27.27,24,33,False,2405,1749,1.0,FRC2,37.51,33.81
+11,"Electronic City, Bangalore, Karnataka",12.8478071,77.6631929,LOW,1.0,0.0,27,27,False,1466,1466,1.0,FRC6,0.0,-4.85
+11,"Marathahalli, Bangalore, Karnataka",12.9545264,77.7027027,MODERATE,0.68,32.0,17,25,False,1276,868,1.0,FRC2,47.0,39.25
+11,"HSR Layout, Bangalore, Karnataka",12.9165423,77.6519551,LOW,1.0,0.0,48,48,False,59,59,1.0,FRC1,0.0,10.15
+11,"New Town, Kolkata, West Bengal",22.4761739,88.3478394,LOW,0.84,15.79,16,19,False,372,313,0.846788,FRC4,18.85,12.56
+11,"Howrah, West Bengal",22.5944824,88.265686,LOW,1.0,0.0,34,34,False,1109,1109,1.0,FRC1,0.0,10.15
+11,"Rajarhat, Kolkata, West Bengal",22.5655734,88.3702152,MODERATE,0.59,40.91,13,22,False,1204,711,0.990559,FRC4,69.34,41.52
+11,"Ballygunge, Kolkata, West Bengal",22.5279746,88.3629966,LOW,0.79,20.69,23,29,False,168,133,1.0,FRC4,26.32,17.13
+11,"Vaishali Nagar, Jaipur, Rajasthan",26.9060132,75.7407346,LOW,1.0,0.0,26,26,False,338,338,1.0,FRC4,0.0,0.15
+11,"Malviya Nagar, Jaipur, Rajasthan",26.8554493,75.8203746,LOW,1.0,0.0,35,35,False,222,222,1.0,FRC2,0.0,10.15
+11,"C Scheme, Jaipur, Rajasthan",26.9842393,75.761852,LOW,1.0,0.0,67,67,False,688,688,1.0,FRC1,0.0,10.15
+11,"Satellite, Ahmedabad, Gujarat",23.0251898,72.5246919,MODERATE,0.81,18.75,26,32,False,967,786,1.0,FRC2,23.03,25.17
+11,"Bodakdev, Ahmedabad, Gujarat",23.0443645,72.517923,MODERATE,0.79,21.43,22,28,False,766,602,1.0,FRC3,27.24,27.73
+11,"Navrangpura, Ahmedabad, Gujarat",23.0374547,72.5639835,CLOSED,0.7,29.63,19,27,True,1949,1371,0.973515,FRC2,42.16,51.48
+11,"Maninagar, Ahmedabad, Gujarat",22.9832788,72.6140353,LOW,1.0,0.0,25,25,False,510,510,1.0,FRC4,0.0,0.15
+11,"Paldi, Ahmedabad, Gujarat",23.0129278,72.5557872,LOW,0.69,30.77,18,26,False,2546,1762,0.998494,FRC6,44.49,22.82
+11,"Ernakulam, Kochi, Kerala",9.7511807,76.318561,LOW,0.87,12.82,34,39,False,2216,1931,0.967206,FRC1,14.76,19.98
+11,"Kakkanad, Kochi, Kerala",9.9576168,76.2511512,LOW,0.74,26.09,17,23,False,303,223,0.967435,FRC4,35.87,22.78
+11,"Edappally, Kochi, Kerala",10.0566394,76.291473,LOW,1.0,0.0,31,31,False,536,536,1.0,FRC1,0.0,10.15
+11,"Palarivattom, Kochi, Kerala",9.9576168,76.2511512,LOW,0.74,26.09,17,23,False,303,223,0.967435,FRC4,35.87,22.78
+11,"Kadavanthra, Kochi, Kerala",9.9576168,76.2511512,LOW,0.74,26.09,17,23,False,303,223,0.967435,FRC4,35.87,22.78
+11,"Thiruvananthapuram City, Kerala",8.4946496,76.9449992,HEAVY,0.56,43.75,18,32,False,1224,688,1.0,FRC1,77.91,56.08
+11,"Kozhikode City, Kerala",11.2341272,75.795501,MODERATE,0.76,24.39,31,41,False,1767,1336,0.976528,FRC1,32.26,30.73
+11,"Thrissur City, Kerala",10.5239038,76.2122541,HEAVY,0.56,44.12,19,34,False,879,491,1.0,FRC3,79.02,56.67
+11,"Kottayam Town, Kerala",9.591754,76.5319074,LOW,1.0,0.0,32,32,False,133,133,1.0,FRC1,0.0,10.15
+11,"Vijayawada City, Andhra Pradesh",16.5003355,80.6447439,MODERATE,0.78,21.88,25,32,False,601,470,1.0,FRC1,27.87,28.13
+11,"Visakhapatnam City, Andhra Pradesh",17.710186,83.1769123,MODERATE,0.79,21.43,33,42,False,2027,1593,0.999437,FRC2,27.24,27.73
+11,"Guntur City, Andhra Pradesh",16.498447,80.6439998,LOW,1.0,0.0,62,62,False,956,956,1.0,FRC1,0.0,10.15
+11,"Tirupati, Andhra Pradesh",13.6287278,79.4190701,LOW,0.79,21.21,26,33,False,2764,2178,0.856457,FRC4,26.91,17.53
+11,"Mangalore City, Karnataka",12.9070024,74.8803527,MODERATE,0.76,23.81,32,42,False,2691,2050,0.928699,FRC2,31.27,30.14
+11,"Hubli City, Karnataka",15.3862196,75.082741,LOW,1.0,0.0,40,40,False,1286,1286,1.0,FRC3,0.0,10.15
+11,"Mysore City, Karnataka",12.3136462,76.6171643,MODERATE,0.73,27.03,27,37,False,842,614,0.993862,FRC3,37.13,33.58
+11,"Coimbatore City, Tamil Nadu",11.0804508,76.8366161,LOW,1.0,0.0,48,48,False,1520,1520,1.0,FRC3,0.0,10.15
+11,"Madurai City, Tamil Nadu",9.7427816,77.7953645,LOW,1.0,0.0,49,49,False,842,842,1.0,FRC2,0.0,10.15
+11,"Tiruchirappalli, Tamil Nadu",10.8008235,78.6899185,LOW,1.0,0.0,28,28,False,9,9,1.0,FRC2,0.0,10.15
+11,"Varanasi City, Uttar Pradesh",25.3096924,83.0056763,MODERATE,0.62,38.46,16,26,False,1115,686,0.887102,FRC4,62.54,37.85
+11,"Noida Sector 18, Uttar Pradesh",28.5705225,77.3261967,LOW,0.84,16.13,26,31,False,1365,1144,1.0,FRC2,19.32,22.85
+11,"Greater Noida, Uttar Pradesh",28.4477179,77.524566,LOW,0.87,13.16,33,38,False,2358,2047,0.982646,FRC4,15.19,10.26
+11,"Gurgaon Cyber City, Haryana",28.4798011,77.0813162,LOW,0.84,16.22,31,37,False,1776,1488,1.0,FRC2,19.35,22.89
+11,"Faridabad City, Haryana",28.4841588,77.3257282,LOW,1.0,0.0,17,17,False,1917,1917,1.0,FRC4,0.0,0.15
+11,"Dehradun City, Uttarakhand",30.118491,78.294956,LOW,1.0,0.0,35,35,False,258,258,1.0,FRC1,0.0,10.15
+11,"Haridwar City, Uttarakhand",30.0604135,78.2894862,LOW,1.0,0.0,48,48,False,1643,1643,1.0,FRC4,0.0,0.15
+11,"Amritsar City, Punjab",31.6587342,74.841167,LOW,1.0,0.0,68,68,False,437,437,1.0,FRC1,0.0,10.15
+11,"South Extension, New Delhi",28.5694154,77.2209031,LOW,1.0,0.0,44,44,False,356,356,1.0,FRC1,0.0,10.15
+11,"Hauz Khas, New Delhi",28.5526463,77.2017518,LOW,0.78,21.88,25,32,False,966,755,0.997971,FRC7,27.95,13.16
+11,"Lajpat Nagar, New Delhi",28.5731147,77.2462327,MODERATE,0.7,30.23,30,43,False,1519,1060,1.0,FRC3,43.3,37.15
+11,"Saket, New Delhi",28.5257049,77.2143917,LOW,1.0,0.0,26,26,False,179,179,1.0,FRC4,0.0,0.15
+11,"Dwarka Sector 12, New Delhi",28.5969098,77.0419895,LOW,1.0,0.0,31,31,False,699,699,1.0,FRC4,0.0,0.15
+11,"Gurgaon MG Road, Haryana",28.4798011,77.0813162,LOW,0.84,16.22,31,37,False,1776,1488,1.0,FRC2,19.35,22.89
+11,"Golf Course Road, Gurgaon, Haryana",28.4626859,77.117071,LOW,1.0,0.0,54,54,False,1483,1483,1.0,FRC3,0.0,10.15
+11,"Udyog Vihar, Gurgaon, Haryana",28.5048124,77.0695199,LOW,0.81,19.23,21,26,False,1728,1395,1.0,FRC4,23.87,15.67
+11,"Sohna Road, Gurgaon, Haryana",28.4198873,77.1533811,LOW,1.0,0.0,54,54,False,1483,1483,1.0,FRC3,0.0,10.15
+11,"Noida Sector 62, Uttar Pradesh",28.626626,77.3654727,LOW,0.72,27.78,26,36,False,580,419,1.0,FRC4,38.42,24.34
+11,"Noida Sector 76, Uttar Pradesh",28.568967,77.3852713,LOW,1.0,0.0,33,33,False,434,434,1.0,FRC4,0.0,0.15
+11,"Colaba, Mumbai, Maharashtra",18.9249319,72.8300808,LOW,0.83,17.39,19,23,False,228,188,1.0,FRC1,21.28,24.05
+11,"Fort, Mumbai, Maharashtra",18.9459596,72.8337847,MODERATE,0.78,21.74,18,23,False,84,66,1.0,FRC3,27.27,27.82
+11,"Borivali West, Mumbai, Maharashtra",19.2297,72.852173,MODERATE,0.79,21.05,15,19,False,385,304,0.917281,FRC3,26.64,27.37
+11,"Kandivali East, Mumbai, Maharashtra",19.1913449,72.8740971,LOW,1.0,0.0,17,17,False,203,203,1.0,FRC4,0.0,0.15
+11,"Chembur, Mumbai, Maharashtra",19.0487802,72.90587,LOW,0.94,6.06,31,33,False,783,735,1.0,FRC2,6.53,14.59
+11,"Dadar, Mumbai, Maharashtra",19.0177484,72.8358202,MODERATE,0.65,34.78,15,23,False,3219,2099,0.997897,FRC2,53.36,42.8
+11,"Nerul, Navi Mumbai, Maharashtra",19.020485,73.0035976,LOW,1.0,0.0,41,41,False,1264,1264,1.0,FRC2,0.0,10.15
+11,"Kharghar, Navi Mumbai, Maharashtra",19.0334,73.018997,LOW,1.0,0.0,26,26,False,272,272,1.0,FRC4,0.0,0.15
+11,"Ulhasnagar, Thane, Maharashtra",19.2228117,73.1584637,LOW,1.0,0.0,14,14,False,396,396,1.0,FRC4,0.0,0.15
+11,"Dombivli East, Thane, Maharashtra",19.2157323,73.1031728,LOW,1.0,0.0,31,31,False,269,269,1.0,FRC4,0.0,0.15
+11,"Thoraipakkam, Chennai, Tamil Nadu",12.9192758,80.208965,LOW,1.0,0.0,25,25,False,714,714,1.0,FRC4,0.0,0.15
+11,"Sholinganallur, Chennai, Tamil Nadu",12.9001173,80.2239691,LOW,1.0,0.0,27,27,False,889,889,1.0,FRC4,0.0,0.15
+11,"Baner, Pune, Maharashtra",18.5642156,73.7871973,LOW,1.0,0.0,26,26,False,1884,1884,1.0,FRC4,0.0,0.15
+11,"Aundh, Pune, Maharashtra",18.558127,73.8072801,LOW,0.83,17.24,24,29,False,179,148,1.0,FRC4,20.95,13.86
+11,"Hadapsar, Pune, Maharashtra",18.499079,73.9341695,LOW,0.8,20.0,20,25,False,938,750,0.960809,FRC4,25.07,16.4
+11,"Bibwewadi, Pune, Maharashtra",18.4662107,73.8627802,LOW,1.0,0.0,24,24,False,318,318,1.0,FRC2,0.0,10.15
+11,"Swargate, Pune, Maharashtra",18.4990216,73.8590652,LOW,0.83,17.24,24,29,False,892,738,1.0,FRC2,20.87,23.82
+11,"Meerut City, Uttar Pradesh",28.9498578,77.6419455,MODERATE,0.81,18.87,43,53,False,1663,1349,0.99629,FRC2,23.28,25.31
+11,"Aligarh City, Uttar Pradesh",27.8898926,78.0745239,MODERATE,0.71,29.17,17,24,False,443,314,0.760684,FRC4,41.08,25.89
+11,"Jhansi City, Uttar Pradesh",25.4487305,78.5701294,MODERATE,0.68,31.58,26,38,False,2123,1452,0.871911,FRC3,46.21,38.79
+11,"Moradabad City, Uttar Pradesh",28.8331428,78.7652781,MODERATE,0.73,27.03,27,37,False,1068,779,0.978447,FRC3,37.1,33.56
+11,"Mathura City, Uttar Pradesh",27.4849744,77.685131,MODERATE,0.71,28.57,25,35,False,179,128,0.98,FRC1,39.84,35.18
+11,"Udaipur City, Rajasthan",24.5873872,73.6915427,MODERATE,0.62,37.5,15,24,False,416,260,0.950439,FRC4,60.0,36.47
+11,"Kota City, Rajasthan",25.2109082,75.8213499,LOW,1.0,0.0,54,54,False,189,189,1.0,FRC3,0.0,10.15
+11,"Jodhpur City, Rajasthan",26.381001,73.5467,LOW,1.0,0.0,53,53,False,1550,1550,1.0,FRC4,0.0,0.15
+11,"Ajmer City, Rajasthan",26.5855952,74.8609106,LOW,0.79,20.69,23,29,False,873,692,0.756222,FRC6,26.16,12.06
+11,"Bikaner City, Rajasthan",28.0134638,73.2972264,LOW,0.9,9.84,55,61,False,856,772,0.893998,FRC1,10.88,17.49
+11,"Bhopal City, Madhya Pradesh",23.177649,77.454497,LOW,1.0,0.0,43,43,False,1564,1564,1.0,FRC1,0.0,10.15
+11,"Rajkot City, Gujarat",22.3003793,70.8086015,CLOSED,0.86,13.51,32,37,True,1505,1301,0.944872,FRC2,15.68,35.56
+11,"Bhavnagar City, Gujarat",21.7727986,72.1548699,LOW,1.0,0.0,32,32,False,901,901,1.0,FRC4,0.0,0.15
+11,"Jamnagar City, Gujarat",22.432788,70.0559897,MODERATE,0.7,29.63,19,27,False,1183,833,0.929245,FRC2,42.02,36.42
+11,"Gandhinagar City, Gujarat",23.0704348,72.5243009,LOW,1.0,0.0,28,28,False,40,40,1.0,FRC4,0.0,0.15
+11,"Asansol City, West Bengal",23.6930343,86.9531088,MODERATE,0.75,25.0,24,32,False,3214,2410,0.810211,FRC2,33.36,31.37
+11,"Siliguri City, West Bengal",26.7096309,88.4286167,MODERATE,0.65,34.78,15,23,False,259,168,0.61,FRC4,54.17,33.17
+11,"Durgapur City, West Bengal",23.5292384,87.351587,LOW,1.0,0.0,37,37,False,974,974,1.0,FRC4,0.0,0.15
+11,"Alappuzha Town, Kerala",9.2595192,76.5437808,MODERATE,0.71,28.89,32,45,False,2245,1597,0.90931,FRC3,40.58,35.59
+11,"Kollam City, Kerala",8.8869046,76.5904652,MODERATE,0.68,32.5,27,40,False,1595,1076,0.884851,FRC1,48.23,39.93
+11,"Kannur City, Kerala",11.8719881,75.379077,MODERATE,0.76,24.44,34,45,False,1082,817,0.970748,FRC1,32.44,30.82
+11,"Palakkad City, Kerala",10.8001,76.639099,MODERATE,0.64,35.71,27,42,False,766,492,0.992095,FRC1,55.69,44.09
+11,"Warangal City, Telangana",17.9745069,79.6113623,MODERATE,0.79,20.83,38,48,False,1125,890,0.939022,FRC3,26.4,27.21
+11,"Karimnagar City, Telangana",18.458233,79.136705,MODERATE,0.81,18.6,35,43,False,1417,1154,0.939118,FRC2,22.79,25.03
+11,"Nellore City, Andhra Pradesh",14.413352,79.962271,LOW,1.0,0.0,28,28,False,859,859,1.0,FRC5,0.0,0.15
+11,"Rajahmundry City, Andhra Pradesh",17.0376947,81.7778132,LOW,1.0,0.0,35,35,False,2107,2107,1.0,FRC4,0.0,0.15
+11,"Kakinada City, Andhra Pradesh",16.9673975,82.2333385,MODERATE,0.71,29.41,24,34,False,468,331,0.715408,FRC1,41.39,36.08
+11,"Belgaum City, Karnataka",15.8771478,74.5171905,LOW,1.0,0.0,28,28,False,104,104,1.0,FRC4,0.0,0.15
+11,"Gulbarga City, Karnataka",17.33965,76.8371479,MODERATE,0.71,28.57,25,35,False,1372,980,0.874337,FRC2,40.0,35.25
+11,"Davangere City, Karnataka",14.3682977,75.9527929,LOW,1.0,0.0,37,37,False,2330,2330,1.0,FRC4,0.0,0.15
+11,"Bellary City, Karnataka",15.1388817,76.9768644,LOW,1.0,0.0,38,38,False,1836,1836,1.0,FRC2,0.0,10.15
+11,"Ludhiana City, Punjab",30.8519434,75.8598782,MODERATE,0.75,25.0,39,52,False,923,692,1.0,FRC2,33.38,31.38
+11,"Jalandhar City, Punjab",31.3478513,75.6032045,LOW,0.88,12.12,29,33,False,929,816,0.946696,FRC2,13.85,19.39
+11,"Bathinda City, Punjab",30.2129218,74.9331732,HEAVY,0.54,46.15,21,39,False,544,293,0.991416,FRC1,85.67,60.17
+11,"Hisar City, Haryana",28.8994857,76.5532936,MODERATE,0.6,40.48,25,42,False,292,174,0.936523,FRC3,67.82,50.73
+11,"Karnal City, Haryana",29.6531038,77.0078492,LOW,1.0,0.0,63,63,False,1166,1166,1.0,FRC3,0.0,10.15
+11,"Panipat City, Haryana",29.4283503,76.9533079,LOW,1.0,0.0,30,30,False,621,621,1.0,FRC4,0.0,0.15
+11,"Berhampur City, Odisha",20.4032641,86.2026906,LOW,1.0,0.0,41,41,False,2182,2182,1.0,FRC4,0.0,0.15
+11,"Koraput City, Odisha",18.8131994,82.7126008,LOW,0.89,11.11,40,45,False,2172,1931,0.669376,FRC1,12.48,18.53
+11,"Sambalpur City, Odisha",21.4594222,83.9743315,LOW,1.0,0.0,38,38,False,1263,1263,1.0,FRC2,0.0,10.15
+11,"Gaya City, Bihar",24.7924837,85.0077092,MODERATE,0.68,32.5,27,40,False,2460,1660,0.816498,FRC2,48.19,39.91
+11,"Muzaffarpur City, Bihar",26.1227209,85.3786314,MODERATE,0.8,20.0,16,20,False,266,213,0.605915,FRC2,24.88,26.32
+11,"Dhanbad City, Jharkhand",23.7940427,86.4261706,MODERATE,0.62,37.5,10,16,False,240,150,0.585966,FRC2,60.0,46.47
+11,"Jamshedpur City, Jharkhand",22.843639,86.212528,LOW,0.84,15.79,48,57,False,1710,1440,0.879935,FRC1,18.75,22.51
+11,"Shillong City, Meghalaya",25.5762291,91.8828636,LOW,1.0,0.0,11,11,False,325,325,1.0,FRC4,0.0,0.15
+11,"Imphal City, Manipur",24.8021535,93.938618,MODERATE,0.78,22.45,38,49,False,2206,1711,0.95335,FRC2,28.93,28.75
+11,"Aizawl City, Mizoram",23.7243713,92.7186455,MODERATE,0.65,34.78,15,23,False,630,411,0.896626,FRC2,53.28,42.77
+11,"Kohima City, Nagaland",25.6749234,94.1105241,MODERATE,0.76,23.81,16,21,False,793,604,0.681776,FRC2,31.29,30.15
+11,"Agartala City, Tripura",23.8338203,91.2824216,LOW,1.0,0.0,20,20,False,216,216,1.0,FRC4,0.0,0.15
+12,"Mumbai Central, Mumbai, Maharashtra",18.9770366,72.826266,LOW,0.77,22.73,17,22,False,944,729,0.98404,FRC4,29.49,19.07
+12,"CG Road, Ahmedabad, Gujarat",23.1083596,72.5869112,LOW,1.0,0.0,28,28,False,274,274,1.0,FRC4,0.0,0.15
+12,"MG Road, Kochi, Kerala",10.5160332,76.2538456,LOW,1.0,0.0,61,61,False,1066,1066,1.0,FRC1,0.0,10.15
+12,"Banjara Hills, Hyderabad, Telangana",17.4091038,78.4394666,LOW,0.82,18.18,27,33,False,1098,898,1.0,FRC4,22.27,14.69
+12,"Vastrapur, Ahmedabad, Gujarat",23.0350831,72.5276438,LOW,1.0,0.0,23,23,False,115,115,1.0,FRC4,0.0,0.15
+12,"Koregaon Park, Pune, Maharashtra",18.5420451,73.8881809,LOW,0.77,23.33,23,30,False,1066,817,1.0,FRC4,30.48,19.66
+12,"Indiranagar, Bangalore, Karnataka",12.9719015,77.6367928,MODERATE,0.75,25.0,21,28,False,1380,1035,1.0,FRC2,33.33,31.36
+12,"Jubilee Hills, Hyderabad, Telangana",17.4333041,78.4013942,LOW,1.0,0.0,45,45,False,229,229,1.0,FRC4,0.0,0.15
+12,"T Nagar, Chennai, Tamil Nadu",12.9605278,80.2083254,LOW,1.0,0.0,32,32,False,532,532,1.0,FRC2,0.0,10.15
+12,"Salt Lake, Kolkata, West Bengal",22.5580861,88.412438,LOW,1.0,0.0,38,38,False,1527,1527,1.0,FRC2,0.0,10.15
+12,"Civil Lines, Jaipur, Rajasthan",26.9069197,75.7830344,MODERATE,0.72,27.78,26,36,False,1035,748,1.0,FRC2,38.37,34.32
+12,"Aliganj, Lucknow, Uttar Pradesh",26.890281,80.9495987,LOW,0.8,20.0,28,35,False,2300,1840,0.980607,FRC7,25.0,11.37
+12,"Gomti Nagar, Lucknow, Uttar Pradesh",26.8513093,81.0124214,LOW,1.0,0.0,57,57,False,528,528,1.0,FRC1,0.0,10.15
+12,"Vijay Nagar, Indore, Madhya Pradesh",22.7630269,75.8804978,LOW,1.0,0.0,32,32,False,225,225,1.0,FRC4,0.0,0.15
+12,"Sector 17, Chandigarh",30.7425426,76.7859351,LOW,0.86,13.51,32,37,False,1004,868,1.0,FRC3,15.67,20.56
+12,"MI Road, Jaipur, Rajasthan",26.9171019,75.7992711,MODERATE,0.74,26.09,17,23,False,56,41,1.0,FRC2,36.59,33.1
+12,"Station Road, Surat, Gujarat",21.1984585,72.8351411,CLOSED,0.73,26.67,11,15,True,1051,770,0.793259,FRC3,36.49,48.2
+12,"Frazer Town, Bangalore, Karnataka",13.0022108,77.621035,LOW,0.78,22.22,21,27,False,841,654,0.995203,FRC6,28.59,13.54
+12,"Begumpet, Hyderabad, Telangana",17.4449415,78.4571867,MODERATE,0.7,29.73,26,37,False,664,467,1.0,FRC1,42.18,36.52
+12,"Powai, Mumbai, Maharashtra",19.1238155,72.9126101,LOW,0.87,13.33,26,30,False,1679,1455,1.0,FRC3,15.4,20.39
+12,"Andheri West, Mumbai, Maharashtra",19.1340729,72.8303618,LOW,0.72,27.78,13,18,False,364,263,0.991552,FRC4,38.4,24.33
+12,"Worli, Mumbai, Maharashtra",19.001465,72.8160656,LOW,0.84,16.13,26,31,False,242,203,1.0,FRC4,19.21,12.8
+12,"Bandra West, Mumbai, Maharashtra",19.0588335,72.8346685,MODERATE,0.59,41.18,10,17,False,142,83,1.0,FRC4,71.08,42.37
+12,"Lower Parel, Mumbai, Maharashtra",18.9962663,72.8268788,CLOSED,0.71,28.57,25,35,True,1073,766,0.972755,FRC4,40.08,40.29
+12,"Vashi, Navi Mumbai, Maharashtra",19.0761766,73.0020679,LOW,1.0,0.0,21,21,False,581,581,1.0,FRC4,0.0,0.15
+12,"Thane West, Thane, Maharashtra",19.276338,72.9590781,MODERATE,0.76,23.53,26,34,False,2009,1536,1.0,FRC1,30.79,29.85
+12,"Kothrud, Pune, Maharashtra",18.5010542,73.8116455,LOW,0.75,25.0,15,20,False,368,276,0.985075,FRC4,33.33,21.36
+12,"Viman Nagar, Pune, Maharashtra",18.5411985,73.8024415,LOW,1.0,0.0,21,21,False,325,325,1.0,FRC4,0.0,0.15
+12,"Wakad, Pune, Maharashtra",18.5963419,73.7718897,LOW,1.0,0.0,24,24,False,323,323,1.0,FRC4,0.0,0.15
+12,"Hinjewadi, Pune, Maharashtra",18.5979574,73.700786,LOW,1.0,0.0,34,34,False,2140,2140,1.0,FRC3,0.0,10.15
+12,"Whitefield, Bangalore, Karnataka",12.9943542,77.7585209,MODERATE,0.75,25.0,24,32,False,2405,1804,0.999614,FRC2,33.31,31.35
+12,"Electronic City, Bangalore, Karnataka",12.8478071,77.6631929,LOW,1.0,0.0,27,27,False,1466,1466,1.0,FRC6,0.0,-4.85
+12,"Marathahalli, Bangalore, Karnataka",12.9545264,77.7027027,LOW,1.0,0.0,25,25,False,868,868,1.0,FRC2,0.0,10.15
+12,"HSR Layout, Bangalore, Karnataka",12.9165423,77.6519551,LOW,1.0,0.0,48,48,False,59,59,1.0,FRC1,0.0,10.15
+12,"New Town, Kolkata, West Bengal",22.4761739,88.3478394,LOW,1.0,0.0,20,20,False,297,297,1.0,FRC4,0.0,0.15
+12,"Howrah, West Bengal",22.5944824,88.265686,LOW,1.0,0.0,34,34,False,1109,1109,1.0,FRC1,0.0,10.15
+12,"Rajarhat, Kolkata, West Bengal",22.5655734,88.3702152,MODERATE,0.7,30.43,16,23,False,978,680,0.994761,FRC4,43.82,27.43
+12,"Ballygunge, Kolkata, West Bengal",22.5279746,88.3629966,MODERATE,0.69,31.03,20,29,False,194,133,1.0,FRC4,45.86,28.5
+12,"Vaishali Nagar, Jaipur, Rajasthan",26.9060132,75.7407346,LOW,1.0,0.0,26,26,False,338,338,1.0,FRC4,0.0,0.15
+12,"Malviya Nagar, Jaipur, Rajasthan",26.8554493,75.8203746,LOW,1.0,0.0,35,35,False,222,222,1.0,FRC2,0.0,10.15
+12,"C Scheme, Jaipur, Rajasthan",26.9842393,75.761852,LOW,1.0,0.0,67,67,False,688,688,1.0,FRC1,0.0,10.15
+12,"Satellite, Ahmedabad, Gujarat",23.0251898,72.5246919,MODERATE,0.75,25.0,24,32,False,1048,786,1.0,FRC2,33.33,31.36
+12,"Bodakdev, Ahmedabad, Gujarat",23.0443645,72.517923,LOW,0.86,14.29,24,28,False,702,602,1.0,FRC3,16.61,21.18
+12,"Navrangpura, Ahmedabad, Gujarat",23.0374547,72.5639835,CLOSED,0.73,26.92,19,26,True,1949,1424,0.938339,FRC2,36.87,48.43
+12,"Maninagar, Ahmedabad, Gujarat",22.9832788,72.6140353,LOW,1.0,0.0,25,25,False,510,510,1.0,FRC4,0.0,0.15
+12,"Paldi, Ahmedabad, Gujarat",23.0129278,72.5557872,LOW,0.69,30.77,18,26,False,2546,1762,0.998806,FRC6,44.49,22.82
+12,"Ernakulam, Kochi, Kerala",9.7511807,76.318561,LOW,0.82,17.5,33,40,False,2283,1883,0.952158,FRC1,21.24,24.06
+12,"Kakkanad, Kochi, Kerala",9.9576168,76.2511512,LOW,0.74,26.09,17,23,False,303,223,0.929462,FRC4,35.87,22.78
+12,"Edappally, Kochi, Kerala",10.0566394,76.291473,LOW,1.0,0.0,31,31,False,536,536,1.0,FRC1,0.0,10.15
+12,"Palarivattom, Kochi, Kerala",9.9576168,76.2511512,LOW,0.74,26.09,17,23,False,303,223,0.929462,FRC4,35.87,22.78
+12,"Kadavanthra, Kochi, Kerala",9.9576168,76.2511512,LOW,0.74,26.09,17,23,False,303,223,0.929462,FRC4,35.87,22.78
+12,"Thiruvananthapuram City, Kerala",8.4946496,76.9449992,HEAVY,0.52,48.48,17,33,False,1296,667,1.0,FRC1,94.3,64.63
+12,"Kozhikode City, Kerala",11.2341272,75.795501,MODERATE,0.73,26.83,30,41,False,1826,1336,0.983543,FRC1,36.68,33.32
+12,"Thrissur City, Kerala",10.5239038,76.2122541,MODERATE,0.61,39.39,20,33,False,835,506,0.995342,FRC3,65.02,49.2
+12,"Kottayam Town, Kerala",9.591754,76.5319074,MODERATE,0.78,21.88,25,32,False,170,133,0.830967,FRC1,27.82,28.1
+12,"Vijayawada City, Andhra Pradesh",16.5003355,80.6447439,MODERATE,0.81,19.35,25,31,False,601,485,1.0,FRC1,23.92,25.72
+12,"Visakhapatnam City, Andhra Pradesh",17.710186,83.1769123,MODERATE,0.79,21.43,33,42,False,2027,1593,0.999754,FRC2,27.24,27.73
+12,"Guntur City, Andhra Pradesh",16.498447,80.6439998,LOW,1.0,0.0,62,62,False,956,956,1.0,FRC1,0.0,10.15
+12,"Tirupati, Andhra Pradesh",13.6287278,79.4190701,LOW,0.88,12.12,29,33,False,2478,2178,0.816639,FRC4,13.77,9.36
+12,"Mangalore City, Karnataka",12.9070024,74.8803527,MODERATE,0.79,21.43,33,42,False,2610,2050,0.953214,FRC2,27.32,27.77
+12,"Hubli City, Karnataka",15.3862196,75.082741,LOW,1.0,0.0,40,40,False,1286,1286,1.0,FRC3,0.0,10.15
+12,"Mysore City, Karnataka",12.3136462,76.6171643,MODERATE,0.62,37.84,23,37,False,988,614,0.994545,FRC3,60.91,46.96
+12,"Coimbatore City, Tamil Nadu",11.0804508,76.8366161,LOW,1.0,0.0,48,48,False,1520,1520,1.0,FRC3,0.0,10.15
+12,"Madurai City, Tamil Nadu",9.7427816,77.7953645,LOW,1.0,0.0,49,49,False,842,842,1.0,FRC2,0.0,10.15
+12,"Tiruchirappalli, Tamil Nadu",10.8008235,78.6899185,MODERATE,0.79,21.43,22,28,False,12,9,0.97,FRC2,33.33,30.47
+12,"Varanasi City, Uttar Pradesh",25.3096924,83.0056763,MODERATE,0.62,38.46,16,26,False,1115,686,0.962319,FRC4,62.54,37.85
+12,"Noida Sector 18, Uttar Pradesh",28.5705225,77.3261967,LOW,1.0,0.0,31,31,False,1144,1144,1.0,FRC2,0.0,10.15
+12,"Greater Noida, Uttar Pradesh",28.4477179,77.524566,LOW,0.82,18.42,31,38,False,2510,2047,0.985088,FRC4,22.62,14.91
+12,"Gurgaon Cyber City, Haryana",28.4798011,77.0813162,LOW,1.0,0.0,37,37,False,1488,1488,1.0,FRC2,0.0,10.15
+12,"Faridabad City, Haryana",28.4841588,77.3257282,LOW,1.0,0.0,17,17,False,1917,1917,1.0,FRC4,0.0,0.15
+12,"Dehradun City, Uttarakhand",30.118491,78.294956,LOW,1.0,0.0,35,35,False,258,258,1.0,FRC1,0.0,10.15
+12,"Haridwar City, Uttarakhand",30.0604135,78.2894862,LOW,1.0,0.0,48,48,False,1643,1643,1.0,FRC4,0.0,0.15
+12,"Amritsar City, Punjab",31.6587342,74.841167,LOW,1.0,0.0,68,68,False,437,437,1.0,FRC1,0.0,10.15
+12,"South Extension, New Delhi",28.5694154,77.2209031,MODERATE,0.79,20.93,34,43,False,460,364,1.0,FRC1,26.37,27.22
+12,"Hauz Khas, New Delhi",28.5526463,77.2017518,MODERATE,0.66,34.38,21,32,False,1150,755,0.998986,FRC7,52.32,27.24
+12,"Lajpat Nagar, New Delhi",28.5731147,77.2462327,MODERATE,0.72,27.91,31,43,False,1470,1060,1.0,FRC3,38.68,34.49
+12,"Saket, New Delhi",28.5257049,77.2143917,LOW,0.8,20.0,20,25,False,233,186,1.0,FRC4,25.27,16.49
+12,"Dwarka Sector 12, New Delhi",28.5969098,77.0419895,LOW,0.8,20.0,24,30,False,903,722,0.990935,FRC4,25.07,16.4
+12,"Gurgaon MG Road, Haryana",28.4798011,77.0813162,LOW,1.0,0.0,37,37,False,1488,1488,1.0,FRC2,0.0,10.15
+12,"Golf Course Road, Gurgaon, Haryana",28.4626859,77.117071,LOW,1.0,0.0,54,54,False,1483,1483,1.0,FRC3,0.0,10.15
+12,"Udyog Vihar, Gurgaon, Haryana",28.5048124,77.0695199,LOW,0.74,25.93,20,27,False,1814,1344,1.0,FRC4,34.97,22.33
+12,"Sohna Road, Gurgaon, Haryana",28.4198873,77.1533811,LOW,1.0,0.0,54,54,False,1483,1483,1.0,FRC3,0.0,10.15
+12,"Noida Sector 62, Uttar Pradesh",28.626626,77.3654727,LOW,0.86,14.29,30,35,False,503,431,1.0,FRC4,16.71,11.22
+12,"Noida Sector 76, Uttar Pradesh",28.568967,77.3852713,LOW,1.0,0.0,33,33,False,434,434,1.0,FRC4,0.0,0.15
+12,"Colaba, Mumbai, Maharashtra",18.9249319,72.8300808,LOW,1.0,0.0,24,24,False,180,180,1.0,FRC1,0.0,10.15
+12,"Fort, Mumbai, Maharashtra",18.9459596,72.8337847,HEAVY,0.48,52.17,11,23,False,138,66,1.0,FRC3,109.09,72.21
+12,"Borivali West, Mumbai, Maharashtra",19.2297,72.852173,MODERATE,0.75,25.0,15,20,False,385,289,0.961832,FRC3,33.22,31.31
+12,"Kandivali East, Mumbai, Maharashtra",19.1913449,72.8740971,LOW,1.0,0.0,17,17,False,203,203,1.0,FRC4,0.0,0.15
+12,"Chembur, Mumbai, Maharashtra",19.0487802,72.90587,LOW,0.85,14.71,29,34,False,837,714,1.0,FRC2,17.23,21.56
+12,"Dadar, Mumbai, Maharashtra",19.0177484,72.8358202,MODERATE,0.67,33.33,16,24,False,3018,2012,0.998516,FRC2,50.0,40.93
+12,"Nerul, Navi Mumbai, Maharashtra",19.020485,73.0035976,LOW,1.0,0.0,41,41,False,1264,1264,1.0,FRC2,0.0,10.15
+12,"Kharghar, Navi Mumbai, Maharashtra",19.0334,73.018997,LOW,1.0,0.0,26,26,False,272,272,1.0,FRC4,0.0,0.15
+12,"Ulhasnagar, Thane, Maharashtra",19.2228117,73.1584637,LOW,1.0,0.0,14,14,False,396,396,1.0,FRC4,0.0,0.15
+12,"Dombivli East, Thane, Maharashtra",19.2157323,73.1031728,LOW,1.0,0.0,31,31,False,269,269,1.0,FRC4,0.0,0.15
+12,"Thoraipakkam, Chennai, Tamil Nadu",12.9192758,80.208965,LOW,1.0,0.0,25,25,False,714,714,1.0,FRC4,0.0,0.15
+12,"Sholinganallur, Chennai, Tamil Nadu",12.9001173,80.2239691,LOW,1.0,0.0,27,27,False,889,889,1.0,FRC4,0.0,0.15
+12,"Baner, Pune, Maharashtra",18.5642156,73.7871973,LOW,1.0,0.0,26,26,False,1884,1884,1.0,FRC4,0.0,0.15
+12,"Aundh, Pune, Maharashtra",18.558127,73.8072801,MODERATE,0.66,34.48,19,29,False,226,148,1.0,FRC4,52.7,32.44
+12,"Hadapsar, Pune, Maharashtra",18.499079,73.9341695,LOW,0.75,25.0,18,24,False,1042,781,0.950237,FRC4,33.42,21.4
+12,"Bibwewadi, Pune, Maharashtra",18.4662107,73.8627802,MODERATE,0.79,20.83,19,24,False,402,318,1.0,FRC2,26.42,27.21
+12,"Swargate, Pune, Maharashtra",18.4990216,73.8590652,MODERATE,0.73,26.67,22,30,False,973,714,1.0,FRC2,36.27,33.1
+12,"Meerut City, Uttar Pradesh",28.9498578,77.6419455,MODERATE,0.81,18.87,43,53,False,1663,1349,0.995825,FRC2,23.28,25.31
+12,"Aligarh City, Uttar Pradesh",27.8898926,78.0745239,LOW,1.0,0.0,24,24,False,314,314,1.0,FRC4,0.0,0.15
+12,"Jhansi City, Uttar Pradesh",25.4487305,78.5701294,MODERATE,0.74,26.32,28,38,False,1971,1452,0.858762,FRC3,35.74,32.77
+12,"Moradabad City, Uttar Pradesh",28.8331428,78.7652781,MODERATE,0.69,30.56,25,36,False,1154,801,0.963525,FRC3,44.07,37.57
+12,"Mathura City, Uttar Pradesh",27.4849744,77.685131,MODERATE,0.67,33.33,24,36,False,187,124,0.97706,FRC1,50.81,41.3
+12,"Udaipur City, Rajasthan",24.5873872,73.6915427,MODERATE,0.67,33.33,16,24,False,390,260,0.96452,FRC4,50.0,30.93
+12,"Kota City, Rajasthan",25.2109082,75.8213499,LOW,1.0,0.0,54,54,False,189,189,1.0,FRC3,0.0,10.15
+12,"Jodhpur City, Rajasthan",26.381001,73.5467,LOW,1.0,0.0,53,53,False,1550,1550,1.0,FRC4,0.0,0.15
+12,"Ajmer City, Rajasthan",26.5855952,74.8609106,LOW,0.79,21.43,22,28,False,912,717,0.753682,FRC6,27.2,12.71
+12,"Bikaner City, Rajasthan",28.0134638,73.2972264,LOW,0.9,9.84,55,61,False,856,772,0.947679,FRC1,10.88,17.49
+12,"Bhopal City, Madhya Pradesh",23.177649,77.454497,LOW,1.0,0.0,43,43,False,1564,1564,1.0,FRC1,0.0,10.15
+12,"Rajkot City, Gujarat",22.3003793,70.8086015,CLOSED,0.81,18.92,30,37,True,1605,1301,0.960365,FRC2,23.37,40.37
+12,"Bhavnagar City, Gujarat",21.7727986,72.1548699,LOW,1.0,0.0,32,32,False,901,901,1.0,FRC4,0.0,0.15
+12,"Jamnagar City, Gujarat",22.432788,70.0559897,LOW,0.89,11.11,24,27,False,937,833,0.928538,FRC2,12.48,18.53
+12,"Gandhinagar City, Gujarat",23.0704348,72.5243009,LOW,0.74,25.93,20,27,False,56,41,0.98,FRC4,36.59,23.06
+12,"Asansol City, West Bengal",23.6930343,86.9531088,MODERATE,0.78,21.88,25,32,False,3085,2410,0.793724,FRC2,28.01,28.19
+12,"Siliguri City, West Bengal",26.7096309,88.4286167,MODERATE,0.57,43.48,13,23,False,298,168,0.68,FRC4,77.38,45.78
+12,"Durgapur City, West Bengal",23.5292384,87.351587,LOW,1.0,0.0,37,37,False,974,974,1.0,FRC4,0.0,0.15
+12,"Alappuzha Town, Kerala",9.2595192,76.5437808,LOW,0.82,18.18,36,44,False,1996,1633,0.886969,FRC3,22.23,24.67
+12,"Kollam City, Kerala",8.8869046,76.5904652,MODERATE,0.68,32.5,27,40,False,1595,1076,0.919503,FRC1,48.23,39.93
+12,"Kannur City, Kerala",11.8719881,75.379077,MODERATE,0.73,26.67,33,45,False,1115,817,0.982209,FRC1,36.47,33.19
+12,"Palakkad City, Kerala",10.8001,76.639099,MODERATE,0.71,28.57,30,42,False,689,492,0.975937,FRC1,40.04,35.27
+12,"Warangal City, Telangana",17.9745069,79.6113623,LOW,0.92,8.16,45,49,False,950,872,0.958319,FRC3,8.94,16.2
+12,"Karimnagar City, Telangana",18.458233,79.136705,LOW,0.84,16.28,36,43,False,1378,1154,0.89845,FRC2,19.41,22.93
+12,"Nellore City, Andhra Pradesh",14.413352,79.962271,LOW,0.82,17.86,23,28,False,1046,859,0.969336,FRC5,21.77,14.38
+12,"Rajahmundry City, Andhra Pradesh",17.0376947,81.7778132,LOW,1.0,0.0,35,35,False,2107,2107,1.0,FRC4,0.0,0.15
+12,"Kakinada City, Andhra Pradesh",16.9673975,82.2333385,MODERATE,0.62,38.24,21,34,False,535,331,0.704,FRC1,61.63,47.39
+12,"Belgaum City, Karnataka",15.8771478,74.5171905,LOW,1.0,0.0,28,28,False,104,104,1.0,FRC4,0.0,0.15
+12,"Gulbarga City, Karnataka",17.33965,76.8371479,MODERATE,0.66,34.29,23,35,False,1491,980,0.85919,FRC2,52.14,42.13
+12,"Davangere City, Karnataka",14.3682977,75.9527929,LOW,1.0,0.0,37,37,False,2330,2330,1.0,FRC4,0.0,0.15
+12,"Bellary City, Karnataka",15.1388817,76.9768644,LOW,1.0,0.0,38,38,False,1836,1836,1.0,FRC2,0.0,10.15
+12,"Ludhiana City, Punjab",30.8519434,75.8598782,MODERATE,0.72,28.3,38,53,False,947,679,1.0,FRC2,39.47,34.94
+12,"Jalandhar City, Punjab",31.3478513,75.6032045,LOW,0.82,18.18,27,33,False,998,816,0.956294,FRC2,22.3,24.7
+12,"Bathinda City, Punjab",30.2129218,74.9331732,MODERATE,0.66,34.21,25,38,False,457,301,0.998169,FRC1,51.83,41.97
+12,"Hisar City, Haryana",28.8994857,76.5532936,MODERATE,0.6,40.48,25,42,False,292,174,0.919951,FRC3,67.82,50.73
+12,"Karnal City, Haryana",29.6531038,77.0078492,LOW,1.0,0.0,63,63,False,1166,1166,1.0,FRC3,0.0,10.15
+12,"Panipat City, Haryana",29.4283503,76.9533079,LOW,0.8,20.0,24,30,False,776,621,0.746003,FRC4,24.96,16.35
+12,"Berhampur City, Odisha",20.4032641,86.2026906,LOW,1.0,0.0,41,41,False,2182,2182,1.0,FRC4,0.0,0.15
+12,"Koraput City, Odisha",18.8131994,82.7126008,LOW,1.0,0.0,45,45,False,1931,1931,1.0,FRC1,0.0,10.15
+12,"Sambalpur City, Odisha",21.4594222,83.9743315,LOW,1.0,0.0,38,38,False,1263,1263,1.0,FRC2,0.0,10.15
+12,"Gaya City, Bihar",24.7924837,85.0077092,MODERATE,0.65,35.0,26,40,False,2554,1660,0.8107,FRC2,53.86,43.08
+12,"Muzaffarpur City, Bihar",26.1227209,85.3786314,MODERATE,0.67,33.33,14,21,False,304,203,0.901011,FRC2,49.75,40.82
+12,"Dhanbad City, Jharkhand",23.7940427,86.4261706,MODERATE,0.59,41.18,10,17,False,240,141,0.851931,FRC2,70.21,51.98
+12,"Jamshedpur City, Jharkhand",22.843639,86.212528,LOW,0.86,13.79,50,58,False,1641,1415,0.957847,FRC1,15.97,20.76
+12,"Shillong City, Meghalaya",25.5762291,91.8828636,LOW,1.0,0.0,11,11,False,325,325,1.0,FRC4,0.0,0.15
+12,"Imphal City, Manipur",24.8021535,93.938618,MODERATE,0.8,20.41,39,49,False,2150,1711,0.916565,FRC2,25.66,26.77
+12,"Aizawl City, Mizoram",23.7243713,92.7186455,MODERATE,0.7,30.43,16,23,False,591,411,0.866827,FRC2,43.8,37.42
+12,"Kohima City, Nagaland",25.6749234,94.1105241,MODERATE,0.76,23.81,16,21,False,793,604,0.595857,FRC2,31.29,30.15
+12,"Agartala City, Tripura",23.8338203,91.2824216,MODERATE,0.7,30.0,14,20,False,309,216,0.97,FRC4,43.06,26.98
+13,"Mumbai Central, Mumbai, Maharashtra",18.9770366,72.826266,MODERATE,0.7,30.43,16,23,False,1003,697,0.980032,FRC4,43.9,27.47
+13,"CG Road, Ahmedabad, Gujarat",23.1083596,72.5869112,LOW,1.0,0.0,28,28,False,274,274,1.0,FRC4,0.0,0.15
+13,"MG Road, Kochi, Kerala",10.5160332,76.2538456,LOW,1.0,0.0,61,61,False,1066,1066,1.0,FRC1,0.0,10.15
+13,"Banjara Hills, Hyderabad, Telangana",17.4091038,78.4394666,LOW,1.0,0.0,33,33,False,898,898,1.0,FRC4,0.0,0.15
+13,"Vastrapur, Ahmedabad, Gujarat",23.0350831,72.5276438,LOW,0.78,21.74,18,23,False,147,115,1.0,FRC4,27.83,18.07
+13,"Koregaon Park, Pune, Maharashtra",18.5420451,73.8881809,LOW,0.77,23.33,23,30,False,1066,817,1.0,FRC4,30.48,19.66
+13,"Indiranagar, Bangalore, Karnataka",12.9719015,77.6367928,MODERATE,0.71,28.57,20,28,False,1449,1035,1.0,FRC2,40.0,35.25
+13,"Jubilee Hills, Hyderabad, Telangana",17.4333041,78.4013942,LOW,1.0,0.0,45,45,False,229,229,1.0,FRC4,0.0,0.15
+13,"T Nagar, Chennai, Tamil Nadu",12.9605278,80.2083254,LOW,1.0,0.0,32,32,False,532,532,1.0,FRC2,0.0,10.15
+13,"Salt Lake, Kolkata, West Bengal",22.5580861,88.412438,LOW,1.0,0.0,38,38,False,1527,1527,1.0,FRC2,0.0,10.15
+13,"Civil Lines, Jaipur, Rajasthan",26.9069197,75.7830344,MODERATE,0.71,28.57,25,35,False,1077,769,1.0,FRC2,40.05,35.27
+13,"Aliganj, Lucknow, Uttar Pradesh",26.890281,80.9495987,LOW,0.8,20.0,28,35,False,2300,1840,0.979732,FRC7,25.0,11.37
+13,"Gomti Nagar, Lucknow, Uttar Pradesh",26.8513093,81.0124214,LOW,1.0,0.0,57,57,False,528,528,1.0,FRC1,0.0,10.15
+13,"Vijay Nagar, Indore, Madhya Pradesh",22.7630269,75.8804978,LOW,1.0,0.0,32,32,False,225,225,1.0,FRC4,0.0,0.15
+13,"Sector 17, Chandigarh",30.7425426,76.7859351,MODERATE,0.81,18.92,30,37,False,1071,868,1.0,FRC3,23.39,25.38
+13,"MI Road, Jaipur, Rajasthan",26.9171019,75.7992711,MODERATE,0.78,21.74,18,23,False,53,41,1.0,FRC2,29.27,28.72
+13,"Station Road, Surat, Gujarat",21.1984585,72.8351411,CLOSED,0.73,26.67,11,15,True,1051,770,0.862561,FRC3,36.49,48.2
+13,"Frazer Town, Bangalore, Karnataka",13.0022108,77.621035,LOW,0.79,21.43,22,28,False,802,630,1.0,FRC6,27.3,12.76
+13,"Begumpet, Hyderabad, Telangana",17.4449415,78.4571867,MODERATE,0.66,34.21,25,38,False,691,454,1.0,FRC1,52.2,42.14
+13,"Powai, Mumbai, Maharashtra",19.1238155,72.9126101,LOW,0.87,13.33,26,30,False,1679,1455,1.0,FRC3,15.4,20.39
+13,"Andheri West, Mumbai, Maharashtra",19.1340729,72.8303618,LOW,0.74,26.32,14,19,False,338,249,0.994966,FRC4,35.74,22.77
+13,"Worli, Mumbai, Maharashtra",19.001465,72.8160656,LOW,0.81,18.75,26,32,False,242,197,1.0,FRC4,22.84,15.09
+13,"Bandra West, Mumbai, Maharashtra",19.0588335,72.8346685,LOW,1.0,0.0,17,17,False,83,83,1.0,FRC4,0.0,0.15
+13,"Lower Parel, Mumbai, Maharashtra",18.9962663,72.8268788,CLOSED,0.8,20.0,28,35,True,958,766,0.971376,FRC4,25.07,31.4
+13,"Vashi, Navi Mumbai, Maharashtra",19.0761766,73.0020679,LOW,1.0,0.0,21,21,False,581,581,1.0,FRC4,0.0,0.15
+13,"Thane West, Thane, Maharashtra",19.276338,72.9590781,MODERATE,0.74,26.47,25,34,False,2089,1536,1.0,FRC1,36.0,32.93
+13,"Kothrud, Pune, Maharashtra",18.5010542,73.8116455,MODERATE,0.7,30.0,14,20,False,394,276,0.972942,FRC4,42.75,26.84
+13,"Viman Nagar, Pune, Maharashtra",18.5411985,73.8024415,LOW,1.0,0.0,21,21,False,325,325,1.0,FRC4,0.0,0.15
+13,"Wakad, Pune, Maharashtra",18.5963419,73.7718897,LOW,1.0,0.0,24,24,False,323,323,1.0,FRC4,0.0,0.15
+13,"Hinjewadi, Pune, Maharashtra",18.5979574,73.700786,LOW,1.0,0.0,34,34,False,2140,2140,1.0,FRC3,0.0,10.15
+13,"Whitefield, Bangalore, Karnataka",12.9943542,77.7585209,MODERATE,0.76,24.24,25,33,False,2309,1749,1.0,FRC2,32.02,30.58
+13,"Electronic City, Bangalore, Karnataka",12.8478071,77.6631929,LOW,1.0,0.0,27,27,False,1466,1466,1.0,FRC6,0.0,-4.85
+13,"Marathahalli, Bangalore, Karnataka",12.9545264,77.7027027,LOW,1.0,0.0,25,25,False,868,868,1.0,FRC2,0.0,10.15
+13,"HSR Layout, Bangalore, Karnataka",12.9165423,77.6519551,LOW,1.0,0.0,48,48,False,59,59,1.0,FRC1,0.0,10.15
+13,"New Town, Kolkata, West Bengal",22.4761739,88.3478394,LOW,1.0,0.0,20,20,False,297,297,1.0,FRC4,0.0,0.15
+13,"Howrah, West Bengal",22.5944824,88.265686,LOW,0.82,17.65,28,34,False,1347,1109,0.998582,FRC1,21.46,24.19
+13,"Rajarhat, Kolkata, West Bengal",22.5655734,88.3702152,LOW,0.78,21.74,18,23,False,869,680,1.0,FRC4,27.79,18.06
+13,"Ballygunge, Kolkata, West Bengal",22.5279746,88.3629966,MODERATE,0.66,34.48,19,29,False,204,133,1.0,FRC4,53.38,32.74
+13,"Vaishali Nagar, Jaipur, Rajasthan",26.9060132,75.7407346,LOW,1.0,0.0,26,26,False,338,338,1.0,FRC4,0.0,0.15
+13,"Malviya Nagar, Jaipur, Rajasthan",26.8554493,75.8203746,LOW,1.0,0.0,35,35,False,222,222,1.0,FRC2,0.0,10.15
+13,"C Scheme, Jaipur, Rajasthan",26.9842393,75.761852,LOW,1.0,0.0,67,67,False,688,688,1.0,FRC1,0.0,10.15
+13,"Satellite, Ahmedabad, Gujarat",23.0251898,72.5246919,MODERATE,0.74,25.81,23,31,False,1093,811,1.0,FRC2,34.77,32.21
+13,"Bodakdev, Ahmedabad, Gujarat",23.0443645,72.517923,LOW,0.89,10.71,25,28,False,674,602,1.0,FRC3,11.96,18.19
+13,"Navrangpura, Ahmedabad, Gujarat",23.0374547,72.5639835,CLOSED,0.73,26.92,19,26,True,1949,1424,0.953428,FRC2,36.87,48.43
+13,"Maninagar, Ahmedabad, Gujarat",22.9832788,72.6140353,LOW,1.0,0.0,25,25,False,510,510,1.0,FRC4,0.0,0.15
+13,"Paldi, Ahmedabad, Gujarat",23.0129278,72.5557872,LOW,0.7,29.63,19,27,False,2412,1697,0.997911,FRC6,42.13,21.47
+13,"Ernakulam, Kochi, Kerala",9.7511807,76.318561,LOW,1.0,0.0,40,40,False,1883,1883,1.0,FRC1,0.0,10.15
+13,"Kakkanad, Kochi, Kerala",9.9576168,76.2511512,LOW,0.77,22.73,17,22,False,303,234,0.864954,FRC4,29.49,19.07
+13,"Edappally, Kochi, Kerala",10.0566394,76.291473,LOW,1.0,0.0,31,31,False,536,536,1.0,FRC1,0.0,10.15
+13,"Palarivattom, Kochi, Kerala",9.9576168,76.2511512,LOW,0.77,22.73,17,22,False,303,234,0.864954,FRC4,29.49,19.07
+13,"Kadavanthra, Kochi, Kerala",9.9576168,76.2511512,LOW,0.77,22.73,17,22,False,303,234,0.864954,FRC4,29.49,19.07
+13,"Thiruvananthapuram City, Kerala",8.4946496,76.9449992,HEAVY,0.56,43.75,18,32,False,1224,688,1.0,FRC1,77.91,56.08
+13,"Kozhikode City, Kerala",11.2341272,75.795501,MODERATE,0.73,26.83,30,41,False,1826,1336,0.982315,FRC1,36.68,33.32
+13,"Thrissur City, Kerala",10.5239038,76.2122541,MODERATE,0.64,36.36,21,33,False,795,506,0.995854,FRC3,57.11,44.89
+13,"Kottayam Town, Kerala",9.591754,76.5319074,MODERATE,0.75,25.0,24,32,False,178,133,0.646285,FRC1,33.83,31.59
+13,"Vijayawada City, Andhra Pradesh",16.5003355,80.6447439,MODERATE,0.81,19.35,25,31,False,601,485,1.0,FRC1,23.92,25.72
+13,"Visakhapatnam City, Andhra Pradesh",17.710186,83.1769123,LOW,0.83,16.67,35,42,False,1911,1593,0.999184,FRC2,19.96,23.27
+13,"Guntur City, Andhra Pradesh",16.498447,80.6439998,LOW,1.0,0.0,62,62,False,956,956,1.0,FRC1,0.0,10.15
+13,"Tirupati, Andhra Pradesh",13.6287278,79.4190701,LOW,1.0,0.0,33,33,False,2178,2178,1.0,FRC4,0.0,0.15
+13,"Mangalore City, Karnataka",12.9070024,74.8803527,LOW,1.0,0.0,42,42,False,2050,2050,1.0,FRC2,0.0,10.15
+13,"Hubli City, Karnataka",15.3862196,75.082741,LOW,0.9,10.0,36,40,False,1429,1286,0.946007,FRC3,11.12,17.64
+13,"Mysore City, Karnataka",12.3136462,76.6171643,MODERATE,0.66,34.21,25,38,False,909,598,0.994442,FRC3,52.01,42.05
+13,"Coimbatore City, Tamil Nadu",11.0804508,76.8366161,LOW,1.0,0.0,48,48,False,1520,1520,1.0,FRC3,0.0,10.15
+13,"Madurai City, Tamil Nadu",9.7427816,77.7953645,LOW,1.0,0.0,49,49,False,842,842,1.0,FRC2,0.0,10.15
+13,"Tiruchirappalli, Tamil Nadu",10.8008235,78.6899185,LOW,1.0,0.0,28,28,False,9,9,1.0,FRC2,0.0,10.15
+13,"Varanasi City, Uttar Pradesh",25.3096924,83.0056763,MODERATE,0.56,44.0,14,25,False,1274,713,0.962661,FRC4,78.68,46.49
+13,"Noida Sector 18, Uttar Pradesh",28.5705225,77.3261967,LOW,0.84,16.13,26,31,False,1365,1144,1.0,FRC2,19.32,22.85
+13,"Greater Noida, Uttar Pradesh",28.4477179,77.524566,LOW,1.0,0.0,38,38,False,2047,2047,1.0,FRC4,0.0,0.15
+13,"Gurgaon Cyber City, Haryana",28.4798011,77.0813162,LOW,1.0,0.0,37,37,False,1488,1488,1.0,FRC2,0.0,10.15
+13,"Faridabad City, Haryana",28.4841588,77.3257282,LOW,0.75,25.0,12,16,False,2716,2037,0.833705,FRC4,33.33,21.36
+13,"Dehradun City, Uttarakhand",30.118491,78.294956,MODERATE,0.76,23.53,26,34,False,347,265,0.973198,FRC1,30.94,29.92
+13,"Haridwar City, Uttarakhand",30.0604135,78.2894862,LOW,1.0,0.0,48,48,False,1643,1643,1.0,FRC4,0.0,0.15
+13,"Amritsar City, Punjab",31.6587342,74.841167,LOW,1.0,0.0,68,68,False,437,437,1.0,FRC1,0.0,10.15
+13,"South Extension, New Delhi",28.5694154,77.2209031,LOW,1.0,0.0,44,44,False,356,356,1.0,FRC1,0.0,10.15
+13,"Hauz Khas, New Delhi",28.5526463,77.2017518,MODERATE,0.66,34.38,21,32,False,1150,755,0.997194,FRC7,52.32,27.24
+13,"Lajpat Nagar, New Delhi",28.5731147,77.2462327,MODERATE,0.73,27.27,32,44,False,1424,1036,1.0,FRC3,37.45,33.78
+13,"Saket, New Delhi",28.5257049,77.2143917,LOW,0.76,24.0,19,25,False,245,186,1.0,FRC4,31.72,20.39
+13,"Dwarka Sector 12, New Delhi",28.5969098,77.0419895,LOW,0.83,16.67,25,30,False,867,722,0.998044,FRC4,20.08,13.33
+13,"Gurgaon MG Road, Haryana",28.4798011,77.0813162,LOW,1.0,0.0,37,37,False,1488,1488,1.0,FRC2,0.0,10.15
+13,"Golf Course Road, Gurgaon, Haryana",28.4626859,77.117071,LOW,1.0,0.0,54,54,False,1483,1483,1.0,FRC3,0.0,10.15
+13,"Udyog Vihar, Gurgaon, Haryana",28.5048124,77.0695199,MODERATE,0.7,29.63,19,27,False,1909,1344,1.0,FRC4,42.04,26.43
+13,"Sohna Road, Gurgaon, Haryana",28.4198873,77.1533811,LOW,1.0,0.0,54,54,False,1483,1483,1.0,FRC3,0.0,10.15
+13,"Noida Sector 62, Uttar Pradesh",28.626626,77.3654727,LOW,0.86,14.29,30,35,False,503,431,1.0,FRC4,16.71,11.22
+13,"Noida Sector 76, Uttar Pradesh",28.568967,77.3852713,LOW,1.0,0.0,33,33,False,434,434,1.0,FRC4,0.0,0.15
+13,"Colaba, Mumbai, Maharashtra",18.9249319,72.8300808,MODERATE,0.7,30.43,16,23,False,270,188,1.0,FRC1,43.62,37.34
+13,"Fort, Mumbai, Maharashtra",18.9459596,72.8337847,SEVERE,0.27,72.73,6,22,False,253,69,1.0,FRC3,266.67,148.22
+13,"Borivali West, Mumbai, Maharashtra",19.2297,72.852173,MODERATE,0.65,35.0,13,20,False,444,289,0.970397,FRC3,53.63,42.98
+13,"Kandivali East, Mumbai, Maharashtra",19.1913449,72.8740971,LOW,1.0,0.0,17,17,False,203,203,1.0,FRC4,0.0,0.15
+13,"Chembur, Mumbai, Maharashtra",19.0487802,72.90587,LOW,1.0,0.0,33,33,False,735,735,1.0,FRC2,0.0,10.15
+13,"Dadar, Mumbai, Maharashtra",19.0177484,72.8358202,MODERATE,0.62,37.5,15,24,False,3219,2012,0.99614,FRC2,59.99,46.46
+13,"Nerul, Navi Mumbai, Maharashtra",19.020485,73.0035976,LOW,1.0,0.0,41,41,False,1264,1264,1.0,FRC2,0.0,10.15
+13,"Kharghar, Navi Mumbai, Maharashtra",19.0334,73.018997,LOW,1.0,0.0,26,26,False,272,272,1.0,FRC4,0.0,0.15
+13,"Ulhasnagar, Thane, Maharashtra",19.2228117,73.1584637,LOW,0.85,15.38,11,13,False,505,427,0.84,FRC4,18.27,12.19
+13,"Dombivli East, Thane, Maharashtra",19.2157323,73.1031728,LOW,1.0,0.0,31,31,False,269,269,1.0,FRC4,0.0,0.15
+13,"Thoraipakkam, Chennai, Tamil Nadu",12.9192758,80.208965,LOW,1.0,0.0,25,25,False,714,714,1.0,FRC4,0.0,0.15
+13,"Sholinganallur, Chennai, Tamil Nadu",12.9001173,80.2239691,LOW,1.0,0.0,27,27,False,889,889,1.0,FRC4,0.0,0.15
+13,"Baner, Pune, Maharashtra",18.5642156,73.7871973,LOW,1.0,0.0,26,26,False,1884,1884,1.0,FRC4,0.0,0.15
+13,"Aundh, Pune, Maharashtra",18.558127,73.8072801,LOW,0.72,27.59,21,29,False,204,148,1.0,FRC4,37.84,24.03
+13,"Hadapsar, Pune, Maharashtra",18.499079,73.9341695,LOW,0.75,25.0,18,24,False,1042,781,0.982337,FRC4,33.42,21.4
+13,"Bibwewadi, Pune, Maharashtra",18.4662107,73.8627802,LOW,1.0,0.0,24,24,False,318,318,1.0,FRC2,0.0,10.15
+13,"Swargate, Pune, Maharashtra",18.4990216,73.8590652,MODERATE,0.72,27.59,21,29,False,1020,738,1.0,FRC2,38.21,34.2
+13,"Meerut City, Uttar Pradesh",28.9498578,77.6419455,LOW,0.83,16.98,44,53,False,1625,1349,0.995802,FRC2,20.46,23.58
+13,"Aligarh City, Uttar Pradesh",27.8898926,78.0745239,LOW,0.79,20.83,19,24,False,397,314,0.656258,FRC4,26.43,17.22
+13,"Jhansi City, Uttar Pradesh",25.4487305,78.5701294,MODERATE,0.66,34.21,25,38,False,2208,1452,0.896232,FRC3,52.07,42.08
+13,"Moradabad City, Uttar Pradesh",28.8331428,78.7652781,MODERATE,0.7,29.73,26,37,False,1109,779,0.972694,FRC3,42.36,36.6
+13,"Mathura City, Uttar Pradesh",27.4849744,77.685131,MODERATE,0.63,37.14,22,35,False,204,128,0.98,FRC1,59.38,46.1
+13,"Udaipur City, Rajasthan",24.5873872,73.6915427,MODERATE,0.54,45.83,13,24,False,481,260,0.966028,FRC4,85.0,49.79
+13,"Kota City, Rajasthan",25.2109082,75.8213499,LOW,1.0,0.0,54,54,False,189,189,1.0,FRC3,0.0,10.15
+13,"Jodhpur City, Rajasthan",26.381001,73.5467,LOW,1.0,0.0,53,53,False,1550,1550,1.0,FRC4,0.0,0.15
+13,"Ajmer City, Rajasthan",26.5855952,74.8609106,LOW,0.83,17.24,24,29,False,836,692,0.81646,FRC6,20.81,8.8
+13,"Bikaner City, Rajasthan",28.0134638,73.2972264,LOW,0.89,11.29,55,62,False,856,759,0.75195,FRC1,12.78,18.71
+13,"Bhopal City, Madhya Pradesh",23.177649,77.454497,LOW,1.0,0.0,43,43,False,1564,1564,1.0,FRC1,0.0,10.15
+13,"Rajkot City, Gujarat",22.3003793,70.8086015,CLOSED,0.86,13.51,32,37,True,1505,1301,0.939579,FRC2,15.68,35.56
+13,"Bhavnagar City, Gujarat",21.7727986,72.1548699,LOW,1.0,0.0,32,32,False,901,901,1.0,FRC4,0.0,0.15
+13,"Jamnagar City, Gujarat",22.432788,70.0559897,LOW,1.0,0.0,28,28,False,803,803,1.0,FRC2,0.0,10.15
+13,"Gandhinagar City, Gujarat",23.0704348,72.5243009,LOW,1.0,0.0,28,28,False,40,40,1.0,FRC4,0.0,0.15
+13,"Asansol City, West Bengal",23.6930343,86.9531088,MODERATE,0.81,18.75,26,32,False,2967,2410,0.831929,FRC2,23.11,25.21
+13,"Siliguri City, West Bengal",26.7096309,88.4286167,HEAVY,0.45,54.55,10,22,False,388,176,0.776477,FRC4,120.45,67.91
+13,"Durgapur City, West Bengal",23.5292384,87.351587,LOW,1.0,0.0,37,37,False,974,974,1.0,FRC4,0.0,0.15
+13,"Alappuzha Town, Kerala",9.2595192,76.5437808,MODERATE,0.78,22.22,35,45,False,2053,1597,0.816243,FRC3,28.55,28.52
+13,"Kollam City, Kerala",8.8869046,76.5904652,MODERATE,0.72,27.5,29,40,False,1485,1076,0.918229,FRC1,38.01,34.09
+13,"Kannur City, Kerala",11.8719881,75.379077,MODERATE,0.75,25.0,33,44,False,1115,836,0.981736,FRC1,33.37,31.38
+13,"Palakkad City, Kerala",10.8001,76.639099,HEAVY,0.55,45.24,23,42,False,899,492,0.98011,FRC1,82.72,58.62
+13,"Warangal City, Telangana",17.9745069,79.6113623,LOW,0.88,12.5,42,48,False,1017,890,0.96761,FRC3,14.27,19.68
+13,"Karimnagar City, Telangana",18.458233,79.136705,LOW,0.86,13.95,37,43,False,1341,1154,0.917248,FRC2,16.2,20.91
+13,"Nellore City, Andhra Pradesh",14.413352,79.962271,LOW,0.82,17.86,23,28,False,1046,859,0.95715,FRC5,21.77,14.38
+13,"Rajahmundry City, Andhra Pradesh",17.0376947,81.7778132,LOW,1.0,0.0,35,35,False,2107,2107,1.0,FRC4,0.0,0.15
+13,"Kakinada City, Andhra Pradesh",16.9673975,82.2333385,MODERATE,0.71,29.41,24,34,False,468,331,0.694949,FRC1,41.39,36.08
+13,"Belgaum City, Karnataka",15.8771478,74.5171905,LOW,0.81,18.52,22,27,False,132,108,0.927254,FRC4,22.22,14.75
+13,"Gulbarga City, Karnataka",17.33965,76.8371479,MODERATE,0.63,37.14,22,35,False,1559,980,0.921739,FRC2,59.08,45.97
+13,"Davangere City, Karnataka",14.3682977,75.9527929,LOW,1.0,0.0,37,37,False,2330,2330,1.0,FRC4,0.0,0.15
+13,"Bellary City, Karnataka",15.1388817,76.9768644,LOW,0.87,13.16,33,38,False,2114,1836,0.78729,FRC2,15.14,20.23
+13,"Ludhiana City, Punjab",30.8519434,75.8598782,MODERATE,0.68,32.08,36,53,False,1000,679,0.999751,FRC2,47.28,39.39
+13,"Jalandhar City, Punjab",31.3478513,75.6032045,LOW,0.82,18.18,27,33,False,998,816,0.890855,FRC2,22.3,24.7
+13,"Bathinda City, Punjab",30.2129218,74.9331732,MODERATE,0.61,39.47,23,38,False,497,301,0.99816,FRC1,65.12,49.26
+13,"Hisar City, Haryana",28.8994857,76.5532936,MODERATE,0.71,28.57,30,42,False,243,174,0.98,FRC3,39.66,35.09
+13,"Karnal City, Haryana",29.6531038,77.0078492,LOW,1.0,0.0,63,63,False,1166,1166,1.0,FRC3,0.0,10.15
+13,"Panipat City, Haryana",29.4283503,76.9533079,LOW,1.0,0.0,30,30,False,621,621,1.0,FRC4,0.0,0.15
+13,"Berhampur City, Odisha",20.4032641,86.2026906,LOW,1.0,0.0,41,41,False,2182,2182,1.0,FRC4,0.0,0.15
+13,"Koraput City, Odisha",18.8131994,82.7126008,LOW,0.89,11.11,40,45,False,2172,1931,0.696046,FRC1,12.48,18.53
+13,"Sambalpur City, Odisha",21.4594222,83.9743315,LOW,1.0,0.0,38,38,False,1263,1263,1.0,FRC2,0.0,10.15
+13,"Gaya City, Bihar",24.7924837,85.0077092,MODERATE,0.59,41.46,24,41,False,2767,1620,0.87814,FRC2,70.8,52.31
+13,"Muzaffarpur City, Bihar",26.1227209,85.3786314,MODERATE,0.75,25.0,15,20,False,284,213,0.80982,FRC2,33.33,31.36
+13,"Dhanbad City, Jharkhand",23.7940427,86.4261706,LOW,1.0,0.0,17,17,False,141,141,1.0,FRC2,0.0,10.15
+13,"Jamshedpur City, Jharkhand",22.843639,86.212528,LOW,0.84,15.79,48,57,False,1710,1440,0.871747,FRC1,18.75,22.51
+13,"Shillong City, Meghalaya",25.5762291,91.8828636,LOW,1.0,0.0,11,11,False,325,325,1.0,FRC4,0.0,0.15
+13,"Imphal City, Manipur",24.8021535,93.938618,LOW,0.86,14.29,42,49,False,1996,1711,0.887732,FRC2,16.66,21.2
+13,"Aizawl City, Mizoram",23.7243713,92.7186455,MODERATE,0.7,30.43,16,23,False,591,411,0.871949,FRC2,43.8,37.42
+13,"Kohima City, Nagaland",25.6749234,94.1105241,MODERATE,0.7,30.0,14,20,False,907,634,0.623261,FRC2,43.06,36.98
+13,"Agartala City, Tripura",23.8338203,91.2824216,LOW,0.74,26.32,14,19,False,309,227,0.864909,FRC4,36.12,22.94
+14,"Mumbai Central, Mumbai, Maharashtra",18.9770366,72.826266,LOW,0.82,18.18,18,22,False,891,729,0.98676,FRC4,22.22,14.67
+14,"CG Road, Ahmedabad, Gujarat",23.1083596,72.5869112,LOW,0.85,14.81,23,27,False,334,284,0.992141,FRC4,17.61,11.75
+14,"MG Road, Kochi, Kerala",10.5160332,76.2538456,LOW,1.0,0.0,61,61,False,1066,1066,1.0,FRC1,0.0,10.15
+14,"Banjara Hills, Hyderabad, Telangana",17.4091038,78.4394666,LOW,0.82,18.18,27,33,False,1098,898,1.0,FRC4,22.27,14.69
+14,"Vastrapur, Ahmedabad, Gujarat",23.0350831,72.5276438,LOW,1.0,0.0,23,23,False,115,115,1.0,FRC4,0.0,0.15
+14,"Koregaon Park, Pune, Maharashtra",18.5420451,73.8881809,LOW,0.73,26.67,22,30,False,1114,817,0.999333,FRC4,36.35,23.14
+14,"Indiranagar, Bangalore, Karnataka",12.9719015,77.6367928,LOW,0.82,17.86,23,28,False,1260,1035,1.0,FRC2,21.74,24.37
+14,"Jubilee Hills, Hyderabad, Telangana",17.4333041,78.4013942,LOW,1.0,0.0,45,45,False,229,229,1.0,FRC4,0.0,0.15
+14,"T Nagar, Chennai, Tamil Nadu",12.9605278,80.2083254,LOW,1.0,0.0,32,32,False,532,532,1.0,FRC2,0.0,10.15
+14,"Salt Lake, Kolkata, West Bengal",22.5580861,88.412438,LOW,1.0,0.0,38,38,False,1527,1527,1.0,FRC2,0.0,10.15
+14,"Civil Lines, Jaipur, Rajasthan",26.9069197,75.7830344,MODERATE,0.69,31.43,24,35,False,1122,769,0.999067,FRC2,45.9,38.62
+14,"Aliganj, Lucknow, Uttar Pradesh",26.890281,80.9495987,LOW,0.77,22.86,27,35,False,2385,1840,0.982948,FRC7,29.62,14.16
+14,"Gomti Nagar, Lucknow, Uttar Pradesh",26.8513093,81.0124214,MODERATE,0.74,26.32,42,57,False,717,528,1.0,FRC1,35.8,32.8
+14,"Vijay Nagar, Indore, Madhya Pradesh",22.7630269,75.8804978,LOW,0.74,25.81,23,31,False,314,233,0.99862,FRC4,34.76,22.21
+14,"Sector 17, Chandigarh",30.7425426,76.7859351,LOW,0.84,16.22,31,37,False,1037,868,1.0,FRC3,19.47,22.94
+14,"MI Road, Jaipur, Rajasthan",26.9171019,75.7992711,MODERATE,0.7,30.43,16,23,False,60,41,1.0,FRC2,46.34,38.57
+14,"Station Road, Surat, Gujarat",21.1984585,72.8351411,CLOSED,0.73,26.67,11,15,True,1051,770,0.848101,FRC3,36.49,48.2
+14,"Frazer Town, Bangalore, Karnataka",13.0022108,77.621035,LOW,1.0,0.0,28,28,False,630,630,1.0,FRC6,0.0,-4.85
+14,"Begumpet, Hyderabad, Telangana",17.4449415,78.4571867,MODERATE,0.62,37.84,23,37,False,751,467,1.0,FRC1,60.81,46.92
+14,"Powai, Mumbai, Maharashtra",19.1238155,72.9126101,LOW,0.87,13.33,26,30,False,1679,1455,1.0,FRC3,15.4,20.39
+14,"Andheri West, Mumbai, Maharashtra",19.1340729,72.8303618,LOW,0.72,27.78,13,18,False,364,263,0.98978,FRC4,38.4,24.33
+14,"Worli, Mumbai, Maharashtra",19.001465,72.8160656,LOW,1.0,0.0,31,31,False,203,203,1.0,FRC4,0.0,0.15
+14,"Bandra West, Mumbai, Maharashtra",19.0588335,72.8346685,MODERATE,0.59,41.18,10,17,False,142,83,1.0,FRC4,71.08,42.37
+14,"Lower Parel, Mumbai, Maharashtra",18.9962663,72.8268788,CLOSED,0.77,22.86,27,35,True,993,766,0.972678,FRC4,29.63,34.17
+14,"Vashi, Navi Mumbai, Maharashtra",19.0761766,73.0020679,LOW,1.0,0.0,21,21,False,581,581,1.0,FRC4,0.0,0.15
+14,"Thane West, Thane, Maharashtra",19.276338,72.9590781,MODERATE,0.79,20.59,27,34,False,1935,1536,1.0,FRC1,25.98,26.96
+14,"Kothrud, Pune, Maharashtra",18.5010542,73.8116455,LOW,1.0,0.0,21,21,False,262,262,1.0,FRC4,0.0,0.15
+14,"Viman Nagar, Pune, Maharashtra",18.5411985,73.8024415,LOW,1.0,0.0,21,21,False,325,325,1.0,FRC4,0.0,0.15
+14,"Wakad, Pune, Maharashtra",18.5963419,73.7718897,LOW,1.0,0.0,24,24,False,323,323,1.0,FRC4,0.0,0.15
+14,"Hinjewadi, Pune, Maharashtra",18.5979574,73.700786,LOW,1.0,0.0,34,34,False,2140,2140,1.0,FRC3,0.0,10.15
+14,"Whitefield, Bangalore, Karnataka",12.9943542,77.7585209,LOW,0.85,15.15,28,33,False,2062,1749,1.0,FRC2,17.9,21.97
+14,"Electronic City, Bangalore, Karnataka",12.8478071,77.6631929,LOW,1.0,0.0,27,27,False,1466,1466,1.0,FRC6,0.0,-4.85
+14,"Marathahalli, Bangalore, Karnataka",12.9545264,77.7027027,LOW,1.0,0.0,25,25,False,868,868,1.0,FRC2,0.0,10.15
+14,"HSR Layout, Bangalore, Karnataka",12.9165423,77.6519551,LOW,1.0,0.0,48,48,False,59,59,1.0,FRC1,0.0,10.15
+14,"New Town, Kolkata, West Bengal",22.4761739,88.3478394,LOW,1.0,0.0,20,20,False,297,297,1.0,FRC4,0.0,0.15
+14,"Howrah, West Bengal",22.5944824,88.265686,LOW,0.82,17.65,28,34,False,1347,1109,1.0,FRC1,21.46,24.19
+14,"Rajarhat, Kolkata, West Bengal",22.5655734,88.3702152,LOW,0.75,25.0,18,24,False,869,652,0.996049,FRC4,33.28,21.34
+14,"Ballygunge, Kolkata, West Bengal",22.5279746,88.3629966,MODERATE,0.53,46.67,16,30,False,242,129,1.0,FRC4,87.6,51.17
+14,"Vaishali Nagar, Jaipur, Rajasthan",26.9060132,75.7407346,LOW,0.88,12.0,22,25,False,399,351,1.0,FRC4,13.68,9.29
+14,"Malviya Nagar, Jaipur, Rajasthan",26.8554493,75.8203746,LOW,1.0,0.0,35,35,False,222,222,1.0,FRC2,0.0,10.15
+14,"C Scheme, Jaipur, Rajasthan",26.9842393,75.761852,LOW,1.0,0.0,67,67,False,688,688,1.0,FRC1,0.0,10.15
+14,"Satellite, Ahmedabad, Gujarat",23.0251898,72.5246919,MODERATE,0.81,18.75,26,32,False,967,786,1.0,FRC2,23.03,25.17
+14,"Bodakdev, Ahmedabad, Gujarat",23.0443645,72.517923,LOW,0.86,14.29,24,28,False,702,602,1.0,FRC3,16.61,21.18
+14,"Navrangpura, Ahmedabad, Gujarat",23.0374547,72.5639835,CLOSED,0.73,26.92,19,26,True,1949,1424,0.955775,FRC2,36.87,48.43
+14,"Maninagar, Ahmedabad, Gujarat",22.9832788,72.6140353,LOW,1.0,0.0,25,25,False,510,510,1.0,FRC4,0.0,0.15
+14,"Paldi, Ahmedabad, Gujarat",23.0129278,72.5557872,LOW,0.73,26.92,19,26,False,2412,1762,0.99821,FRC6,36.89,18.44
+14,"Ernakulam, Kochi, Kerala",9.7511807,76.318561,LOW,1.0,0.0,40,40,False,1883,1883,1.0,FRC1,0.0,10.15
+14,"Kakkanad, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+14,"Edappally, Kochi, Kerala",10.0566394,76.291473,LOW,1.0,0.0,31,31,False,536,536,1.0,FRC1,0.0,10.15
+14,"Palarivattom, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+14,"Kadavanthra, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+14,"Thiruvananthapuram City, Kerala",8.4946496,76.9449992,HEAVY,0.56,43.75,18,32,False,1224,688,1.0,FRC1,77.91,56.08
+14,"Kozhikode City, Kerala",11.2341272,75.795501,MODERATE,0.78,21.95,32,41,False,1712,1336,0.982522,FRC1,28.14,28.27
+14,"Thrissur City, Kerala",10.5239038,76.2122541,MODERATE,0.67,33.33,22,33,False,759,506,0.995861,FRC3,50.0,40.93
+14,"Kottayam Town, Kerala",9.591754,76.5319074,MODERATE,0.59,40.62,19,32,False,224,133,0.815588,FRC1,68.42,51.03
+14,"Vijayawada City, Andhra Pradesh",16.5003355,80.6447439,LOW,1.0,0.0,32,32,False,470,470,1.0,FRC1,0.0,10.15
+14,"Visakhapatnam City, Andhra Pradesh",17.710186,83.1769123,LOW,0.88,11.9,37,42,False,1808,1593,0.999486,FRC2,13.5,19.18
+14,"Guntur City, Andhra Pradesh",16.498447,80.6439998,LOW,1.0,0.0,62,62,False,956,956,1.0,FRC1,0.0,10.15
+14,"Tirupati, Andhra Pradesh",13.6287278,79.4190701,LOW,1.0,0.0,33,33,False,2178,2178,1.0,FRC4,0.0,0.15
+14,"Mangalore City, Karnataka",12.9070024,74.8803527,LOW,1.0,0.0,42,42,False,2050,2050,1.0,FRC2,0.0,10.15
+14,"Hubli City, Karnataka",15.3862196,75.082741,LOW,0.88,12.2,36,41,False,1429,1254,0.783992,FRC3,13.96,19.46
+14,"Mysore City, Karnataka",12.3136462,76.6171643,MODERATE,0.65,35.14,24,37,False,947,614,0.996532,FRC3,54.23,43.29
+14,"Coimbatore City, Tamil Nadu",11.0804508,76.8366161,LOW,1.0,0.0,48,48,False,1520,1520,1.0,FRC3,0.0,10.15
+14,"Madurai City, Tamil Nadu",9.7427816,77.7953645,LOW,1.0,0.0,49,49,False,842,842,1.0,FRC2,0.0,10.15
+14,"Tiruchirappalli, Tamil Nadu",10.8008235,78.6899185,LOW,1.0,0.0,28,28,False,9,9,1.0,FRC2,0.0,10.15
+14,"Varanasi City, Uttar Pradesh",25.3096924,83.0056763,MODERATE,0.64,36.0,16,25,False,1115,713,0.929583,FRC4,56.38,34.47
+14,"Noida Sector 18, Uttar Pradesh",28.5705225,77.3261967,LOW,1.0,0.0,31,31,False,1144,1144,1.0,FRC2,0.0,10.15
+14,"Greater Noida, Uttar Pradesh",28.4477179,77.524566,LOW,0.87,13.16,33,38,False,2358,2047,0.984997,FRC4,15.19,10.26
+14,"Gurgaon Cyber City, Haryana",28.4798011,77.0813162,LOW,1.0,0.0,37,37,False,1488,1488,1.0,FRC2,0.0,10.15
+14,"Faridabad City, Haryana",28.4841588,77.3257282,LOW,0.81,18.75,13,16,False,2507,2037,0.858844,FRC4,23.07,15.19
+14,"Dehradun City, Uttarakhand",30.118491,78.294956,MODERATE,0.77,22.86,27,35,False,334,258,0.971973,FRC1,29.46,29.09
+14,"Haridwar City, Uttarakhand",30.0604135,78.2894862,LOW,1.0,0.0,48,48,False,1643,1643,1.0,FRC4,0.0,0.15
+14,"Amritsar City, Punjab",31.6587342,74.841167,LOW,1.0,0.0,68,68,False,437,437,1.0,FRC1,0.0,10.15
+14,"South Extension, New Delhi",28.5694154,77.2209031,MODERATE,0.77,22.73,34,44,False,460,356,1.0,FRC1,29.21,28.94
+14,"Hauz Khas, New Delhi",28.5526463,77.2017518,LOW,0.68,32.26,21,31,False,1150,779,0.998647,FRC7,47.63,24.6
+14,"Lajpat Nagar, New Delhi",28.5731147,77.2462327,MODERATE,0.7,30.23,30,43,False,1519,1060,1.0,FRC3,43.3,37.15
+14,"Saket, New Delhi",28.5257049,77.2143917,MODERATE,0.69,30.77,18,26,False,259,179,1.0,FRC4,44.69,27.91
+14,"Dwarka Sector 12, New Delhi",28.5969098,77.0419895,LOW,0.77,22.58,24,31,False,903,699,0.998234,FRC4,29.18,18.89
+14,"Gurgaon MG Road, Haryana",28.4798011,77.0813162,LOW,1.0,0.0,37,37,False,1488,1488,1.0,FRC2,0.0,10.15
+14,"Golf Course Road, Gurgaon, Haryana",28.4626859,77.117071,LOW,0.89,10.91,49,55,False,1634,1456,1.0,FRC3,12.23,18.36
+14,"Udyog Vihar, Gurgaon, Haryana",28.5048124,77.0695199,LOW,0.74,25.93,20,27,False,1814,1344,1.0,FRC4,34.97,22.33
+14,"Sohna Road, Gurgaon, Haryana",28.4198873,77.1533811,LOW,0.89,10.91,49,55,False,1634,1456,1.0,FRC3,12.23,18.36
+14,"Noida Sector 62, Uttar Pradesh",28.626626,77.3654727,LOW,1.0,0.0,36,36,False,419,419,1.0,FRC4,0.0,0.15
+14,"Noida Sector 76, Uttar Pradesh",28.568967,77.3852713,LOW,1.0,0.0,33,33,False,434,434,1.0,FRC4,0.0,0.15
+14,"Colaba, Mumbai, Maharashtra",18.9249319,72.8300808,LOW,0.83,17.39,19,23,False,228,188,1.0,FRC1,21.28,24.05
+14,"Fort, Mumbai, Maharashtra",18.9459596,72.8337847,HEAVY,0.45,54.55,10,22,False,151,69,1.0,FRC3,118.84,77.18
+14,"Borivali West, Mumbai, Maharashtra",19.2297,72.852173,MODERATE,0.79,21.05,15,19,False,385,304,0.971199,FRC3,26.64,27.37
+14,"Kandivali East, Mumbai, Maharashtra",19.1913449,72.8740971,LOW,1.0,0.0,17,17,False,203,203,1.0,FRC4,0.0,0.15
+14,"Chembur, Mumbai, Maharashtra",19.0487802,72.90587,LOW,1.0,0.0,33,33,False,735,735,1.0,FRC2,0.0,10.15
+14,"Dadar, Mumbai, Maharashtra",19.0177484,72.8358202,MODERATE,0.71,29.17,17,24,False,2840,2012,0.997312,FRC2,41.15,35.92
+14,"Nerul, Navi Mumbai, Maharashtra",19.020485,73.0035976,LOW,1.0,0.0,41,41,False,1264,1264,1.0,FRC2,0.0,10.15
+14,"Kharghar, Navi Mumbai, Maharashtra",19.0334,73.018997,LOW,1.0,0.0,26,26,False,272,272,1.0,FRC4,0.0,0.15
+14,"Ulhasnagar, Thane, Maharashtra",19.2228117,73.1584637,LOW,0.77,23.08,10,13,False,555,427,0.824162,FRC4,29.98,19.37
+14,"Dombivli East, Thane, Maharashtra",19.2157323,73.1031728,LOW,0.75,25.0,24,32,False,347,260,0.997589,FRC4,33.46,21.42
+14,"Thoraipakkam, Chennai, Tamil Nadu",12.9192758,80.208965,LOW,1.0,0.0,25,25,False,714,714,1.0,FRC4,0.0,0.15
+14,"Sholinganallur, Chennai, Tamil Nadu",12.9001173,80.2239691,LOW,1.0,0.0,27,27,False,889,889,1.0,FRC4,0.0,0.15
+14,"Baner, Pune, Maharashtra",18.5642156,73.7871973,LOW,1.0,0.0,26,26,False,1884,1884,1.0,FRC4,0.0,0.15
+14,"Aundh, Pune, Maharashtra",18.558127,73.8072801,LOW,1.0,0.0,30,30,False,143,143,1.0,FRC4,0.0,0.15
+14,"Hadapsar, Pune, Maharashtra",18.499079,73.9341695,LOW,0.79,20.83,19,24,False,987,781,0.959787,FRC4,26.38,17.2
+14,"Bibwewadi, Pune, Maharashtra",18.4662107,73.8627802,LOW,1.0,0.0,24,24,False,318,318,1.0,FRC2,0.0,10.15
+14,"Swargate, Pune, Maharashtra",18.4990216,73.8590652,MODERATE,0.79,20.69,23,29,False,931,738,1.0,FRC2,26.15,27.06
+14,"Meerut City, Uttar Pradesh",28.9498578,77.6419455,LOW,0.83,16.98,44,53,False,1625,1349,0.995553,FRC2,20.46,23.58
+14,"Aligarh City, Uttar Pradesh",27.8898926,78.0745239,MODERATE,0.61,39.13,14,23,False,538,327,0.880981,FRC4,64.53,38.91
+14,"Jhansi City, Uttar Pradesh",25.4487305,78.5701294,MODERATE,0.68,31.58,26,38,False,2123,1452,0.91328,FRC3,46.21,38.79
+14,"Moradabad City, Uttar Pradesh",28.8331428,78.7652781,MODERATE,0.72,27.78,26,36,False,1109,801,0.955952,FRC3,38.45,34.36
+14,"Mathura City, Uttar Pradesh",27.4849744,77.685131,MODERATE,0.69,30.56,25,36,False,179,124,0.98,FRC1,44.35,37.7
+14,"Udaipur City, Rajasthan",24.5873872,73.6915427,MODERATE,0.67,33.33,16,24,False,390,260,0.961285,FRC4,50.0,30.93
+14,"Kota City, Rajasthan",25.2109082,75.8213499,LOW,1.0,0.0,54,54,False,189,189,1.0,FRC3,0.0,10.15
+14,"Jodhpur City, Rajasthan",26.381001,73.5467,LOW,1.0,0.0,53,53,False,1550,1550,1.0,FRC4,0.0,0.15
+14,"Ajmer City, Rajasthan",26.5855952,74.8609106,LOW,0.83,17.24,24,29,False,836,692,0.676975,FRC6,20.81,8.8
+14,"Bikaner City, Rajasthan",28.0134638,73.2972264,LOW,0.94,6.45,58,62,False,812,759,0.850866,FRC1,6.98,14.9
+14,"Bhopal City, Madhya Pradesh",23.177649,77.454497,LOW,0.86,14.29,36,42,False,1868,1601,0.99946,FRC1,16.68,21.2
+14,"Rajkot City, Gujarat",22.3003793,70.8086015,CLOSED,0.89,10.81,33,37,True,1459,1301,0.93925,FRC2,12.14,33.3
+14,"Bhavnagar City, Gujarat",21.7727986,72.1548699,LOW,1.0,0.0,32,32,False,901,901,1.0,FRC4,0.0,0.15
+14,"Jamnagar City, Gujarat",22.432788,70.0559897,LOW,1.0,0.0,28,28,False,803,803,1.0,FRC2,0.0,10.15
+14,"Gandhinagar City, Gujarat",23.0704348,72.5243009,LOW,1.0,0.0,28,28,False,40,40,1.0,FRC4,0.0,0.15
+14,"Asansol City, West Bengal",23.6930343,86.9531088,MODERATE,0.81,18.75,26,32,False,2967,2410,0.765566,FRC2,23.11,25.21
+14,"Siliguri City, West Bengal",26.7096309,88.4286167,MODERATE,0.67,33.33,14,21,False,277,185,0.6465,FRC4,49.73,30.81
+14,"Durgapur City, West Bengal",23.5292384,87.351587,LOW,1.0,0.0,37,37,False,974,974,1.0,FRC4,0.0,0.15
+14,"Alappuzha Town, Kerala",9.2595192,76.5437808,LOW,1.0,0.0,45,45,False,1597,1597,1.0,FRC3,0.0,10.15
+14,"Kollam City, Kerala",8.8869046,76.5904652,MODERATE,0.72,28.21,28,39,False,1538,1104,0.906073,FRC1,39.31,34.85
+14,"Kannur City, Kerala",11.8719881,75.379077,MODERATE,0.76,24.44,34,45,False,1082,817,0.96831,FRC1,32.44,30.82
+14,"Palakkad City, Kerala",10.8001,76.639099,MODERATE,0.6,40.48,25,42,False,827,492,0.966333,FRC1,68.09,50.85
+14,"Warangal City, Telangana",17.9745069,79.6113623,LOW,0.88,12.24,43,49,False,994,872,0.764752,FRC3,13.99,19.49
+14,"Karimnagar City, Telangana",18.458233,79.136705,LOW,0.84,16.28,36,43,False,1378,1154,0.967632,FRC2,19.41,22.93
+14,"Nellore City, Andhra Pradesh",14.413352,79.962271,LOW,1.0,0.0,28,28,False,859,859,1.0,FRC5,0.0,0.15
+14,"Rajahmundry City, Andhra Pradesh",17.0376947,81.7778132,LOW,1.0,0.0,35,35,False,2107,2107,1.0,FRC4,0.0,0.15
+14,"Kakinada City, Andhra Pradesh",16.9673975,82.2333385,MODERATE,0.7,30.3,23,33,False,489,341,0.683581,FRC1,43.4,37.21
+14,"Belgaum City, Karnataka",15.8771478,74.5171905,LOW,1.0,0.0,28,28,False,104,104,1.0,FRC4,0.0,0.15
+14,"Gulbarga City, Karnataka",17.33965,76.8371479,MODERATE,0.63,37.14,22,35,False,1559,980,0.931873,FRC2,59.08,45.97
+14,"Davangere City, Karnataka",14.3682977,75.9527929,LOW,1.0,0.0,37,37,False,2330,2330,1.0,FRC4,0.0,0.15
+14,"Bellary City, Karnataka",15.1388817,76.9768644,LOW,1.0,0.0,38,38,False,1836,1836,1.0,FRC2,0.0,10.15
+14,"Ludhiana City, Punjab",30.8519434,75.8598782,MODERATE,0.7,30.19,37,53,False,973,679,1.0,FRC2,43.3,37.14
+14,"Jalandhar City, Punjab",31.3478513,75.6032045,LOW,0.85,15.15,28,33,False,962,816,0.956714,FRC2,17.89,21.97
+14,"Bathinda City, Punjab",30.2129218,74.9331732,MODERATE,0.64,35.9,25,39,False,457,293,0.994884,FRC1,55.97,44.26
+14,"Hisar City, Haryana",28.8994857,76.5532936,MODERATE,0.64,35.71,27,42,False,270,174,0.962557,FRC3,55.17,43.85
+14,"Karnal City, Haryana",29.6531038,77.0078492,LOW,1.0,0.0,63,63,False,1166,1166,1.0,FRC3,0.0,10.15
+14,"Panipat City, Haryana",29.4283503,76.9533079,LOW,0.83,17.24,24,29,False,776,642,0.805937,FRC4,20.87,13.83
+14,"Berhampur City, Odisha",20.4032641,86.2026906,LOW,1.0,0.0,41,41,False,2182,2182,1.0,FRC4,0.0,0.15
+14,"Koraput City, Odisha",18.8131994,82.7126008,LOW,1.0,0.0,45,45,False,1931,1931,1.0,FRC1,0.0,10.15
+14,"Sambalpur City, Odisha",21.4594222,83.9743315,LOW,1.0,0.0,38,38,False,1263,1263,1.0,FRC2,0.0,10.15
+14,"Gaya City, Bihar",24.7924837,85.0077092,MODERATE,0.62,37.5,25,40,False,2657,1660,0.84871,FRC2,60.06,46.5
+14,"Muzaffarpur City, Bihar",26.1227209,85.3786314,MODERATE,0.71,28.57,15,21,False,284,203,0.792729,FRC2,39.9,35.21
+14,"Dhanbad City, Jharkhand",23.7940427,86.4261706,LOW,1.0,0.0,17,17,False,141,141,1.0,FRC2,0.0,10.15
+14,"Jamshedpur City, Jharkhand",22.843639,86.212528,LOW,1.0,0.0,58,58,False,1415,1415,1.0,FRC1,0.0,10.15
+14,"Shillong City, Meghalaya",25.5762291,91.8828636,LOW,1.0,0.0,11,11,False,325,325,1.0,FRC4,0.0,0.15
+14,"Imphal City, Manipur",24.8021535,93.938618,MODERATE,0.78,22.45,38,49,False,2206,1711,0.96701,FRC2,28.93,28.75
+14,"Aizawl City, Mizoram",23.7243713,92.7186455,MODERATE,0.65,34.78,15,23,False,630,411,0.8928,FRC2,53.28,42.77
+14,"Kohima City, Nagaland",25.6749234,94.1105241,LOW,1.0,0.0,21,21,False,604,604,1.0,FRC2,0.0,10.15
+14,"Agartala City, Tripura",23.8338203,91.2824216,LOW,1.0,0.0,20,20,False,216,216,1.0,FRC4,0.0,0.15
+15,"Mumbai Central, Mumbai, Maharashtra",18.9770366,72.826266,MODERATE,0.68,31.82,15,22,False,1070,729,0.991917,FRC4,46.78,29.11
+15,"CG Road, Ahmedabad, Gujarat",23.1083596,72.5869112,LOW,1.0,0.0,28,28,False,274,274,1.0,FRC4,0.0,0.15
+15,"MG Road, Kochi, Kerala",10.5160332,76.2538456,LOW,1.0,0.0,61,61,False,1066,1066,1.0,FRC1,0.0,10.15
+15,"Banjara Hills, Hyderabad, Telangana",17.4091038,78.4394666,LOW,0.81,18.75,26,32,False,1140,926,1.0,FRC4,23.11,15.21
+15,"Vastrapur, Ahmedabad, Gujarat",23.0350831,72.5276438,LOW,0.77,22.73,17,22,False,155,120,1.0,FRC4,29.17,18.92
+15,"Koregaon Park, Pune, Maharashtra",18.5420451,73.8881809,LOW,0.83,16.67,25,30,False,981,817,1.0,FRC4,20.07,13.32
+15,"Indiranagar, Bangalore, Karnataka",12.9719015,77.6367928,LOW,0.82,17.86,23,28,False,1260,1035,1.0,FRC2,21.74,24.37
+15,"Jubilee Hills, Hyderabad, Telangana",17.4333041,78.4013942,LOW,1.0,0.0,45,45,False,229,229,1.0,FRC4,0.0,0.15
+15,"T Nagar, Chennai, Tamil Nadu",12.9605278,80.2083254,LOW,1.0,0.0,32,32,False,532,532,1.0,FRC2,0.0,10.15
+15,"Salt Lake, Kolkata, West Bengal",22.5580861,88.412438,LOW,1.0,0.0,38,38,False,1527,1527,1.0,FRC2,0.0,10.15
+15,"Civil Lines, Jaipur, Rajasthan",26.9069197,75.7830344,MODERATE,0.66,34.29,23,35,False,1170,769,1.0,FRC2,52.15,42.14
+15,"Aliganj, Lucknow, Uttar Pradesh",26.890281,80.9495987,LOW,0.77,22.86,27,35,False,2385,1840,0.981572,FRC7,29.62,14.16
+15,"Gomti Nagar, Lucknow, Uttar Pradesh",26.8513093,81.0124214,LOW,1.0,0.0,57,57,False,528,528,1.0,FRC1,0.0,10.15
+15,"Vijay Nagar, Indore, Madhya Pradesh",22.7630269,75.8804978,LOW,1.0,0.0,32,32,False,225,225,1.0,FRC4,0.0,0.15
+15,"Sector 17, Chandigarh",30.7425426,76.7859351,LOW,1.0,0.0,37,37,False,868,868,1.0,FRC3,0.0,10.15
+15,"MI Road, Jaipur, Rajasthan",26.9171019,75.7992711,MODERATE,0.74,26.09,17,23,False,56,41,1.0,FRC2,36.59,33.1
+15,"Station Road, Surat, Gujarat",21.1984585,72.8351411,CLOSED,0.73,26.67,11,15,True,1051,770,0.86951,FRC3,36.49,48.2
+15,"Frazer Town, Bangalore, Karnataka",13.0022108,77.621035,LOW,0.74,25.93,20,27,False,883,654,1.0,FRC6,35.02,17.35
+15,"Begumpet, Hyderabad, Telangana",17.4449415,78.4571867,MODERATE,0.64,36.11,23,36,False,751,480,1.0,FRC1,56.46,44.53
+15,"Powai, Mumbai, Maharashtra",19.1238155,72.9126101,LOW,0.87,13.33,26,30,False,1679,1455,1.0,FRC3,15.4,20.39
+15,"Andheri West, Mumbai, Maharashtra",19.1340729,72.8303618,MODERATE,0.61,38.89,11,18,False,430,263,0.991803,FRC4,63.5,38.39
+15,"Worli, Mumbai, Maharashtra",19.001465,72.8160656,LOW,0.9,10.34,26,29,False,242,217,1.0,FRC4,11.52,7.91
+15,"Bandra West, Mumbai, Maharashtra",19.0588335,72.8346685,LOW,1.0,0.0,17,17,False,83,83,1.0,FRC4,0.0,0.15
+15,"Lower Parel, Mumbai, Maharashtra",18.9962663,72.8268788,CLOSED,0.86,14.29,30,35,True,894,766,0.971443,FRC4,16.71,26.22
+15,"Vashi, Navi Mumbai, Maharashtra",19.0761766,73.0020679,LOW,0.86,14.29,18,21,False,678,581,0.94363,FRC4,16.7,11.21
+15,"Thane West, Thane, Maharashtra",19.276338,72.9590781,LOW,0.85,14.71,29,34,False,1801,1536,1.0,FRC1,17.25,21.57
+15,"Kothrud, Pune, Maharashtra",18.5010542,73.8116455,LOW,1.0,0.0,21,21,False,262,262,1.0,FRC4,0.0,0.15
+15,"Viman Nagar, Pune, Maharashtra",18.5411985,73.8024415,LOW,1.0,0.0,21,21,False,325,325,1.0,FRC4,0.0,0.15
+15,"Wakad, Pune, Maharashtra",18.5963419,73.7718897,LOW,1.0,0.0,24,24,False,323,323,1.0,FRC4,0.0,0.15
+15,"Hinjewadi, Pune, Maharashtra",18.5979574,73.700786,LOW,1.0,0.0,34,34,False,2140,2140,1.0,FRC3,0.0,10.15
+15,"Whitefield, Bangalore, Karnataka",12.9943542,77.7585209,MODERATE,0.75,25.0,24,32,False,2405,1804,0.999766,FRC2,33.31,31.35
+15,"Electronic City, Bangalore, Karnataka",12.8478071,77.6631929,LOW,1.0,0.0,27,27,False,1466,1466,1.0,FRC6,0.0,-4.85
+15,"Marathahalli, Bangalore, Karnataka",12.9545264,77.7027027,MODERATE,0.8,20.0,20,25,False,1085,868,1.0,FRC2,25.0,26.37
+15,"HSR Layout, Bangalore, Karnataka",12.9165423,77.6519551,LOW,1.0,0.0,48,48,False,59,59,1.0,FRC1,0.0,10.15
+15,"New Town, Kolkata, West Bengal",22.4761739,88.3478394,LOW,1.0,0.0,20,20,False,297,297,1.0,FRC4,0.0,0.15
+15,"Howrah, West Bengal",22.5944824,88.265686,LOW,1.0,0.0,34,34,False,1109,1109,1.0,FRC1,0.0,10.15
+15,"Rajarhat, Kolkata, West Bengal",22.5655734,88.3702152,LOW,0.82,18.18,18,22,False,869,711,0.994494,FRC4,22.22,14.67
+15,"Ballygunge, Kolkata, West Bengal",22.5279746,88.3629966,LOW,1.0,0.0,29,29,False,133,133,1.0,FRC4,0.0,0.15
+15,"Vaishali Nagar, Jaipur, Rajasthan",26.9060132,75.7407346,LOW,0.84,16.0,21,25,False,418,351,1.0,FRC4,19.09,12.72
+15,"Malviya Nagar, Jaipur, Rajasthan",26.8554493,75.8203746,LOW,1.0,0.0,35,35,False,222,222,1.0,FRC2,0.0,10.15
+15,"C Scheme, Jaipur, Rajasthan",26.9842393,75.761852,LOW,1.0,0.0,67,67,False,688,688,1.0,FRC1,0.0,10.15
+15,"Satellite, Ahmedabad, Gujarat",23.0251898,72.5246919,MODERATE,0.81,18.75,26,32,False,967,786,1.0,FRC2,23.03,25.17
+15,"Bodakdev, Ahmedabad, Gujarat",23.0443645,72.517923,LOW,0.89,10.71,25,28,False,674,602,1.0,FRC3,11.96,18.19
+15,"Navrangpura, Ahmedabad, Gujarat",23.0374547,72.5639835,CLOSED,0.69,30.77,18,26,True,2057,1424,0.957129,FRC2,44.45,52.8
+15,"Maninagar, Ahmedabad, Gujarat",22.9832788,72.6140353,LOW,1.0,0.0,25,25,False,510,510,1.0,FRC4,0.0,0.15
+15,"Paldi, Ahmedabad, Gujarat",23.0129278,72.5557872,LOW,0.77,23.08,20,26,False,2291,1762,0.994183,FRC6,30.02,14.39
+15,"Ernakulam, Kochi, Kerala",9.7511807,76.318561,LOW,0.88,12.5,35,40,False,2152,1883,0.975357,FRC1,14.29,19.68
+15,"Kakkanad, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+15,"Edappally, Kochi, Kerala",10.0566394,76.291473,LOW,0.83,16.67,25,30,False,665,554,1.0,FRC1,20.04,23.31
+15,"Palarivattom, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+15,"Kadavanthra, Kochi, Kerala",9.9576168,76.2511512,LOW,1.0,0.0,23,23,False,223,223,1.0,FRC4,0.0,0.15
+15,"Thiruvananthapuram City, Kerala",8.4946496,76.9449992,MODERATE,0.59,40.62,19,32,False,1160,688,1.0,FRC1,68.6,51.12
+15,"Kozhikode City, Kerala",11.2341272,75.795501,MODERATE,0.76,24.39,31,41,False,1767,1336,0.989509,FRC1,32.26,30.73
+15,"Thrissur City, Kerala",10.5239038,76.2122541,MODERATE,0.67,33.33,22,33,False,759,506,0.994815,FRC3,50.0,40.93
+15,"Kottayam Town, Kerala",9.591754,76.5319074,LOW,1.0,0.0,32,32,False,133,133,1.0,FRC1,0.0,10.15
+15,"Vijayawada City, Andhra Pradesh",16.5003355,80.6447439,LOW,1.0,0.0,32,32,False,470,470,1.0,FRC1,0.0,10.15
+15,"Visakhapatnam City, Andhra Pradesh",17.710186,83.1769123,LOW,0.86,14.29,36,42,False,1858,1593,1.0,FRC2,16.64,21.19
+15,"Guntur City, Andhra Pradesh",16.498447,80.6439998,LOW,1.0,0.0,62,62,False,956,956,1.0,FRC1,0.0,10.15
+15,"Tirupati, Andhra Pradesh",13.6287278,79.4190701,LOW,1.0,0.0,33,33,False,2178,2178,1.0,FRC4,0.0,0.15
+15,"Mangalore City, Karnataka",12.9070024,74.8803527,LOW,1.0,0.0,42,42,False,2050,2050,1.0,FRC2,0.0,10.15
+15,"Hubli City, Karnataka",15.3862196,75.082741,LOW,1.0,0.0,40,40,False,1286,1286,1.0,FRC3,0.0,10.15
+15,"Mysore City, Karnataka",12.3136462,76.6171643,MODERATE,0.66,34.21,25,38,False,909,598,0.995631,FRC3,52.01,42.05
+15,"Coimbatore City, Tamil Nadu",11.0804508,76.8366161,LOW,1.0,0.0,48,48,False,1520,1520,1.0,FRC3,0.0,10.15
+15,"Madurai City, Tamil Nadu",9.7427816,77.7953645,LOW,1.0,0.0,49,49,False,842,842,1.0,FRC2,0.0,10.15
+15,"Tiruchirappalli, Tamil Nadu",10.8008235,78.6899185,LOW,1.0,0.0,28,28,False,9,9,1.0,FRC2,0.0,10.15
+15,"Varanasi City, Uttar Pradesh",25.3096924,83.0056763,MODERATE,0.56,44.0,14,25,False,1274,713,0.899876,FRC4,78.68,46.49
+15,"Noida Sector 18, Uttar Pradesh",28.5705225,77.3261967,MODERATE,0.8,20.0,24,30,False,1478,1183,0.998587,FRC2,24.94,26.34
+15,"Greater Noida, Uttar Pradesh",28.4477179,77.524566,LOW,0.82,18.42,31,38,False,2510,2047,0.981189,FRC4,22.62,14.91
+15,"Gurgaon Cyber City, Haryana",28.4798011,77.0813162,LOW,0.84,15.79,32,38,False,1720,1448,1.0,FRC2,18.78,22.53
+15,"Faridabad City, Haryana",28.4841588,77.3257282,LOW,0.75,25.0,12,16,False,2716,2037,0.849694,FRC4,33.33,21.36
+15,"Dehradun City, Uttarakhand",30.118491,78.294956,LOW,1.0,0.0,35,35,False,258,258,1.0,FRC1,0.0,10.15
+15,"Haridwar City, Uttarakhand",30.0604135,78.2894862,LOW,1.0,0.0,48,48,False,1643,1643,1.0,FRC4,0.0,0.15
+15,"Amritsar City, Punjab",31.6587342,74.841167,LOW,1.0,0.0,68,68,False,437,437,1.0,FRC1,0.0,10.15
+15,"South Extension, New Delhi",28.5694154,77.2209031,LOW,1.0,0.0,44,44,False,356,356,1.0,FRC1,0.0,10.15
+15,"Hauz Khas, New Delhi",28.5526463,77.2017518,LOW,0.72,28.12,23,32,False,1050,755,0.999324,FRC7,39.07,19.72
+15,"Lajpat Nagar, New Delhi",28.5731147,77.2462327,MODERATE,0.65,34.88,28,43,False,1628,1060,1.0,FRC3,53.58,42.93
+15,"Saket, New Delhi",28.5257049,77.2143917,LOW,1.0,0.0,26,26,False,179,179,1.0,FRC4,0.0,0.15
+15,"Dwarka Sector 12, New Delhi",28.5969098,77.0419895,LOW,0.83,16.67,25,30,False,867,722,0.998238,FRC4,20.08,13.33
+15,"Gurgaon MG Road, Haryana",28.4798011,77.0813162,LOW,0.84,15.79,32,38,False,1720,1448,1.0,FRC2,18.78,22.53
+15,"Golf Course Road, Gurgaon, Haryana",28.4626859,77.117071,LOW,1.0,0.0,54,54,False,1483,1483,1.0,FRC3,0.0,10.15
+15,"Udyog Vihar, Gurgaon, Haryana",28.5048124,77.0695199,MODERATE,0.7,29.63,19,27,False,1909,1344,1.0,FRC4,42.04,26.43
+15,"Sohna Road, Gurgaon, Haryana",28.4198873,77.1533811,LOW,1.0,0.0,54,54,False,1483,1483,1.0,FRC3,0.0,10.15
+15,"Noida Sector 62, Uttar Pradesh",28.626626,77.3654727,LOW,1.0,0.0,36,36,False,419,419,1.0,FRC4,0.0,0.15
+15,"Noida Sector 76, Uttar Pradesh",28.568967,77.3852713,LOW,0.79,21.21,26,33,False,551,434,0.980825,FRC4,26.96,17.55
+15,"Colaba, Mumbai, Maharashtra",18.9249319,72.8300808,MODERATE,0.74,26.09,17,23,False,254,188,1.0,FRC1,35.11,32.43
+15,"Fort, Mumbai, Maharashtra",18.9459596,72.8337847,HEAVY,0.46,54.17,11,24,False,138,63,1.0,FRC3,119.05,77.18
+15,"Borivali West, Mumbai, Maharashtra",19.2297,72.852173,LOW,1.0,0.0,20,20,False,289,289,1.0,FRC3,0.0,10.15
+15,"Kandivali East, Mumbai, Maharashtra",19.1913449,72.8740971,LOW,0.81,18.75,13,16,False,265,215,0.89,FRC4,23.26,15.27
+15,"Chembur, Mumbai, Maharashtra",19.0487802,72.90587,LOW,1.0,0.0,33,33,False,735,735,1.0,FRC2,0.0,10.15
+15,"Dadar, Mumbai, Maharashtra",19.0177484,72.8358202,MODERATE,0.67,33.33,16,24,False,3018,2012,0.997618,FRC2,50.0,40.93
+15,"Nerul, Navi Mumbai, Maharashtra",19.020485,73.0035976,LOW,0.85,14.63,35,41,False,1480,1264,1.0,FRC2,17.09,21.48
+15,"Kharghar, Navi Mumbai, Maharashtra",19.0334,73.018997,LOW,1.0,0.0,26,26,False,272,272,1.0,FRC4,0.0,0.15
+15,"Ulhasnagar, Thane, Maharashtra",19.2228117,73.1584637,LOW,0.79,21.43,11,14,False,505,396,0.68,FRC4,27.53,17.86
+15,"Dombivli East, Thane, Maharashtra",19.2157323,73.1031728,LOW,1.0,0.0,31,31,False,269,269,1.0,FRC4,0.0,0.15
+15,"Thoraipakkam, Chennai, Tamil Nadu",12.9192758,80.208965,LOW,1.0,0.0,25,25,False,714,714,1.0,FRC4,0.0,0.15
+15,"Sholinganallur, Chennai, Tamil Nadu",12.9001173,80.2239691,LOW,1.0,0.0,27,27,False,889,889,1.0,FRC4,0.0,0.15
+15,"Baner, Pune, Maharashtra",18.5642156,73.7871973,LOW,1.0,0.0,26,26,False,1884,1884,1.0,FRC4,0.0,0.15
+15,"Aundh, Pune, Maharashtra",18.558127,73.8072801,LOW,0.79,20.69,23,29,False,186,148,1.0,FRC4,25.68,16.85
+15,"Hadapsar, Pune, Maharashtra",18.499079,73.9341695,LOW,0.79,20.83,19,24,False,987,781,0.942161,FRC4,26.38,17.2
+15,"Bibwewadi, Pune, Maharashtra",18.4662107,73.8627802,LOW,1.0,0.0,24,24,False,318,318,1.0,FRC2,0.0,10.15
+15,"Swargate, Pune, Maharashtra",18.4990216,73.8590652,MODERATE,0.79,21.43,22,28,False,973,765,1.0,FRC2,27.19,27.71
+15,"Meerut City, Uttar Pradesh",28.9498578,77.6419455,MODERATE,0.79,20.75,42,53,False,1703,1349,0.996622,FRC2,26.24,27.12
+15,"Aligarh City, Uttar Pradesh",27.8898926,78.0745239,LOW,1.0,0.0,24,24,False,314,314,1.0,FRC4,0.0,0.15
+15,"Jhansi City, Uttar Pradesh",25.4487305,78.5701294,MODERATE,0.68,31.58,26,38,False,2123,1452,0.924336,FRC3,46.21,38.79
+15,"Moradabad City, Uttar Pradesh",28.8331428,78.7652781,MODERATE,0.68,32.43,25,37,False,1154,779,0.94433,FRC3,48.14,39.87
+15,"Mathura City, Uttar Pradesh",27.4849744,77.685131,MODERATE,0.63,37.14,22,35,False,204,128,0.971819,FRC1,59.38,46.1
+15,"Udaipur City, Rajasthan",24.5873872,73.6915427,MODERATE,0.54,45.83,13,24,False,481,260,0.976028,FRC4,85.0,49.79
+15,"Kota City, Rajasthan",25.2109082,75.8213499,LOW,1.0,0.0,54,54,False,189,189,1.0,FRC3,0.0,10.15
+15,"Jodhpur City, Rajasthan",26.381001,73.5467,LOW,1.0,0.0,53,53,False,1550,1550,1.0,FRC4,0.0,0.15
+15,"Ajmer City, Rajasthan",26.5855952,74.8609106,LOW,0.86,13.79,25,29,False,803,692,0.759575,FRC6,16.04,5.8
+15,"Bikaner City, Rajasthan",28.0134638,73.2972264,LOW,0.82,17.74,51,62,False,923,759,0.950574,FRC1,21.61,24.28
+15,"Bhopal City, Madhya Pradesh",23.177649,77.454497,LOW,1.0,0.0,43,43,False,1564,1564,1.0,FRC1,0.0,10.15
+15,"Rajkot City, Gujarat",22.3003793,70.8086015,CLOSED,0.92,8.11,34,37,True,1416,1301,0.93789,FRC2,8.84,31.14
+15,"Bhavnagar City, Gujarat",21.7727986,72.1548699,LOW,1.0,0.0,32,32,False,901,901,1.0,FRC4,0.0,0.15
+15,"Jamnagar City, Gujarat",22.432788,70.0559897,LOW,0.81,18.52,22,27,False,1022,833,0.93,FRC2,22.69,24.96
+15,"Gandhinagar City, Gujarat",23.0704348,72.5243009,LOW,1.0,0.0,28,28,False,40,40,1.0,FRC4,0.0,0.15
+15,"Asansol City, West Bengal",23.6930343,86.9531088,LOW,0.84,15.62,27,32,False,2857,2410,0.732058,FRC2,18.55,22.38
+15,"Siliguri City, West Bengal",26.7096309,88.4286167,MODERATE,0.64,36.36,14,22,False,277,176,0.63,FRC4,57.39,35.01
+15,"Durgapur City, West Bengal",23.5292384,87.351587,LOW,1.0,0.0,37,37,False,974,974,1.0,FRC4,0.0,0.15
+15,"Alappuzha Town, Kerala",9.2595192,76.5437808,LOW,0.84,15.91,37,44,False,1942,1633,0.826078,FRC3,18.92,22.62
+15,"Kollam City, Kerala",8.8869046,76.5904652,MODERATE,0.65,35.0,26,40,False,1656,1076,0.912245,FRC1,53.9,43.1
+15,"Kannur City, Kerala",11.8719881,75.379077,MODERATE,0.73,26.67,33,45,False,1115,817,0.961383,FRC1,36.47,33.19
+15,"Palakkad City, Kerala",10.8001,76.639099,MODERATE,0.74,26.19,31,42,False,667,492,0.979466,FRC1,35.57,32.66
+15,"Warangal City, Telangana",17.9745069,79.6113623,LOW,1.0,0.0,49,49,False,872,872,1.0,FRC3,0.0,10.15
+15,"Karimnagar City, Telangana",18.458233,79.136705,LOW,0.86,14.29,36,42,False,1378,1181,0.797225,FRC2,16.68,21.21
+15,"Nellore City, Andhra Pradesh",14.413352,79.962271,LOW,1.0,0.0,28,28,False,859,859,1.0,FRC5,0.0,0.15
+15,"Rajahmundry City, Andhra Pradesh",17.0376947,81.7778132,LOW,1.0,0.0,35,35,False,2107,2107,1.0,FRC4,0.0,0.15
+15,"Kakinada City, Andhra Pradesh",16.9673975,82.2333385,MODERATE,0.77,22.86,27,35,False,416,321,0.666991,FRC1,29.6,29.15
+15,"Belgaum City, Karnataka",15.8771478,74.5171905,MODERATE,0.61,39.29,17,28,False,171,104,0.964106,FRC4,64.42,38.9
+15,"Gulbarga City, Karnataka",17.33965,76.8371479,MODERATE,0.62,38.24,21,34,False,1633,1008,0.903182,FRC2,62.0,47.55
+15,"Davangere City, Karnataka",14.3682977,75.9527929,LOW,1.0,0.0,37,37,False,2330,2330,1.0,FRC4,0.0,0.15
+15,"Bellary City, Karnataka",15.1388817,76.9768644,LOW,1.0,0.0,38,38,False,1836,1836,1.0,FRC2,0.0,10.15
+15,"Ludhiana City, Punjab",30.8519434,75.8598782,MODERATE,0.69,30.77,36,52,False,1000,692,1.0,FRC2,44.51,37.83
+15,"Jalandhar City, Punjab",31.3478513,75.6032045,LOW,0.85,15.15,28,33,False,962,816,0.884877,FRC2,17.89,21.97
+15,"Bathinda City, Punjab",30.2129218,74.9331732,MODERATE,0.58,42.11,22,38,False,520,301,0.994884,FRC1,72.76,53.35
+15,"Hisar City, Haryana",28.8994857,76.5532936,HEAVY,0.56,43.9,23,41,False,317,178,0.962114,FRC3,78.09,56.2
+15,"Karnal City, Haryana",29.6531038,77.0078492,LOW,1.0,0.0,63,63,False,1166,1166,1.0,FRC3,0.0,10.15
+15,"Panipat City, Haryana",29.4283503,76.9533079,LOW,0.8,20.0,24,30,False,776,621,0.772587,FRC4,24.96,16.35
+15,"Berhampur City, Odisha",20.4032641,86.2026906,LOW,1.0,0.0,41,41,False,2182,2182,1.0,FRC4,0.0,0.15
+15,"Koraput City, Odisha",18.8131994,82.7126008,LOW,1.0,0.0,45,45,False,1931,1931,1.0,FRC1,0.0,10.15
+15,"Sambalpur City, Odisha",21.4594222,83.9743315,LOW,1.0,0.0,38,38,False,1263,1263,1.0,FRC2,0.0,10.15
+15,"Gaya City, Bihar",24.7924837,85.0077092,MODERATE,0.62,37.5,25,40,False,2657,1660,0.845987,FRC2,60.06,46.5
+15,"Muzaffarpur City, Bihar",26.1227209,85.3786314,MODERATE,0.62,38.1,13,21,False,328,203,0.872202,FRC2,61.58,47.33
+15,"Dhanbad City, Jharkhand",23.7940427,86.4261706,LOW,1.0,0.0,17,17,False,141,141,1.0,FRC2,0.0,10.15
+15,"Jamshedpur City, Jharkhand",22.843639,86.212528,LOW,1.0,0.0,58,58,False,1415,1415,1.0,FRC1,0.0,10.15
+15,"Shillong City, Meghalaya",25.5762291,91.8828636,LOW,1.0,0.0,11,11,False,325,325,1.0,FRC4,0.0,0.15
+15,"Imphal City, Manipur",24.8021535,93.938618,MODERATE,0.76,24.49,37,49,False,2266,1711,0.916575,FRC2,32.44,30.83
+15,"Aizawl City, Mizoram",23.7243713,92.7186455,MODERATE,0.71,29.17,17,24,False,556,394,0.867067,FRC2,41.12,35.9
+15,"Kohima City, Nagaland",25.6749234,94.1105241,MODERATE,0.76,23.81,16,21,False,793,604,0.608482,FRC2,31.29,30.15
+15,"Agartala City, Tripura",23.8338203,91.2824216,MODERATE,0.68,31.58,13,19,False,332,227,0.868173,FRC4,46.26,28.81

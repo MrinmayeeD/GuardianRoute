@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Similar Locations Visualization</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/plotly.js@2.26.0/dist/plotly.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .container-main {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #333;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            color: #666;
+        }
+        
+        .search-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .search-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .search-group input {
+            flex: 1;
+            min-width: 200px;
+            padding: 12px 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1em;
+            transition: border-color 0.3s;
+        }
+        
+        .search-group input:focus {
+            border-color: #667eea;
+            outline: none;
+        }
+        
+        .search-group select {
+            padding: 12px 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1em;
+            background: white;
+            cursor: pointer;
+        }
+        
+        .btn-search {
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .btn-search:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .results-section {
+            margin-top: 30px;
+        }
+        
+        .location-card {
+            background: white;
+            border-left: 4px solid #667eea;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .location-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+        
+        .location-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .location-rank {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        .location-name {
+            flex: 1;
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #333;
+            margin-left: 15px;
+        }
+        
+        .similarity-badge {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        
+        .location-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .detail-item {
+            background: #f8f9fa;
+            padding: 12px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        
+        .detail-label {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .detail-value {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .map-container {
+            margin-top: 30px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        
+        #map {
+            width: 100%;
+            height: 400px;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #667eea;
+        }
+        
+        .spinner {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border-left: 4px solid #f5c6cb;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-main">
+        <div class="header">
+            <h1><i class="fas fa-map-pin"></i> Similar Locations Finder</h1>
+            <p>Find locations with similar traffic patterns and POI characteristics</p>
+        </div>
+        
+        <div class="search-section">
+            <div class="search-group">
+                <input 
+                    type="text" 
+                    id="locationInput" 
+                    placeholder="Enter location name (e.g., Pune, Mumbai, Delhi)" 
+                    autocomplete="off"
+                >
+                <select id="topNSelect">
+                    <option value="1">Top 1</option>
+                    <option value="2">Top 2</option>
+                    <option value="3" selected>Top 3</option>
+                    <option value="4">Top 4</option>
+                    <option value="5">Top 5</option>
+                </select>
+                <button class="btn-search" onclick="searchSimilarLocations()">
+                    <i class="fas fa-search"></i> Search
+                </button>
+            </div>
+        </div>
+        
+        <div id="resultsContainer"></div>
+        <div id="mapContainer" class="map-container" style="display: none;">
+            <div id="map"></div>
+        </div>
+    </div>
+    
+    <script>
+        let map = null;
+        
+        async function searchSimilarLocations() {
+            const location = document.getElementById('locationInput').value.trim();
+            const topN = document.getElementById('topNSelect').value;
+            
+            if (!location) {
+                showError('Please enter a location name');
+                return;
+            }
+            
+            const resultsContainer = document.getElementById('resultsContainer');
+            resultsContainer.innerHTML = '<div class="loading"><div class="spinner"></div><p>Finding similar locations...</p></div>';
+            
+            try {
+                const response = await fetch(
+                    `/api/viz/similar-locations/${encodeURIComponent(location)}?top_n=${topN}`
+                );
+                
+                if (!response.ok) {
+                    const error = await response.json();
+                    throw new Error(error.detail || 'Failed to fetch similar locations');
+                }
+                
+                const data = await response.json();
+                displayResults(data);
+                displayMap(data);
+            } catch (error) {
+                showError(error.message);
+            }
+        }
+        
+        function displayResults(data) {
+            const resultsContainer = document.getElementById('resultsContainer');
+            let html = '';
+            
+            // Stats
+            html += `
+                <div class="stats">
+                    <div class="stat-card">
+                        <div class="stat-value">${data.input_location}</div>
+                        <div class="stat-label">Input Location</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">${data.total_similar}</div>
+                        <div class="stat-label">Similar Locations Found</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">${new Date(data.generated_at).toLocaleTimeString()}</div>
+                        <div class="stat-label">Generated At</div>
+                    </div>
+                </div>
+            `;
+            
+            // Results
+            html += '<div class="results-section">';
+            html += '<h3 style="margin-bottom: 20px; color: #333;">Top Similar Locations</h3>';
+            
+            data.similar_locations.forEach((loc, index) => {
+                const rank = index + 1;
+                const similarity = loc.similarity_score.toFixed(1);
+                const distance = loc.similarity_distance.toFixed(4);
+                
+                html += `
+                    <div class="location-card">
+                        <div class="location-header">
+                            <div style="display: flex; align-items: center;">
+                                <div class="location-rank">#${rank}</div>
+                                <div class="location-name">${loc.location_name}</div>
+                            </div>
+                            <div class="similarity-badge">
+                                <i class="fas fa-check-circle"></i> ${similarity}% Similar
+                            </div>
+                        </div>
+                        <div class="location-details">
+                            <div class="detail-item">
+                                <div class="detail-label"><i class="fas fa-map"></i> Latitude</div>
+                                <div class="detail-value">${loc.latitude.toFixed(6)}</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label"><i class="fas fa-map"></i> Longitude</div>
+                                <div class="detail-value">${loc.longitude.toFixed(6)}</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label"><i class="fas fa-chart-line"></i> Distance Score</div>
+                                <div class="detail-value">${distance}</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            html += '</div>';
+            resultsContainer.innerHTML = html;
+        }
+        
+        function displayMap(data) {
+            const mapContainer = document.getElementById('mapContainer');
+            mapContainer.style.display = 'block';
+            
+            // Initialize map if not already done
+            if (!map) {
+                map = L.map('map').setView([20, 78], 4);
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; OpenStreetMap contributors',
+                    maxZoom: 19
+                }).addTo(map);
+            } else {
+                map.eachLayer(layer => {
+                    if (layer instanceof L.Marker) {
+                        map.removeLayer(layer);
+                    }
+                });
+            }
+            
+            // Add markers for similar locations
+            const bounds = [];
+            
+            data.similar_locations.forEach((loc, index) => {
+                const color = ['#667eea', '#764ba2', '#ff6b6b', '#ffd93d', '#6bcf7f'][index];
+                
+                L.circleMarker([loc.latitude, loc.longitude], {
+                    radius: 12,
+                    fillColor: color,
+                    color: '#fff',
+                    weight: 2,
+                    opacity: 1,
+                    fillOpacity: 0.8
+                }).bindPopup(`
+                    <strong>${loc.location_name}</strong><br>
+                    Similarity: ${loc.similarity_score.toFixed(1)}%<br>
+                    Lat: ${loc.latitude.toFixed(4)}<br>
+                    Lon: ${loc.longitude.toFixed(4)}
+                `).addTo(map);
+                
+                bounds.push([loc.latitude, loc.longitude]);
+            });
+            
+            // Fit map to show all markers
+            if (bounds.length > 0) {
+                const group = new L.featureGroup(data.similar_locations.map(loc => 
+                    L.marker([loc.latitude, loc.longitude])
+                ));
+                map.fitBounds(group.getBounds().pad(0.1));
+            }
+        }
+        
+        function showError(message) {
+            const resultsContainer = document.getElementById('resultsContainer');
+            resultsContainer.innerHTML = `<div class="error-message"><i class="fas fa-exclamation-circle"></i> ${message}</div>`;
+        }
+        
+        // Allow Enter key to search
+        document.getElementById('locationInput').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                searchSimilarLocations();
+            }
+        });
+    </script>
+</body>
+</html>

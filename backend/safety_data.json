@@ -1,0 +1,775 @@
+{
+  "danger_zones": [
+    {
+      "latitude": 18.530582,
+      "longitude": 73.847397,
+      "magnitude": 2,
+      "type": "commercial",
+      "name": "Shivajinagar",
+      "crime_data": {
+        "annual_crimes": 45,
+        "theft_cases": 18,
+        "assault_cases": 8,
+        "robbery_cases": 5,
+        "traffic_violations": 120,
+        "crime_density": 3.2,
+        "trending": "increasing"
+      },
+      "accident_data": {
+        "annual_accidents": 12,
+        "fatal_accidents": 1,
+        "serious_injuries": 8,
+        "minor_injuries": 15,
+        "accident_rate": 2.1,
+        "peak_accident_hours": "8-10AM, 5-7PM"
+      },
+      "historical_incidents": [
+        {"date": "2024-01-15", "type": "theft", "severity": 2},
+        {"date": "2024-02-20", "type": "accident", "severity": 3},
+        {"date": "2024-03-10", "type": "robbery", "severity": 4}
+      ],
+      "safety_score": 35,
+      "pedestrian_risk": "high"
+    },
+    {
+      "latitude": 18.536207,
+      "longitude": 73.893974,
+      "magnitude": 2,
+      "type": "commercial",
+      "name": "Koregaon Park",
+      "crime_data": {
+        "annual_crimes": 38,
+        "theft_cases": 15,
+        "assault_cases": 6,
+        "robbery_cases": 3,
+        "traffic_violations": 95,
+        "crime_density": 2.8,
+        "trending": "stable"
+      },
+      "accident_data": {
+        "annual_accidents": 9,
+        "fatal_accidents": 0,
+        "serious_injuries": 5,
+        "minor_injuries": 12,
+        "accident_rate": 1.6,
+        "peak_accident_hours": "9-11AM, 6-8PM"
+      },
+      "historical_incidents": [
+        {"date": "2024-01-20", "type": "accident", "severity": 2},
+        {"date": "2024-02-25", "type": "theft", "severity": 2}
+      ],
+      "safety_score": 42,
+      "pedestrian_risk": "medium"
+    },
+    {
+      "latitude": 18.548100,
+      "longitude": 73.903300,
+      "magnitude": 2,
+      "type": "residential",
+      "name": "Kalyani Nagar",
+      "crime_data": {
+        "annual_crimes": 32,
+        "theft_cases": 12,
+        "assault_cases": 5,
+        "robbery_cases": 2,
+        "traffic_violations": 75,
+        "crime_density": 2.3,
+        "trending": "decreasing"
+      },
+      "accident_data": {
+        "annual_accidents": 7,
+        "fatal_accidents": 0,
+        "serious_injuries": 3,
+        "minor_injuries": 9,
+        "accident_rate": 1.2,
+        "peak_accident_hours": "8-9AM, 5-6PM"
+      },
+      "historical_incidents": [
+        {"date": "2024-01-10", "type": "accident", "severity": 1}
+      ],
+      "safety_score": 55,
+      "pedestrian_risk": "low"
+    },
+    {
+      "latitude": 18.509890,
+      "longitude": 73.807182,
+      "magnitude": 1,
+      "type": "residential",
+      "name": "Kothrud",
+      "crime_data": {
+        "annual_crimes": 22,
+        "theft_cases": 8,
+        "assault_cases": 3,
+        "robbery_cases": 1,
+        "traffic_violations": 45,
+        "crime_density": 1.6,
+        "trending": "stable"
+      },
+      "accident_data": {
+        "annual_accidents": 5,
+        "fatal_accidents": 0,
+        "serious_injuries": 2,
+        "minor_injuries": 6,
+        "accident_rate": 0.9,
+        "peak_accident_hours": "8-9AM, 5-6PM"
+      },
+      "historical_incidents": [],
+      "safety_score": 68,
+      "pedestrian_risk": "low"
+    },
+    {
+      "latitude": 18.559658,
+      "longitude": 73.779938,
+      "magnitude": 1,
+      "type": "residential",
+      "name": "Baner",
+      "crime_data": {
+        "annual_crimes": 18,
+        "theft_cases": 6,
+        "assault_cases": 2,
+        "robbery_cases": 1,
+        "traffic_violations": 35,
+        "crime_density": 1.2,
+        "trending": "stable"
+      },
+      "accident_data": {
+        "annual_accidents": 4,
+        "fatal_accidents": 0,
+        "serious_injuries": 1,
+        "minor_injuries": 4,
+        "accident_rate": 0.7,
+        "peak_accident_hours": "evening"
+      },
+      "historical_incidents": [],
+      "safety_score": 75,
+      "pedestrian_risk": "low"
+    },
+    {
+      "latitude": 18.562622,
+      "longitude": 73.808723,
+      "magnitude": 1,
+      "type": "residential",
+      "name": "Aundh",
+      "crime_data": {
+        "annual_crimes": 20,
+        "theft_cases": 7,
+        "assault_cases": 3,
+        "robbery_cases": 1,
+        "traffic_violations": 40,
+        "crime_density": 1.4,
+        "trending": "stable"
+      },
+      "accident_data": {
+        "annual_accidents": 5,
+        "fatal_accidents": 0,
+        "serious_injuries": 2,
+        "minor_injuries": 5,
+        "accident_rate": 0.9,
+        "peak_accident_hours": "8-9AM, 5-6PM"
+      },
+      "historical_incidents": [],
+      "safety_score": 72,
+      "pedestrian_risk": "low"
+    },
+    {
+      "latitude": 18.593617,
+      "longitude": 73.730133,
+      "magnitude": 2,
+      "type": "it_hub",
+      "name": "Hinjewadi",
+      "crime_data": {
+        "annual_crimes": 35,
+        "theft_cases": 14,
+        "assault_cases": 5,
+        "robbery_cases": 2,
+        "traffic_violations": 85,
+        "crime_density": 2.5,
+        "trending": "increasing"
+      },
+      "accident_data": {
+        "annual_accidents": 8,
+        "fatal_accidents": 0,
+        "serious_injuries": 4,
+        "minor_injuries": 10,
+        "accident_rate": 1.4,
+        "peak_accident_hours": "morning_peak, evening_peak"
+      },
+      "historical_incidents": [
+        {"date": "2024-02-15", "type": "accident", "severity": 2}
+      ],
+      "safety_score": 48,
+      "pedestrian_risk": "medium"
+    },
+    {
+      "latitude": 18.599300,
+      "longitude": 73.762500,
+      "magnitude": 2,
+      "type": "residential",
+      "name": "Wakad",
+      "crime_data": {
+        "annual_crimes": 28,
+        "theft_cases": 10,
+        "assault_cases": 4,
+        "robbery_cases": 2,
+        "traffic_violations": 65,
+        "crime_density": 2.0,
+        "trending": "stable"
+      },
+      "accident_data": {
+        "annual_accidents": 6,
+        "fatal_accidents": 0,
+        "serious_injuries": 3,
+        "minor_injuries": 8,
+        "accident_rate": 1.1,
+        "peak_accident_hours": "morning_peak"
+      },
+      "historical_incidents": [
+        {"date": "2024-01-05", "type": "accident", "severity": 1}
+      ],
+      "safety_score": 60,
+      "pedestrian_risk": "medium"
+    },
+    {
+      "latitude": 18.499535,
+      "longitude": 73.925591,
+      "magnitude": 2,
+      "type": "commercial",
+      "name": "Hadapsar",
+      "crime_data": {
+        "annual_crimes": 42,
+        "theft_cases": 16,
+        "assault_cases": 7,
+        "robbery_cases": 4,
+        "traffic_violations": 110,
+        "crime_density": 3.0,
+        "trending": "increasing"
+      },
+      "accident_data": {
+        "annual_accidents": 10,
+        "fatal_accidents": 1,
+        "serious_injuries": 6,
+        "minor_injuries": 12,
+        "accident_rate": 1.8,
+        "peak_accident_hours": "8-10AM, 5-7PM"
+      },
+      "historical_incidents": [
+        {"date": "2024-01-25", "type": "accident", "severity": 4},
+        {"date": "2024-02-10", "type": "theft", "severity": 2}
+      ],
+      "safety_score": 38,
+      "pedestrian_risk": "high"
+    },
+    {
+      "latitude": 18.566526,
+      "longitude": 73.912239,
+      "magnitude": 2,
+      "type": "residential",
+      "name": "Viman Nagar",
+      "crime_data": {
+        "annual_crimes": 30,
+        "theft_cases": 11,
+        "assault_cases": 4,
+        "robbery_cases": 2,
+        "traffic_violations": 70,
+        "crime_density": 2.1,
+        "trending": "stable"
+      },
+      "accident_data": {
+        "annual_accidents": 6,
+        "fatal_accidents": 0,
+        "serious_injuries": 2,
+        "minor_injuries": 8,
+        "accident_rate": 1.1,
+        "peak_accident_hours": "8-9AM, 6-7PM"
+      },
+      "historical_incidents": [
+        {"date": "2024-01-12", "type": "accident", "severity": 1}
+      ],
+      "safety_score": 62,
+      "pedestrian_risk": "medium"
+    },
+    {
+      "latitude": 18.550985,
+      "longitude": 73.934982,
+      "magnitude": 2,
+      "type": "commercial",
+      "name": "Kharadi",
+      "crime_data": {
+        "annual_crimes": 40,
+        "theft_cases": 15,
+        "assault_cases": 6,
+        "robbery_cases": 3,
+        "traffic_violations": 100,
+        "crime_density": 2.9,
+        "trending": "increasing"
+      },
+      "accident_data": {
+        "annual_accidents": 9,
+        "fatal_accidents": 0,
+        "serious_injuries": 5,
+        "minor_injuries": 11,
+        "accident_rate": 1.6,
+        "peak_accident_hours": "morning_peak, evening_peak"
+      },
+      "historical_incidents": [
+        {"date": "2024-02-05", "type": "accident", "severity": 2}
+      ],
+      "safety_score": 44,
+      "pedestrian_risk": "medium"
+    },
+    {
+      "latitude": 18.514948,
+      "longitude": 73.834555,
+      "magnitude": 2,
+      "type": "market",
+      "name": "Deccan Gymkhana",
+      "crime_data": {
+        "annual_crimes": 48,
+        "theft_cases": 20,
+        "assault_cases": 9,
+        "robbery_cases": 5,
+        "traffic_violations": 130,
+        "crime_density": 3.5,
+        "trending": "increasing"
+      },
+      "accident_data": {
+        "annual_accidents": 13,
+        "fatal_accidents": 1,
+        "serious_injuries": 9,
+        "minor_injuries": 16,
+        "accident_rate": 2.3,
+        "peak_accident_hours": "8-10AM, 5-8PM"
+      },
+      "historical_incidents": [
+        {"date": "2024-01-18", "type": "accident", "severity": 3},
+        {"date": "2024-02-22", "type": "theft", "severity": 2},
+        {"date": "2024-03-05", "type": "robbery", "severity": 4}
+      ],
+      "safety_score": 32,
+      "pedestrian_risk": "high"
+    },
+    {
+      "latitude": 18.531430,
+      "longitude": 73.837450,
+      "magnitude": 1,
+      "type": "residential",
+      "name": "Model Colony",
+      "crime_data": {
+        "annual_crimes": 19,
+        "theft_cases": 7,
+        "assault_cases": 2,
+        "robbery_cases": 1,
+        "traffic_violations": 38,
+        "crime_density": 1.3,
+        "trending": "stable"
+      },
+      "accident_data": {
+        "annual_accidents": 4,
+        "fatal_accidents": 0,
+        "serious_injuries": 1,
+        "minor_injuries": 5,
+        "accident_rate": 0.7,
+        "peak_accident_hours": "peak"
+      },
+      "historical_incidents": [],
+      "safety_score": 74,
+      "pedestrian_risk": "low"
+    },
+    {
+      "latitude": 18.508646,
+      "longitude": 73.844847,
+      "magnitude": 1,
+      "type": "historic",
+      "name": "Sadashiv Peth",
+      "crime_data": {
+        "annual_crimes": 25,
+        "theft_cases": 10,
+        "assault_cases": 3,
+        "robbery_cases": 2,
+        "traffic_violations": 50,
+        "crime_density": 1.8,
+        "trending": "stable"
+      },
+      "accident_data": {
+        "annual_accidents": 5,
+        "fatal_accidents": 0,
+        "serious_injuries": 2,
+        "minor_injuries": 6,
+        "accident_rate": 0.9,
+        "peak_accident_hours": "peak"
+      },
+      "historical_incidents": [],
+      "safety_score": 66,
+      "pedestrian_risk": "low"
+    },
+    {
+      "latitude": 18.521743,
+      "longitude": 73.839461,
+      "magnitude": 2,
+      "type": "market",
+      "name": "Fergusson College Road (FC Road)",
+      "crime_data": {
+        "annual_crimes": 50,
+        "theft_cases": 22,
+        "assault_cases": 10,
+        "robbery_cases": 6,
+        "traffic_violations": 140,
+        "crime_density": 3.6,
+        "trending": "increasing"
+      },
+      "accident_data": {
+        "annual_accidents": 14,
+        "fatal_accidents": 1,
+        "serious_injuries": 10,
+        "minor_injuries": 18,
+        "accident_rate": 2.5,
+        "peak_accident_hours": "8-10AM, 5-8PM"
+      },
+      "historical_incidents": [
+        {"date": "2024-01-20", "type": "accident", "severity": 4},
+        {"date": "2024-02-15", "type": "robbery", "severity": 3},
+        {"date": "2024-03-01", "type": "theft", "severity": 2}
+      ],
+      "safety_score": 30,
+      "pedestrian_risk": "high"
+    },
+    {
+      "latitude": 18.556032,
+      "longitude": 73.877495,
+      "magnitude": 1,
+      "type": "residential",
+      "name": "Yerawada",
+      "crime_data": {
+        "annual_crimes": 21,
+        "theft_cases": 8,
+        "assault_cases": 3,
+        "robbery_cases": 1,
+        "traffic_violations": 42,
+        "crime_density": 1.5,
+        "trending": "stable"
+      },
+      "accident_data": {
+        "annual_accidents": 5,
+        "fatal_accidents": 0,
+        "serious_injuries": 2,
+        "minor_injuries": 6,
+        "accident_rate": 0.9,
+        "peak_accident_hours": "peak"
+      },
+      "historical_incidents": [],
+      "safety_score": 70,
+      "pedestrian_risk": "low"
+    },
+    {
+      "latitude": 18.504590,
+      "longitude": 73.765430,
+      "magnitude": 1,
+      "type": "residential",
+      "name": "Bavdhan",
+      "crime_data": {
+        "annual_crimes": 16,
+        "theft_cases": 6,
+        "assault_cases": 2,
+        "robbery_cases": 1,
+        "traffic_violations": 32,
+        "crime_density": 1.1,
+        "trending": "stable"
+      },
+      "accident_data": {
+        "annual_accidents": 3,
+        "fatal_accidents": 0,
+        "serious_injuries": 1,
+        "minor_injuries": 3,
+        "accident_rate": 0.5,
+        "peak_accident_hours": "minimal"
+      },
+      "historical_incidents": [],
+      "safety_score": 80,
+      "pedestrian_risk": "low"
+    },
+    {
+      "latitude": 18.596692,
+      "longitude": 73.797793,
+      "magnitude": 1,
+      "type": "residential",
+      "name": "Pimple Saudagar",
+      "crime_data": {
+        "annual_crimes": 17,
+        "theft_cases": 6,
+        "assault_cases": 2,
+        "robbery_cases": 1,
+        "traffic_violations": 35,
+        "crime_density": 1.2,
+        "trending": "stable"
+      },
+      "accident_data": {
+        "annual_accidents": 4,
+        "fatal_accidents": 0,
+        "serious_injuries": 1,
+        "minor_injuries": 4,
+        "accident_rate": 0.7,
+        "peak_accident_hours": "minimal"
+      },
+      "historical_incidents": [],
+      "safety_score": 76,
+      "pedestrian_risk": "low"
+    },
+    {
+      "latitude": 18.579947,
+      "longitude": 73.787498,
+      "magnitude": 1,
+      "type": "residential",
+      "name": "Pimple Nilakh",
+      "crime_data": {
+        "annual_crimes": 15,
+        "theft_cases": 5,
+        "assault_cases": 2,
+        "robbery_cases": 0,
+        "traffic_violations": 30,
+        "crime_density": 1.0,
+        "trending": "stable"
+      },
+      "accident_data": {
+        "annual_accidents": 3,
+        "fatal_accidents": 0,
+        "serious_injuries": 1,
+        "minor_injuries": 3,
+        "accident_rate": 0.5,
+        "peak_accident_hours": "minimal"
+      },
+      "historical_incidents": [],
+      "safety_score": 82,
+      "pedestrian_risk": "low"
+    },
+    {
+      "latitude": 18.515806,
+      "longitude": 73.927164,
+      "magnitude": 2,
+      "type": "it_hub",
+      "name": "Magarpatta",
+      "crime_data": {
+        "annual_crimes": 33,
+        "theft_cases": 13,
+        "assault_cases": 5,
+        "robbery_cases": 2,
+        "traffic_violations": 80,
+        "crime_density": 2.4,
+        "trending": "stable"
+      },
+      "accident_data": {
+        "annual_accidents": 7,
+        "fatal_accidents": 0,
+        "serious_injuries": 3,
+        "minor_injuries": 9,
+        "accident_rate": 1.3,
+        "peak_accident_hours": "morning_peak"
+      },
+      "historical_incidents": [
+        {"date": "2024-01-30", "type": "accident", "severity": 1}
+      ],
+      "safety_score": 52,
+      "pedestrian_risk": "medium"
+    },
+    {
+      "latitude": 18.507351,
+      "longitude": 73.853669,
+      "magnitude": 1,
+      "type": "historic",
+      "name": "Shaniwar Wada",
+      "crime_data": {
+        "annual_crimes": 24,
+        "theft_cases": 10,
+        "assault_cases": 3,
+        "robbery_cases": 2,
+        "traffic_violations": 55,
+        "crime_density": 1.7,
+        "trending": "stable"
+      },
+      "accident_data": {
+        "annual_accidents": 5,
+        "fatal_accidents": 0,
+        "serious_injuries": 2,
+        "minor_injuries": 6,
+        "accident_rate": 0.9,
+        "peak_accident_hours": "peak"
+      },
+      "historical_incidents": [],
+      "safety_score": 67,
+      "pedestrian_risk": "low"
+    },
+    {
+      "latitude": 18.520430,
+      "longitude": 73.856743,
+      "magnitude": 2,
+      "type": "market",
+      "name": "Camp",
+      "crime_data": {
+        "annual_crimes": 52,
+        "theft_cases": 23,
+        "assault_cases": 11,
+        "robbery_cases": 7,
+        "traffic_violations": 145,
+        "crime_density": 3.8,
+        "trending": "increasing"
+      },
+      "accident_data": {
+        "annual_accidents": 15,
+        "fatal_accidents": 2,
+        "serious_injuries": 11,
+        "minor_injuries": 20,
+        "accident_rate": 2.7,
+        "peak_accident_hours": "8-10AM, 5-8PM"
+      },
+      "historical_incidents": [
+        {"date": "2024-01-08", "type": "accident", "severity": 4},
+        {"date": "2024-02-12", "type": "robbery", "severity": 4},
+        {"date": "2024-03-03", "type": "theft", "severity": 3}
+      ],
+      "safety_score": 28,
+      "pedestrian_risk": "high"
+    },
+    {
+      "latitude": 18.505860,
+      "longitude": 73.825990,
+      "magnitude": 1,
+      "type": "residential",
+      "name": "Karve Nagar",
+      "crime_data": {
+        "annual_crimes": 20,
+        "theft_cases": 7,
+        "assault_cases": 3,
+        "robbery_cases": 1,
+        "traffic_violations": 40,
+        "crime_density": 1.4,
+        "trending": "stable"
+      },
+      "accident_data": {
+        "annual_accidents": 4,
+        "fatal_accidents": 0,
+        "serious_injuries": 2,
+        "minor_injuries": 5,
+        "accident_rate": 0.7,
+        "peak_accident_hours": "peak"
+      },
+      "historical_incidents": [],
+      "safety_score": 72,
+      "pedestrian_risk": "low"
+    },
+    {
+      "latitude": 18.507516,
+      "longitude": 73.867264,
+      "magnitude": 2,
+      "type": "commercial",
+      "name": "Swargate",
+      "crime_data": {
+        "annual_crimes": 46,
+        "theft_cases": 19,
+        "assault_cases": 8,
+        "robbery_cases": 5,
+        "traffic_violations": 125,
+        "crime_density": 3.3,
+        "trending": "increasing"
+      },
+      "accident_data": {
+        "annual_accidents": 11,
+        "fatal_accidents": 1,
+        "serious_injuries": 7,
+        "minor_injuries": 14,
+        "accident_rate": 2.0,
+        "peak_accident_hours": "8-10AM, 5-7PM"
+      },
+      "historical_incidents": [
+        {"date": "2024-01-22", "type": "accident", "severity": 3},
+        {"date": "2024-02-18", "type": "robbery", "severity": 3}
+      ],
+      "safety_score": 36,
+      "pedestrian_risk": "high"
+    },
+    {
+      "latitude": 18.501438,
+      "longitude": 73.863631,
+      "magnitude": 1,
+      "type": "residential",
+      "name": "Parvati",
+      "crime_data": {
+        "annual_crimes": 18,
+        "theft_cases": 7,
+        "assault_cases": 2,
+        "robbery_cases": 1,
+        "traffic_violations": 36,
+        "crime_density": 1.3,
+        "trending": "stable"
+      },
+      "accident_data": {
+        "annual_accidents": 4,
+        "fatal_accidents": 0,
+        "serious_injuries": 1,
+        "minor_injuries": 4,
+        "accident_rate": 0.7,
+        "peak_accident_hours": "minimal"
+      },
+      "historical_incidents": [],
+      "safety_score": 73,
+      "pedestrian_risk": "low"
+    },
+    {
+      "latitude": 18.468910,
+      "longitude": 73.856743,
+      "magnitude": 1,
+      "type": "residential",
+      "name": "Bibvewadi",
+      "crime_data": {
+        "annual_crimes": 17,
+        "theft_cases": 6,
+        "assault_cases": 2,
+        "robbery_cases": 1,
+        "traffic_violations": 34,
+        "crime_density": 1.2,
+        "trending": "stable"
+      },
+      "accident_data": {
+        "annual_accidents": 3,
+        "fatal_accidents": 0,
+        "serious_injuries": 1,
+        "minor_injuries": 3,
+        "accident_rate": 0.5,
+        "peak_accident_hours": "minimal"
+      },
+      "historical_incidents": [],
+      "safety_score": 76,
+      "pedestrian_risk": "low"
+    }
+  ],
+  "safe_zones": [
+    {
+      "latitude": 18.504590,
+      "longitude": 73.765430,
+      "type": "residential",
+      "name": "Bavdhan - Safe Zone"
+    },
+    {
+      "latitude": 18.579947,
+      "longitude": 73.787498,
+      "type": "residential",
+      "name": "Pimple Nilakh - Safe Zone"
+    },
+    {
+      "latitude": 18.596692,
+      "longitude": 73.797793,
+      "type": "residential",
+      "name": "Pimple Saudagar - Safe Zone"
+    },
+    {
+      "latitude": 18.559658,
+      "longitude": 73.779938,
+      "type": "residential",
+      "name": "Baner - Safe Zone"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2024-11-29",
+    "data_source": "Police Records + Traffic Authority + Historical Incidents",
+    "crime_scale": "0-5 (0=safe, 5=very dangerous)",
+    "safety_calculation": "Weighted formula: (crime_density * 0.4) + (accident_rate * 0.3) + (trending_factor * 0.2) + (incident_history * 0.1)"
+  }
+}

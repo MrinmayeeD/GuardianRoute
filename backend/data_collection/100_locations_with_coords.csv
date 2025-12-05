@@ -1,0 +1,151 @@
+location_name,latitude,longitude
+"Mumbai Central, Mumbai, Maharashtra",18.9770366,72.826266
+"CG Road, Ahmedabad, Gujarat",23.1083596,72.5869112
+"MG Road, Kochi, Kerala",10.5160332,76.2538456
+"Banjara Hills, Hyderabad, Telangana",17.4091038,78.4394666
+"Vastrapur, Ahmedabad, Gujarat",23.0350831,72.5276438
+"Koregaon Park, Pune, Maharashtra",18.5420451,73.8881809
+"Indiranagar, Bangalore, Karnataka",12.9719015,77.6367928
+"Jubilee Hills, Hyderabad, Telangana",17.4333041,78.4013942
+"T Nagar, Chennai, Tamil Nadu",12.9605278,80.2083254
+"Salt Lake, Kolkata, West Bengal",22.5580861,88.412438
+"Civil Lines, Jaipur, Rajasthan",26.9069197,75.7830344
+"Aliganj, Lucknow, Uttar Pradesh",26.890281,80.9495987
+"Gomti Nagar, Lucknow, Uttar Pradesh",26.8513093,81.0124214
+"Vijay Nagar, Indore, Madhya Pradesh",22.7630269,75.8804978
+"Sector 17, Chandigarh",30.7425426,76.7859351
+"MI Road, Jaipur, Rajasthan",26.9171019,75.7992711
+"Station Road, Surat, Gujarat",21.1984585,72.8351411
+"Frazer Town, Bangalore, Karnataka",13.0022108,77.621035
+"Begumpet, Hyderabad, Telangana",17.4449415,78.4571867
+"Powai, Mumbai, Maharashtra",19.1238155,72.9126101
+"Andheri West, Mumbai, Maharashtra",19.1340729,72.8303618
+"Worli, Mumbai, Maharashtra",19.001465,72.8160656
+"Bandra West, Mumbai, Maharashtra",19.0588335,72.8346685
+"Lower Parel, Mumbai, Maharashtra",18.9962663,72.8268788
+"Vashi, Navi Mumbai, Maharashtra",19.0761766,73.0020679
+"Thane West, Thane, Maharashtra",19.276338,72.9590781
+"Kothrud, Pune, Maharashtra",18.5010542,73.8116455
+"Viman Nagar, Pune, Maharashtra",18.5411985,73.8024415
+"Wakad, Pune, Maharashtra",18.5963419,73.7718897
+"Hinjewadi, Pune, Maharashtra",18.5979574,73.700786
+"Whitefield, Bangalore, Karnataka",12.9943542,77.7585209
+"Electronic City, Bangalore, Karnataka",12.8478071,77.6631929
+"Marathahalli, Bangalore, Karnataka",12.9545264,77.7027027
+"HSR Layout, Bangalore, Karnataka",12.9165423,77.6519551
+"New Town, Kolkata, West Bengal",22.4761739,88.3478394
+"Howrah, West Bengal",22.5944824,88.265686
+"Rajarhat, Kolkata, West Bengal",22.5655734,88.3702152
+"Ballygunge, Kolkata, West Bengal",22.5279746,88.3629966
+"Vaishali Nagar, Jaipur, Rajasthan",26.9060132,75.7407346
+"Malviya Nagar, Jaipur, Rajasthan",26.8554493,75.8203746
+"C Scheme, Jaipur, Rajasthan",26.9842393,75.761852
+"Satellite, Ahmedabad, Gujarat",23.0251898,72.5246919
+"Bodakdev, Ahmedabad, Gujarat",23.0443645,72.517923
+"Navrangpura, Ahmedabad, Gujarat",23.0374547,72.5639835
+"Maninagar, Ahmedabad, Gujarat",22.9832788,72.6140353
+"Paldi, Ahmedabad, Gujarat",23.0129278,72.5557872
+"Ernakulam, Kochi, Kerala",9.7511807,76.318561
+"Kakkanad, Kochi, Kerala",9.9576168,76.2511512
+"Edappally, Kochi, Kerala",10.0566394,76.291473
+"Palarivattom, Kochi, Kerala",9.9576168,76.2511512
+"Kadavanthra, Kochi, Kerala",9.9576168,76.2511512
+"Thiruvananthapuram City, Kerala",8.4946496,76.9449992
+"Kozhikode City, Kerala",11.2341272,75.795501
+"Thrissur City, Kerala",10.5239038,76.2122541
+"Kottayam Town, Kerala",9.591754,76.5319074
+"Vijayawada City, Andhra Pradesh",16.5003355,80.6447439
+"Visakhapatnam City, Andhra Pradesh",17.710186,83.1769123
+"Guntur City, Andhra Pradesh",16.498447,80.6439998
+"Tirupati, Andhra Pradesh",13.6287278,79.4190701
+"Mangalore City, Karnataka",12.9070024,74.8803527
+"Hubli City, Karnataka",15.3862196,75.082741
+"Mysore City, Karnataka",12.3136462,76.6171643
+"Coimbatore City, Tamil Nadu",11.0804508,76.8366161
+"Madurai City, Tamil Nadu",9.7427816,77.7953645
+"Tiruchirappalli, Tamil Nadu",10.8008235,78.6899185
+"Varanasi City, Uttar Pradesh",25.3096924,83.0056763
+"Noida Sector 18, Uttar Pradesh",28.5705225,77.3261967
+"Greater Noida, Uttar Pradesh",28.4477179,77.524566
+"Gurgaon Cyber City, Haryana",28.4798011,77.0813162
+"Faridabad City, Haryana",28.4841588,77.3257282
+"Dehradun City, Uttarakhand",30.118491,78.294956
+"Haridwar City, Uttarakhand",30.0604135,78.2894862
+"Amritsar City, Punjab",31.6587342,74.841167
+"South Extension, New Delhi",28.5694154,77.2209031
+"Hauz Khas, New Delhi",28.5526463,77.2017518
+"Lajpat Nagar, New Delhi",28.5731147,77.2462327
+"Saket, New Delhi",28.5257049,77.2143917
+"Dwarka Sector 12, New Delhi",28.5969098,77.0419895
+"Gurgaon MG Road, Haryana",28.4798011,77.0813162
+"Golf Course Road, Gurgaon, Haryana",28.4626859,77.117071
+"Udyog Vihar, Gurgaon, Haryana",28.5048124,77.0695199
+"Sohna Road, Gurgaon, Haryana",28.4198873,77.1533811
+"Noida Sector 62, Uttar Pradesh",28.626626,77.3654727
+"Noida Sector 76, Uttar Pradesh",28.568967,77.3852713
+"Colaba, Mumbai, Maharashtra",18.9249319,72.8300808
+"Fort, Mumbai, Maharashtra",18.9459596,72.8337847
+"Borivali West, Mumbai, Maharashtra",19.2297,72.852173
+"Kandivali East, Mumbai, Maharashtra",19.1913449,72.8740971
+"Chembur, Mumbai, Maharashtra",19.0487802,72.90587
+"Dadar, Mumbai, Maharashtra",19.0177484,72.8358202
+"Nerul, Navi Mumbai, Maharashtra",19.020485,73.0035976
+"Kharghar, Navi Mumbai, Maharashtra",19.0334,73.018997
+"Ulhasnagar, Thane, Maharashtra",19.2228117,73.1584637
+"Dombivli East, Thane, Maharashtra",19.2157323,73.1031728
+"Thoraipakkam, Chennai, Tamil Nadu",12.9192758,80.208965
+"Sholinganallur, Chennai, Tamil Nadu",12.9001173,80.2239691
+"Baner, Pune, Maharashtra",18.5642156,73.7871973
+"Aundh, Pune, Maharashtra",18.558127,73.8072801
+"Hadapsar, Pune, Maharashtra",18.499079,73.9341695
+"Bibwewadi, Pune, Maharashtra",18.4662107,73.8627802
+"Swargate, Pune, Maharashtra",18.4990216,73.8590652
+"Meerut City, Uttar Pradesh",28.9498578,77.6419455
+"Aligarh City, Uttar Pradesh",27.8898926,78.0745239
+"Jhansi City, Uttar Pradesh",25.4487305,78.5701294
+"Moradabad City, Uttar Pradesh",28.8331428,78.7652781
+"Mathura City, Uttar Pradesh",27.4849744,77.685131
+"Udaipur City, Rajasthan",24.5873872,73.6915427
+"Kota City, Rajasthan",25.2109082,75.8213499
+"Jodhpur City, Rajasthan",26.381001,73.5467
+"Ajmer City, Rajasthan",26.5855952,74.8609106
+"Bikaner City, Rajasthan",28.0134638,73.2972264
+"Bhopal City, Madhya Pradesh",23.177649,77.454497
+"Rajkot City, Gujarat",22.3003793,70.8086015
+"Bhavnagar City, Gujarat",21.7727986,72.1548699
+"Jamnagar City, Gujarat",22.432788,70.0559897
+"Gandhinagar City, Gujarat",23.0704348,72.5243009
+"Asansol City, West Bengal",23.6930343,86.9531088
+"Siliguri City, West Bengal",26.7096309,88.4286167
+"Durgapur City, West Bengal",23.5292384,87.351587
+"Alappuzha Town, Kerala",9.2595192,76.5437808
+"Kollam City, Kerala",8.8869046,76.5904652
+"Kannur City, Kerala",11.8719881,75.379077
+"Palakkad City, Kerala",10.8001,76.639099
+"Warangal City, Telangana",17.9745069,79.6113623
+"Karimnagar City, Telangana",18.458233,79.136705
+"Nellore City, Andhra Pradesh",14.413352,79.962271
+"Rajahmundry City, Andhra Pradesh",17.0376947,81.7778132
+"Kakinada City, Andhra Pradesh",16.9673975,82.2333385
+"Belgaum City, Karnataka",15.8771478,74.5171905
+"Gulbarga City, Karnataka",17.33965,76.8371479
+"Davangere City, Karnataka",14.3682977,75.9527929
+"Bellary City, Karnataka",15.1388817,76.9768644
+"Ludhiana City, Punjab",30.8519434,75.8598782
+"Jalandhar City, Punjab",31.3478513,75.6032045
+"Bathinda City, Punjab",30.2129218,74.9331732
+"Hisar City, Haryana",28.8994857,76.5532936
+"Karnal City, Haryana",29.6531038,77.0078492
+"Panipat City, Haryana",29.4283503,76.9533079
+"Berhampur City, Odisha",20.4032641,86.2026906
+"Koraput City, Odisha",18.8131994,82.7126008
+"Sambalpur City, Odisha",21.4594222,83.9743315
+"Gaya City, Bihar",24.7924837,85.0077092
+"Muzaffarpur City, Bihar",26.1227209,85.3786314
+"Dhanbad City, Jharkhand",23.7940427,86.4261706
+"Jamshedpur City, Jharkhand",22.843639,86.212528
+"Shillong City, Meghalaya",25.5762291,91.8828636
+"Imphal City, Manipur",24.8021535,93.938618
+"Aizawl City, Mizoram",23.7243713,92.7186455
+"Kohima City, Nagaland",25.6749234,94.1105241
+"Agartala City, Tripura",23.8338203,91.2824216

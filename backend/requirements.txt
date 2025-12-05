@@ -1,0 +1,18 @@
+fastapi
+uvicorn[standard]
+pandas
+numpy
+scikit-learn # ✅ For KNN
+joblib
+pydantic
+requests
+python-dotenv
+
+
+
+# Chatbot & A
+groq
+
+# Schedulers
+APScheduler
+cors

@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚨 Real-time Incident Analytics</title>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+    <!-- Leaflet for maps -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .controls {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .controls h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: end;
+        }
+
+        .input-field {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .input-field label {
+            display: block;
+            margin-bottom: 5px;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .input-field input {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .stat-card .icon {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .stat-card .value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .stat-card .label {
+            color: #666;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .chart-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .chart-card h3 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .map-container {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        #incident-map {
+            height: 500px;
+            border-radius: 10px;
+        }
+
+        .table-container {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        tr:hover {
+            background: #f5f5f5;
+        }
+
+        .severity-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            color: white;
+            font-weight: 600;
+            font-size: 0.85em;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: white;
+            font-size: 1.2em;
+        }
+
+        .error {
+            background: #ff5252;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .preset-locations {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        .preset-btn {
+            background: #f0f0f0;
+            border: 2px solid #ddd;
+            padding: 8px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .preset-btn:hover {
+            background: #e0e0e0;
+            border-color: #667eea;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚨 Real-time Traffic Incident Analytics</h1>
+            <p>Live monitoring of traffic incidents with AI-powered insights</p>
+        </div>
+
+        <div class="controls">
+            <h3>📍 Select Location</h3>
+            <div class="input-group">
+                <div class="input-field">
+                    <label>Latitude</label>
+                    <input type="number" id="latitude" value="19.0760" step="0.0001">
+                </div>
+                <div class="input-field">
+                    <label>Longitude</label>
+                    <input type="number" id="longitude" value="72.8777" step="0.0001">
+                </div>
+                <div class="input-field">
+                    <label>Radius (km)</label>
+                    <input type="number" id="radius" value="10" min="1" max="50">
+                </div>
+                <button class="btn-primary" onclick="fetchAnalytics()">🔍 Analyze Incidents</button>
+            </div>
+
+            <div class="preset-locations">
+                <strong>Quick Select:</strong>
+                <button class="preset-btn" onclick="setLocation(19.0760, 72.8777, 'Mumbai')">Mumbai</button>
+                <button class="preset-btn" onclick="setLocation(18.5204, 73.8567, 'Pune')">Pune</button>
+                <button class="preset-btn" onclick="setLocation(28.7041, 77.1025, 'Delhi')">Delhi</button>
+                <button class="preset-btn" onclick="setLocation(12.9716, 77.5946, 'Bangalore')">Bangalore</button>
+                <button class="preset-btn" onclick="setLocation(13.0827, 80.2707, 'Chennai')">Chennai</button>
+            </div>
+        </div>
+
+        <div id="loading" class="loading" style="display: none;">
+            <p>🔄 Fetching real-time incident data...</p>
+        </div>
+
+        <div id="error" class="error" style="display: none;"></div>
+
+        <div id="results" style="display: none;">
+            <!-- Summary Stats -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="icon">🚨</div>
+                    <div class="value" id="total-incidents">0</div>
+                    <div class="label">Active Incidents</div>
+                </div>
+                <div class="stat-card">
+                    <div class="icon">⏱️</div>
+                    <div class="value" id="total-delay">0h</div>
+                    <div class="label">Total Delay</div>
+                </div>
+                <div class="stat-card">
+                    <div class="icon">⚠️</div>
+                    <div class="value" id="most-common-type">-</div>
+                    <div class="label">Most Common</div>
+                </div>
+                <div class="stat-card">
+                    <div class="icon">⏰</div>
+                    <div class="value" id="avg-delay">0 min</div>
+                    <div class="label">Avg Delay</div>
+                </div>
+            </div>
+
+            <!-- Charts -->
+            <div class="charts-grid">
+                <div class="chart-card">
+                    <h3>📊 Incident Types Distribution</h3>
+                    <canvas id="type-chart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>🎯 Severity Distribution</h3>
+                    <canvas id="severity-chart"></canvas>
+                </div>
+            </div>
+
+            <!-- Map -->
+            <div class="map-container">
+                <h3>🗺️ Incident Locations & Hotspots</h3>
+                <div id="incident-map"></div>
+            </div>
+
+            <!-- Top Delayed Incidents Table -->
+            <div class="table-container">
+                <h3>⏱️ Top 5 Most Delayed Incidents</h3>
+                <table id="top-incidents-table">
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Description</th>
+                            <th>Location</th>
+                            <th>Delay</th>
+                            <th>Severity</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let map;
+        let charts = {};
+
+        function setLocation(lat, lon, name) {
+            document.getElementById('latitude').value = lat;
+            document.getElementById('longitude').value = lon;
+            fetchAnalytics();
+        }
+
+        async function fetchAnalytics() {
+            const lat = parseFloat(document.getElementById('latitude').value);
+            const lon = parseFloat(document.getElementById('longitude').value);
+            const radius = parseFloat(document.getElementById('radius').value);
+
+            // Show loading
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('error').style.display = 'none';
+            document.getElementById('results').style.display = 'none';
+
+            try {
+                const response = await fetch('/api/incidents/analytics', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ latitude: lat, longitude: lon, radius_km: radius })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${await response.text()}`);
+                }
+
+                const data = await response.json();
+
+                // Hide loading
+                document.getElementById('loading').style.display = 'none';
+
+                // Show results
+                document.getElementById('results').style.display = 'block';
+
+                // Update UI
+                updateStats(data.analytics.summary);
+                updateCharts(data.analytics);
+                updateMap(data.analytics, lat, lon);
+                updateTable(data.analytics.top_delayed_incidents);
+
+            } catch (error) {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error').style.display = 'block';
+                document.getElementById('error').textContent = `Error: ${error.message}`;
+            }
+        }
+
+        function updateStats(summary) {
+            document.getElementById('total-incidents').textContent = summary.total_incidents;
+            document.getElementById('total-delay').textContent = `${summary.total_delay_hours}h`;
+            document.getElementById('most-common-type').textContent = summary.most_common_type;
+            document.getElementById('avg-delay').textContent = `${summary.average_delay_minutes} min`;
+        }
+
+        function updateCharts(analytics) {
+            // Destroy existing charts
+            Object.values(charts).forEach(chart => chart.destroy());
+            charts = {};
+
+            // Type distribution chart
+            const typeCtx = document.getElementById('type-chart').getContext('2d');
+            charts.type = new Chart(typeCtx, {
+                type: 'bar',
+                data: {
+                    labels: analytics.type_distribution.map(d => d.type),
+                    datasets: [{
+                        label: 'Count',
+                        data: analytics.type_distribution.map(d => d.count),
+                        backgroundColor: '#667eea'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: {
+                        legend: { display: false }
+                    }
+                }
+            });
+
+            // Severity distribution chart
+            const severityCtx = document.getElementById('severity-chart').getContext('2d');
+            charts.severity = new Chart(severityCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: analytics.severity_distribution.map(d => d.label),
+                    datasets: [{
+                        data: analytics.severity_distribution.map(d => d.count),
+                        backgroundColor: analytics.severity_distribution.map(d => d.color)
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true
+                }
+            });
+        }
+
+        function updateMap(analytics, centerLat, centerLon) {
+            // Initialize map if not exists
+            if (!map) {
+                map = L.map('incident-map').setView([centerLat, centerLon], 12);
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(map);
+            } else {
+                map.setView([centerLat, centerLon], 12);
+                map.eachLayer(layer => {
+                    if (layer instanceof L.Marker || layer instanceof L.Circle) {
+                        map.removeLayer(layer);
+                    }
+                });
+            }
+
+            // Add hotspots
+            analytics.hotspots.forEach(hotspot => {
+                const color = hotspot.avg_severity > 2 ? 'red' : hotspot.avg_severity > 1 ? 'orange' : 'yellow';
+                L.circle([hotspot.latitude, hotspot.longitude], {
+                    color: color,
+                    fillColor: color,
+                    fillOpacity: 0.3,
+                    radius: 500
+                }).addTo(map).bindPopup(`
+                    <b>Hotspot</b><br>
+                    Incidents: ${hotspot.incident_count}<br>
+                    Types: ${hotspot.types.join(', ')}
+                `);
+            });
+        }
+
+        function updateTable(incidents) {
+            const tbody = document.querySelector('#top-incidents-table tbody');
+            tbody.innerHTML = '';
+
+            incidents.forEach(inc => {
+                const row = tbody.insertRow();
+                row.innerHTML = `
+                    <td>${inc.type}</td>
+                    <td>${inc.description}</td>
+                    <td>${inc.location}</td>
+                    <td>${inc.delay_minutes} min</td>
+                    <td><span class="severity-badge" style="background: ${getSeverityColor(inc.severity)}">${inc.severity}</span></td>
+                `;
+            });
+        }
+
+        function getSeverityColor(severity) {
+            const colors = {
+                'Minor': '#4CAF50',
+                'Moderate': '#FFC107',
+                'Major': '#FF9800',
+                'Severe': '#F44336'
+            };
+            return colors[severity] || '#808080';
+        }
+
+        // Auto-load on page load
+        window.onload = () => fetchAnalytics();
+    </script>
+</body>
+
+</html>
