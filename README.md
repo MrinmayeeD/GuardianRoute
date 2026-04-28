@@ -11,11 +11,15 @@ GuardianRoute is a smart navigation system that recommends safe routes instead o
 🚨 SOS emergency alert (WhatsApp integration)
 🗺️ High-risk zone visualization
 📝 Incident reporting system
+
+
 🧠 Tech Stack
 Frontend: React
 Backend: FastAPI
 ML Models: XGBoost, Random Forest, K-Means
 Tools: StandardScaler, Geospatial Analysis
+
+
 ⚙️ How It Works
 Collect crime + location + time data
 Apply preprocessing & feature engineering
