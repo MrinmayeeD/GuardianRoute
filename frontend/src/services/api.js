@@ -1,4 +1,4 @@
-const API_URL = 'https://vxswjtsw-8000.inc1.devtunnels.ms';
+const API_URL = "http://127.0.0.1:8000";
 
 // Traffic Prediction API
 export const predictTraffic = async (location) => {

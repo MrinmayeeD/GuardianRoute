@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Leaf, MessageSquare, Gift, AlertOctagon, Bell, MapPin, Menu, X } from 'lucide-react';
+import { Leaf, MessageSquare, Gift, AlertOctagon, Bell, MapPin, Menu, X, AlertTriangle } from 'lucide-react';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -38,11 +38,17 @@ const Navbar = () => {
                     <Link to="/" className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}>
                         Home
                     </Link>
-                    <Link to="/dashboard" className={`nav-link ${location.pathname === '/dashboard' ? 'active' : ''}`}>
+                    {/* <Link to="/dashboard" className={`nav-link ${location.pathname === '/dashboard' ? 'active' : ''}`}>
                         Know the City!
-                    </Link>
+                    </Link> */}
                     <Link to="/incidents" className={`nav-link ${location.pathname === '/incidents' ? 'active' : ''}`}>
                         Incidents
+                    </Link>
+                    <Link to="/report-incidents" className={`nav-link ${location.pathname === '/report-incidents' ? 'active' : ''}`}>
+                        🚨 Report Incident
+                    </Link>
+                    <Link to="/restricted-zones" className={`nav-link ${location.pathname === '/restricted-zones' ? 'active' : ''}`}>
+                        🚫 Restricted Zones
                     </Link>
                     <Link to="/safety-routes" className={`nav-link ${location.pathname === '/safety-routes' ? 'active' : ''}`}>
                         Safety Routes
@@ -85,11 +91,17 @@ const Navbar = () => {
                     <Link to="/" className={`mobile-nav-link ${location.pathname === '/' ? 'active' : ''}`} onClick={closeMobileMenu}>
                         Home
                     </Link>
-                    <Link to="/dashboard" className={`mobile-nav-link ${location.pathname === '/dashboard' ? 'active' : ''}`} onClick={closeMobileMenu}>
+                    {/* <Link to="/dashboard" className={`mobile-nav-link ${location.pathname === '/dashboard' ? 'active' : ''}`} onClick={closeMobileMenu}>
                         Know the City!
-                    </Link>
+                    </Link> */}
                     <Link to="/incidents" className={`mobile-nav-link ${location.pathname === '/incidents' ? 'active' : ''}`} onClick={closeMobileMenu}>
                         Incidents
+                    </Link>
+                    <Link to="/report-incidents" className={`mobile-nav-link ${location.pathname === '/report-incidents' ? 'active' : ''}`} onClick={closeMobileMenu}>
+                        🚨 Report Incident
+                    </Link>
+                    <Link to="/restricted-zones" className={`mobile-nav-link ${location.pathname === '/restricted-zones' ? 'active' : ''}`} onClick={closeMobileMenu}>
+                        🚫 Restricted Zones
                     </Link>
                     <Link to="/safety-routes" className={`mobile-nav-link ${location.pathname === '/safety-routes' ? 'active' : ''}`} onClick={closeMobileMenu}>
                         Safety Routes

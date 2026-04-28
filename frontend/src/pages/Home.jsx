@@ -204,8 +204,8 @@ const Home = () => {
                             <div className="stat-label">Traffic Forecast</div>
                         </div>
                         <div className="stat-card">
-                            <div className="stat-value">3</div>
-                            <div className="stat-label">Route Options</div>
+                            <div className="stat-value">Safe</div>
+                            <div className="stat-label">Route Option</div>
                         </div>
                         <div className="stat-card">
                             <div className="stat-value">24/7</div>

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, Circle } from 'react-leaflet';
 import { Search, AlertCircle, Clock, MapPin, TrendingUp, Loader, XCircle, Construction, AlertTriangle } from 'lucide-react';
 import { getIncidentAnalytics } from '../services/api';
@@ -25,14 +25,14 @@ const Incidents = () => {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
     const [data, setData] = useState(null);
-    const [mapCenter, setMapCenter] = useState([19.0760, 72.8777]); // Default Mumbai
+    const [mapCenter, setMapCenter] = useState([26.2006, 92.9376]); // Default Assam
 
     const presetCities = [
-        { name: 'Mumbai', lat: 19.0760, lon: 72.8777 },
-        { name: 'Delhi', lat: 28.7041, lon: 77.1025 },
-        { name: 'Bangalore', lat: 12.9716, lon: 77.5946 },
-        { name: 'Pune', lat: 18.5204, lon: 73.8567 },
-        { name: 'Chennai', lat: 13.0827, lon: 80.2707 },
+        { name: 'Guwahati (Assam)', lat: 26.1445, lon: 91.7362 },
+        { name: 'Silchar (Assam)', lat: 24.8333, lon: 92.7789 },
+        { name: 'Imphal (Manipur)', lat: 24.8170, lon: 93.9368 },
+        { name: 'Aizawl (Mizoram)', lat: 23.7271, lon: 92.7176 },
+        { name: 'Agartala (Tripura)', lat: 23.8315, lon: 91.2868 },
     ];
 
     const handleCitySelect = async (cityData) => {
@@ -235,7 +235,7 @@ const Incidents = () => {
                                     {data.incidents && data.incidents.map((incident) => (
                                         <Circle
                                             key={incident.id}
-                                            center={[incident.coordinates[1], incident.coordinates[0]]} // [lat, lon]
+                                            center={[incident.coordinates[1], incident.coordinates[0]]}
                                             radius={100}
                                             pathOptions={{
                                                 color: getIncidentColor(incident.type),

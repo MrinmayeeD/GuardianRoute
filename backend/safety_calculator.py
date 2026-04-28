@@ -3,16 +3,39 @@ import json
 from typing import List, Tuple, Dict
 from datetime import datetime, timedelta
 from safety_models import DangerZone, RoutePoint
-
+import joblib
+import numpy as np
+import math
+from datetime import datetime
 
 class SafetyCalculator:
     """Calculate safety metrics for routes using comprehensive data"""
     
-    def __init__(self, data_file: str = "safety_data.json"):
-        """Initialize with danger zone data"""
-        self.danger_zones = []
-        self.safe_zones = []
-        self.load_data(data_file)
+    # def __init__(self, data_file: str = "safety_data.json"):
+    #     """Initialize with danger zone data"""
+    #     self.danger_zones = []
+    #     self.safe_zones = []
+    #     self.load_data(data_file)
+    def __init__(self):
+        self.model = joblib.load("models/best_model.pkl")
+        self.kmeans = joblib.load("models/kmeans.pkl")
+        self.scaler = joblib.load("models/scaler.pkl")
+        self.hourly_counts = joblib.load("models/hourly_counts.pkl")
+        self.daily_counts = joblib.load("models/daily_counts.pkl")
+        self.monthly_violent = joblib.load("models/monthly_violent.pkl")
+        self.hotspot_coords = joblib.load("models/hotspot_coords.pkl")
+        clean_hotspots = []
+
+        for h in self.hotspot_coords:
+            try:
+                lat = float(h[0])
+                lon = float(h[1])
+                clean_hotspots.append((lat, lon))
+            except (ValueError, TypeError):
+                print("❌ Skipping invalid hotspot:", h)
+
+        self.hotspot_coords = clean_hotspots 
+        print("🔥 Using MY ML SafetyCalculator 🔥")
     
     def load_data(self, data_file: str):
         """Load danger zones with comprehensive safety data"""
@@ -122,37 +145,74 @@ class SafetyCalculator:
                 # Return zone as dictionary with all fields
                 return True, zone.__dict__, distance
         return False, {}, float('inf')
-    
-    def calculate_route_danger_index(self, route_points: List[Tuple[float, float]], 
-                                     threshold: float = 150) -> Tuple[float, int]:
-        """
-        Calculate danger index for a route using comprehensive metrics
-        
-        Returns:
-            (danger_index: float [0-1], danger_points_count: int)
-        """
-        total_danger = 0.0
-        danger_count = 0
-        processed_zones = set()
-        
-        for lat, lon in route_points:
-            is_near, zone_data, distance = self.is_point_near_danger_zone(lat, lon, threshold)
-            
-            if is_near:
-                zone_key = (zone_data['latitude'], zone_data['longitude'])
-                if zone_key not in processed_zones:
-                    # Use comprehensive danger index instead of just magnitude
-                    danger_score = self.calculate_comprehensive_danger_index(zone_data)
-                    total_danger += danger_score
-                    danger_count += 1
-                    processed_zones.add(zone_key)
-        
-        if danger_count > 0:
-            danger_index = total_danger / danger_count
+
+
+    def calculate_route_danger_index(self, route_points):
+
+        if not route_points:
+            return 0.0, 0
+
+        now = datetime.now()
+        hour = now.hour
+        day_of_week = now.weekday()
+        month = now.month
+
+        # Convert all points to numpy array at once
+        coords = []
+        for point in route_points:
+            try:
+                lat = float(point[0])
+                lon = float(point[1])
+                coords.append([lat, lon])
+            except (ValueError, TypeError):
+                continue
+
+        if not coords:
+            return 0.0, 0
+
+        coords = np.array(coords)
+
+        # 1️⃣ Predict clusters for ALL points at once
+        clusters = self.kmeans.predict(coords)
+
+        crimes_hour = self.hourly_counts.get(hour, 0)
+        crimes_weekday = self.daily_counts.get(day_of_week, 0)
+        crimes_month = self.monthly_violent.get(month, 0)
+
+        # 2️⃣ Compute hotspot distances (vectorized)
+        if self.hotspot_coords:
+            hotspots = np.array(self.hotspot_coords)
+            dists = np.sqrt(
+                (coords[:, None, 0] - hotspots[:, 0]) ** 2 +
+                (coords[:, None, 1] - hotspots[:, 1]) ** 2
+            )
+            hotspot_dist = dists.min(axis=1)
         else:
-            danger_index = 0.0
-        
-        return round(danger_index, 3), danger_count
+            hotspot_dist = np.zeros(len(coords))
+
+        # 3️⃣ Build feature matrix for ALL points
+        features = np.column_stack([
+            coords[:, 0],  # lat
+            coords[:, 1],  # lon
+            np.full(len(coords), hour),
+            np.full(len(coords), day_of_week),
+            np.full(len(coords), month),
+            clusters,
+            np.full(len(coords), crimes_hour),
+            np.full(len(coords), crimes_weekday),
+            hotspot_dist,
+            np.full(len(coords), crimes_month)
+        ])
+
+        # 4️⃣ Scale once
+        features_scaled = self.scaler.transform(features)
+
+        # 5️⃣ Predict probabilities for ALL points at once
+        probs = self.model.predict_proba(features_scaled)[:, 1]
+
+        avg_danger = float(np.mean(probs))
+
+        return round(avg_danger, 3), len(coords)
     
     def get_danger_level_and_color(self, danger_index: float) -> Tuple[str, str]:
         """
@@ -188,22 +248,21 @@ class SafetyCalculator:
 
 
 class RouteOptimizer:
-    """Optimize and rank routes by comprehensive safety metrics"""
-    
+
     @staticmethod
     def sort_routes_by_safety(routes: List[Dict]) -> List[Dict]:
-        """
-        Sort routes by danger index
-        Returns routes sorted from safest to most dangerous
-        """
+
+        if not routes:
+            return []
+
+        # Sort by danger index (lowest first)
         sorted_routes = sorted(routes, key=lambda x: x['danger_index'])
-        
-        route_names = ["Safest Route", "Moderate Route", "Risky Route"]
-        danger_levels_map = ["green", "yellow", "red"]
-        
-        for idx, route in enumerate(sorted_routes):
-            route['route_id'] = idx + 1
-            route['route_name'] = route_names[idx] if idx < len(route_names) else f"Route {idx + 1}"
-            route['danger_level'] = danger_levels_map[idx] if idx < len(danger_levels_map) else "red"
-        
-        return sorted_routes
+
+        safest_route = sorted_routes[0]
+
+        safest_route['route_id'] = 1
+        safest_route['route_name'] = "Safest Route"
+        safest_route['danger_level'] = "green"
+
+        # 🔥 Return only ONE route
+        return [safest_route]

@@ -6,13 +6,15 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import Optional, List
 import pandas as pd
-import logging
+# import loggingsafety_calculator
+from safety_calculator import SafetyCalculator, RouteOptimizer
 from pathlib import Path
 import os
 import sys
 from contextlib import asynccontextmanager
 import math
 from datetime import datetime, timedelta, timezone
+import logging
 
 # ✅ Load environment variables FIRST
 from dotenv import load_dotenv
@@ -70,9 +72,10 @@ def load_safety_calculator():
     global safety_calculator
     if safety_calculator is None:
         logger.info("🛡️ Initializing safety calculator...")
-        safety_calculator = SafetyCalculator("safety_data.json")
-        logger.info(f"✅ Safety calculator loaded with {len(safety_calculator.danger_zones)} danger zones")
-
+        # safety_calculator = SafetyCalculator("safety_data.json")
+        safety_calculator = SafetyCalculator()
+        # logger.info(f"✅ Safety calculator loaded with {len(safety_calculator.danger_zones)} danger zones")
+        logger.info("✅ ML Safety calculator ready")
 
 def load_incident_analytics():
     """Initialize incident analytics."""
@@ -1197,6 +1200,75 @@ async def health_check_safe():
         message="SafeRoute API is running"
     )
 
+# import requests
+
+# def fetch_osrm_routes(source, destination):
+#     """
+#     Fetch real road routes from OSRM (free public API)
+#     """
+#     url = (
+#         f"http://router.project-osrm.org/route/v1/driving/"
+#         f"{source.longitude},{source.latitude};"
+#         f"{destination.longitude},{destination.latitude}"
+#         f"?overview=full&geometries=geojson&alternatives=true"
+#     )
+
+#     response = requests.get(url)
+
+#     if response.status_code != 200:
+#         raise Exception("OSRM request failed")
+
+#     data = response.json()
+
+#     routes = []
+#     for route in data["routes"]:
+#         coords = route["geometry"]["coordinates"]
+#         # OSRM gives [lon, lat]
+#         points = [(lat, lon) for lon, lat in coords]
+#         routes.append(points)
+
+#     distance_km = data["routes"][0]["distance"] / 1000
+#     duration_minutes = data["routes"][0]["duration"] / 60
+
+#     return routes, distance_km, duration_minutes
+import requests
+
+def fetch_osrm_routes(source, destination):
+
+    url = (
+        f"http://router.project-osrm.org/route/v1/driving/"
+        f"{source.longitude},{source.latitude};"
+        f"{destination.longitude},{destination.latitude}"
+        f"?overview=full&geometries=geojson&alternatives=true"
+    )
+
+    response = requests.get(url)
+
+    if response.status_code != 200:
+        raise Exception("OSRM request failed")
+
+    data = response.json()
+
+    routes = []
+    for route in data["routes"]:
+        coords = route["geometry"]["coordinates"]
+        points = [(lat, lon) for lon, lat in coords]
+        routes.append(points)
+
+    # 🔥 If OSRM gives only 1 route, create 2 safe variations
+    if len(routes) == 1:
+        base_route = routes[0]
+
+        route2 = [(lat + 0.0005, lon - 0.0005) for lat, lon in base_route]
+        route3 = [(lat - 0.0005, lon + 0.0005) for lat, lon in base_route]
+
+        routes.append(route2)
+        routes.append(route3)
+
+    distance_km = data["routes"][0]["distance"] / 1000
+    duration_minutes = data["routes"][0]["duration"] / 60
+
+    return routes[:3], distance_km, duration_minutes
 
 @app.post("/api/routes", response_model=RouteResponse)
 async def calculate_safe_routes(request: RouteRequest):
@@ -1219,8 +1291,12 @@ async def calculate_safe_routes(request: RouteRequest):
             raise HTTPException(status_code=400, detail="Invalid destination coordinates")
         
         # Generate mock routes (fallback)
-        mock_routes, distance_km, duration_minutes = generate_fallback_routes(
-            request.source, 
+        # mock_routes, distance_km, duration_minutes = generate_fallback_routes(
+        #     request.source, 
+        #     request.destination
+        # )
+        mock_routes, distance_km, duration_minutes = fetch_osrm_routes(
+            request.source,
             request.destination
         )
         

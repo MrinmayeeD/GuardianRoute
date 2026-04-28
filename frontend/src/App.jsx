@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
 import Incidents from './pages/Incidents';
+import ReportIncidents from './pages/ReportIncidents';
+import RestrictedZones from './pages/RestrictedZones';
 import SafeRoutes from './pages/SafeRoutes';
 import SOS from './pages/SOS';
 import Reminders from './pages/Reminders';
@@ -19,6 +21,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/incidents" element={<Incidents />} />
+          <Route path="/report-incidents" element={<ReportIncidents />} />
+          <Route path="/restricted-zones" element={<RestrictedZones />} />
           <Route path="/safety-routes" element={<SafeRoutes />} />
           <Route path="/sos" element={<SOS />} />
           <Route path="/reminders" element={<Reminders />} />

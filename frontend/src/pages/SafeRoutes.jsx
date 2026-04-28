@@ -29,7 +29,7 @@ const SafeRoutes = () => {
     const [inputMode, setInputMode] = useState('source');
 
     // Default center (Pune)
-    const defaultCenter = [18.5204, 73.8567];
+    const defaultCenter = [25.8, 92.8];
 
     const handleMapClick = (e) => {
         const { lat, lng } = e.latlng;
@@ -205,7 +205,7 @@ const SafeRoutes = () => {
                     </div>
                     <MapContainer
                         center={defaultCenter}
-                        zoom={13}
+                        zoom={7}
                         scrollWheelZoom={true}
                         style={{ width: '100%', height: '100%' }}
                     >
